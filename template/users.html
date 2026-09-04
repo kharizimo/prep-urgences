@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Gestion des utilisateurs - Prep Sante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="app-shell navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-mark"><i class="bi bi-shield-check"></i></span>
+          <span>
+            <strong>Prep Sant&eacute;</strong>
+            <small>Pr&eacute;paration aux Urgences</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Afficher le menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav main-menu me-lg-auto ms-lg-4 my-3 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="bi bi-speedometer2"></i>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="evaluations.html">
+                <i class="bi bi-clipboard2-check"></i>
+                Evaluation
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="referentiel.html">
+                <i class="bi bi-journal-bookmark"></i>
+                R&eacute;f&eacute;rentiel
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="remote.html">
+                <i class="bi bi-cloud-arrow-up"></i>
+                Remote
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="users.html">
+                <i class="bi bi-people"></i>
+                Utilisateurs
+              </a>
+            </li>
+          </ul>
+
+          <div class="navbar-actions d-flex align-items-lg-center gap-2">
+            <div class="dropdown user-menu">
+              <button class="btn btn-sm btn-light dropdown-toggle user-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user-avatar">AG</span>
+                <span class="user-meta">
+                  <strong>Admin General</strong>
+                  <small>Administrateur</small>
+                </span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                <li>
+                  <a class="dropdown-item" href="profile.html">
+                    <i class="bi bi-person"></i>
+                    Profil
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item text-danger" href="login.html">
+                    <i class="bi bi-box-arrow-right"></i>
+                    Deconnexion
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-4">
+      <div class="container">
+        <header class="page-header mb-4">
+          <div>
+            <p class="eyebrow mb-1">Administration</p>
+            <h1 class="h4 mb-1">Gestion des utilisateurs</h1>
+            <p class="text-secondary mb-0">Creation, roles et rattachement provincial des comptes.</p>
+          </div>
+          <button class="btn btn-primary profile-save-btn" type="submit" form="userForm">
+            <i class="bi bi-person-plus"></i>
+            Ajouter
+          </button>
+        </header>
+
+        <section class="row g-3">
+          <div class="col-12 col-xl-4">
+            <article class="card h-100">
+              <div class="card-body">
+                <div class="section-title">
+                  <i class="bi bi-person-add"></i>
+                  <h3>Nouvel utilisateur</h3>
+                </div>
+                <form class="user-form" id="userForm" action="users.html">
+                  <div>
+                    <label class="form-label" for="userName">Nom</label>
+                    <input class="form-control" id="userName" name="name" type="text" placeholder="Nom complet" required>
+                  </div>
+                  <div>
+                    <label class="form-label" for="userEmail">Email</label>
+                    <input class="form-control" id="userEmail" name="email" type="email" placeholder="utilisateur@prep-sante.cd" required>
+                  </div>
+                  <div>
+                    <label class="form-label" for="userRole">Role</label>
+                    <select class="form-select" id="userRole" name="role" required>
+                      <option value="">Selectionner</option>
+                      <option>Administrateur</option>
+                      <option>Superviseur</option>
+                      <option>Evaluateur</option>
+                      <option>Lecteur</option>
+                    </select>
+                  </div>
+                  <div>
+                    <label class="form-label" for="userProvince">Province</label>
+                    <select class="form-select" id="userProvince" name="province" required>
+                      <option value="">Selectionner</option>
+                      <option>Kinshasa</option>
+                      <option>Kongo Central</option>
+                      <option>Nord-Kivu</option>
+                      <option>Sud-Kivu</option>
+                      <option>Haut-Katanga</option>
+                      <option>Equateur</option>
+                    </select>
+                  </div>
+                  <button class="btn btn-primary auth-submit" type="submit">
+                    <i class="bi bi-check2-circle"></i>
+                    Enregistrer l'utilisateur
+                  </button>
+                </form>
+              </div>
+            </article>
+          </div>
+
+          <div class="col-12 col-xl-8">
+            <article class="card">
+              <div class="card-body">
+                <div class="users-toolbar">
+                  <div class="section-title mb-0">
+                    <i class="bi bi-people"></i>
+                    <h3>Utilisateurs enregistres</h3>
+                  </div>
+                  <div class="input-group users-search">
+                    <span class="input-group-text"><i class="bi bi-search"></i></span>
+                    <input class="form-control" type="search" placeholder="Rechercher">
+                  </div>
+                </div>
+
+                <div class="table-responsive">
+                  <table class="table align-middle mb-0">
+                    <thead>
+                      <tr>
+                        <th>Nom</th>
+                        <th>Email</th>
+                        <th>Role</th>
+                        <th>Province</th>
+                        <th class="text-end">Actions</th>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td><strong>Admin General</strong></td>
+                        <td>admin@prep-sante.cd</td>
+                        <td><span class="score-badge status-good">Administrateur</span></td>
+                        <td>Kinshasa</td>
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-light table-action" type="button" aria-label="Modifier Admin General"><i class="bi bi-pencil"></i></button>
+                          <button class="btn btn-sm btn-light table-action text-danger" type="button" aria-label="Supprimer Admin General"><i class="bi bi-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Marie Kabeya</strong></td>
+                        <td>marie.kabeya@prep-sante.cd</td>
+                        <td><span class="score-badge status-mid">Superviseur</span></td>
+                        <td>Nord-Kivu</td>
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-light table-action" type="button" aria-label="Modifier Marie Kabeya"><i class="bi bi-pencil"></i></button>
+                          <button class="btn btn-sm btn-light table-action text-danger" type="button" aria-label="Supprimer Marie Kabeya"><i class="bi bi-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Jean Mukendi</strong></td>
+                        <td>jean.mukendi@prep-sante.cd</td>
+                        <td><span class="score-badge status-mid">Evaluateur</span></td>
+                        <td>Kongo Central</td>
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-light table-action" type="button" aria-label="Modifier Jean Mukendi"><i class="bi bi-pencil"></i></button>
+                          <button class="btn btn-sm btn-light table-action text-danger" type="button" aria-label="Supprimer Jean Mukendi"><i class="bi bi-trash"></i></button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td><strong>Aline Mbuyi</strong></td>
+                        <td>aline.mbuyi@prep-sante.cd</td>
+                        <td><span class="score-badge status-low">Lecteur</span></td>
+                        <td>Haut-Katanga</td>
+                        <td class="text-end">
+                          <button class="btn btn-sm btn-light table-action" type="button" aria-label="Modifier Aline Mbuyi"><i class="bi bi-pencil"></i></button>
+                          <button class="btn btn-sm btn-light table-action text-danger" type="button" aria-label="Supprimer Aline Mbuyi"><i class="bi bi-trash"></i></button>
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </article>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <span>&copy; 2026 Prep Sant&eacute;</span>
+        <span>Plateforme de pr&eacute;paration aux urgences sanitaires</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

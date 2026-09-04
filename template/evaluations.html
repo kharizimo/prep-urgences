@@ -1,0 +1,614 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Evaluations - Prep Sant&eacute;</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="app-shell navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-mark"><i class="bi bi-shield-check"></i></span>
+          <span>
+            <strong>Prep Sant&eacute;</strong>
+            <small>Pr&eacute;paration aux Urgences</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Afficher le menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav main-menu me-lg-auto ms-lg-4 my-3 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="bi bi-speedometer2"></i>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="evaluations.html">
+                <i class="bi bi-clipboard2-check"></i>
+                Evaluation
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="referentiel.html">
+                <i class="bi bi-journal-bookmark"></i>
+                R&eacute;f&eacute;rentiel
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="remote.html">
+                <i class="bi bi-cloud-arrow-up"></i>
+                Remote
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <i class="bi bi-people"></i>
+                Utilisateurs
+              </a>
+            </li>
+          </ul>
+
+          <div class="navbar-actions d-flex align-items-lg-center gap-2">
+            <div class="dropdown user-menu">
+              <button class="btn btn-sm btn-light dropdown-toggle user-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user-avatar">AG</span>
+                <span class="user-meta">
+                  <strong>Admin General</strong>
+                  <small>Administrateur</small>
+                </span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                <li>
+                  <a class="dropdown-item" href="profile.html">
+                    <i class="bi bi-person"></i>
+                    Profil
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item text-danger" href="login.html">
+                    <i class="bi bi-box-arrow-right"></i>
+                    Deconnexion
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    
+    <main class="py-4">
+      <div class="container">
+        <header class="page-header mb-4">
+          <div>
+            <p class="eyebrow mb-1">Evaluations</p>
+            <h1 class="h4 mb-1">Gestion des evaluations</h1>
+            <p class="text-secondary mb-0">Creation, consultation et suivi des evaluations par groupe.</p>
+          </div>
+          <div class="page-header-actions">
+            <div class="axis-toggle btn-group" role="group" aria-label="Filtrer les evaluations">
+              <input type="radio" class="btn-check" name="axis" id="axis-global" value="global" checked>
+              <label class="btn btn-outline-primary" for="axis-global">Global</label>
+              <input type="radio" class="btn-check" name="axis" id="axis-hopitaux" value="hopitaux">
+              <label class="btn btn-outline-primary" for="axis-hopitaux">Hopitaux</label>
+              <input type="radio" class="btn-check" name="axis" id="axis-rapide" value="rapide">
+              <label class="btn btn-outline-primary" for="axis-rapide">Rapide</label>
+            </div>
+            <button class="btn btn-primary new-evaluation-btn" type="button" data-bs-toggle="modal" data-bs-target="#newEvaluationModal">
+              <i class="bi bi-plus-lg"></i>
+              Nouvelle evaluation
+            </button>
+          </div>
+        </header>
+        <section class="evaluation-kpis mb-3">
+          <article class="card metric-card">
+            <i class="bi bi-clipboard-data text-primary"></i>
+            <span>9</span>
+            <small>Evaluations</small>
+          </article>
+          <article class="card metric-card">
+            <i class="bi bi-map text-success"></i>
+            <span>8</span>
+            <small>Provinces</small>
+          </article>
+          <article class="card metric-card">
+            <i class="bi bi-virus2 text-warning"></i>
+            <span>5</span>
+            <small>Menaces</small>
+          </article>
+          <article class="card metric-card">
+            <i class="bi bi-people text-info"></i>
+            <span>118</span>
+            <small>Participants</small>
+          </article>
+        </section>
+
+        <section class="card evaluation-filters mb-3">
+          <div class="card-body">
+            <div class="section-title">
+              <i class="bi bi-funnel"></i>
+              <h3>Filtres</h3>
+            </div>
+            <div class="evaluation-filter-grid">
+              <div>
+                <label class="form-label" for="filterLevel">Niveau</label>
+                <select class="form-select" id="filterLevel">
+                  <option value="">Tous les niveaux</option>
+                  <option value="Province">Province</option>
+                  <option value="Zone de sante">Zone de sant&eacute;</option>
+                  <option value="Point d'entree">Point d'entr&eacute;e</option>
+                </select>
+              </div>
+              <div>
+                <label class="form-label" for="filterProvince">Province</label>
+                <select class="form-select" id="filterProvince">
+                  <option value="">Toutes les provinces</option>
+                  <option value="Kinshasa">Kinshasa</option>
+                  <option value="Kongo Central">Kongo Central</option>
+                  <option value="Equateur">Equateur</option>
+                  <option value="Nord-Kivu">Nord-Kivu</option>
+                  <option value="Sud-Kivu">Sud-Kivu</option>
+                  <option value="Haut-Katanga">Haut-Katanga</option>
+                  <option value="Ituri">Ituri</option>
+                  <option value="Tshopo">Tshopo</option>
+                </select>
+              </div>
+              <div>
+                <label class="form-label" for="filterEntity">Entit&eacute;</label>
+                <select class="form-select" id="filterEntity">
+                  <option value="">Toutes les entit&eacute;s</option>
+                  <option value="Aeroport N'djili">Aeroport N'djili</option>
+                  <option value="Beach Ngobila">Beach Ngobila</option>
+                  <option value="DPS Equateur">DPS Equateur</option>
+                  <option value="DPS Kongo Central">DPS Kongo Central</option>
+                  <option value="DPS Haut-Katanga">DPS Haut-Katanga</option>
+                  <option value="DPS Ituri">DPS Ituri</option>
+                  <option value="DPS Nord-Kivu">DPS Nord-Kivu</option>
+                  <option value="DPS Sud-Kivu">DPS Sud-Kivu</option>
+                  <option value="DPS Tshopo">DPS Tshopo</option>
+                  <option value="Bunia">Bunia</option>
+                  <option value="Goma">Goma</option>
+                  <option value="Butembo">Butembo</option>
+                  <option value="Beni">Beni</option>
+                  <option value="Limete">Limete</option>
+                  <option value="Nsele">Nsele</option>
+                  <option value="Gombe">Gombe</option>
+                  <option value="Lubumbashi">Lubumbashi</option>
+                  <option value="Kipushi">Kipushi</option>
+                  <option value="Likasi">Likasi</option>
+                  <option value="Matadi">Matadi</option>
+                  <option value="Boma">Boma</option>
+                  <option value="Moanda">Moanda</option>
+                  <option value="Mbandaka">Mbandaka</option>
+                  <option value="Bikoro">Bikoro</option>
+                  <option value="Wangata">Wangata</option>
+                  <option value="Uvira">Uvira</option>
+                  <option value="Kadutu">Kadutu</option>
+                  <option value="Ibanda">Ibanda</option>
+                  <option value="Poste frontalier Uvira">Poste frontalier Uvira</option>
+                  <option value="Port de Bukavu">Port de Bukavu</option>
+                  <option value="Port de Matadi">Port de Matadi</option>
+                  <option value="Poste frontalier Lufu">Poste frontalier Lufu</option>
+                  <option value="Port fluvial Mbandaka">Port fluvial Mbandaka</option>
+                  <option value="Port d'Irebu">Port d'Irebu</option>
+                  <option value="Aeroport de Goma">Aeroport de Goma</option>
+                  <option value="Poste frontalier Grande Barriere">Poste frontalier Grande Barriere</option>
+                  <option value="Aeroport de la Luano">Aeroport de la Luano</option>
+                  <option value="Poste frontalier Kasumbalesa">Poste frontalier Kasumbalesa</option>
+                  <option value="Aeroport Bunia">Aeroport Bunia</option>
+                  <option value="Poste frontalier Mahagi">Poste frontalier Mahagi</option>
+                  <option value="Port Boyoma">Port Boyoma</option>
+                  <option value="Aeroport de Bangoka">Aeroport de Bangoka</option>
+                  <option value="Kisangani">Kisangani</option>
+                  <option value="Makiso">Makiso</option>
+                  <option value="Kabondo">Kabondo</option>
+                </select>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="card">
+          <div class="card-body">
+            <div class="evaluations-toolbar">
+              <div class="section-title mb-0">
+                <i class="bi bi-list-check"></i>
+                <h3>Liste des evaluations</h3>
+              </div>
+              <div class="evaluations-search input-group">
+                <span class="input-group-text"><i class="bi bi-search"></i></span>
+                <input class="form-control" id="evaluationSearch" type="search" placeholder="Rechercher">
+              </div>
+            </div>
+
+            <div class="table-responsive">
+              <table class="table align-middle mb-0">
+                <thead>
+                  <tr>
+                    <th>Niveau</th>
+                    <th>Province</th>
+                    <th>Menace</th>
+                    <th>Periode</th>
+                    <th>Entite</th>
+                    <th class="text-end">Participants</th>
+                    <th class="text-end">Score</th>
+                    <th class="text-end">Details</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr class="evaluation-row">
+                    <td>Zone de sante</td>
+                    <td>Tshopo</td>
+                    <td>Inondation</td>
+                    <td>juil. 2026</td>
+                    <td>Port Boyoma</td>
+                    <td class="text-end">11</td>
+                    <td class="text-end"><span class="score-badge status-good">75%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Zone de sante</td>
+                    <td>Haut-Katanga</td>
+                    <td>Risque technologique</td>
+                    <td>juil. 2026</td>
+                    <td>Lubumbashi</td>
+                    <td class="text-end">10</td>
+                    <td class="text-end"><span class="score-badge status-mid">60%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Point d'entr&eacute;e</td>
+                    <td>Sud-Kivu</td>
+                    <td>Conflits arm&eacute;s</td>
+                    <td>juin 2026</td>
+                    <td>Poste frontalier Uvira</td>
+                    <td class="text-end">8</td>
+                    <td class="text-end"><span class="score-badge status-low">57%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Zone de sante</td>
+                    <td>Kinshasa</td>
+                    <td>Chol&eacute;ra</td>
+                    <td>juin 2026</td>
+                    <td>Limete</td>
+                    <td class="text-end">15</td>
+                    <td class="text-end"><span class="score-badge status-good">76%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Zone de sante</td>
+                    <td>Nord-Kivu</td>
+                    <td>MVE Ebola</td>
+                    <td>mai 2026</td>
+                    <td>Beni</td>
+                    <td class="text-end">21</td>
+                    <td class="text-end"><span class="score-badge status-good">77%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Zone de sante</td>
+                    <td>Ituri</td>
+                    <td>MVE Ebola</td>
+                    <td>mai 2026</td>
+                    <td>Bunia</td>
+                    <td class="text-end">14</td>
+                    <td class="text-end"><span class="score-badge status-mid">67%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Province</td>
+                    <td>Equateur</td>
+                    <td>Inondation</td>
+                    <td>avr. 2026</td>
+                    <td>DPS Equateur</td>
+                    <td class="text-end">9</td>
+                    <td class="text-end"><span class="score-badge status-mid">58%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Point d'entr&eacute;e</td>
+                    <td>Kongo Central</td>
+                    <td>Chol&eacute;ra</td>
+                    <td>mar. 2026</td>
+                    <td>Port de Matadi</td>
+                    <td class="text-end">12</td>
+                    <td class="text-end"><span class="score-badge status-mid">64%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                  <tr class="evaluation-row">
+                    <td>Point d'entr&eacute;e</td>
+                    <td>Kinshasa</td>
+                    <td>MVE Ebola</td>
+                    <td>f&eacute;v. 2026</td>
+                    <td>Aeroport N'djili</td>
+                    <td class="text-end">18</td>
+                    <td class="text-end"><span class="score-badge status-mid">74%</span></td>
+                    <td class="text-end">
+                      <button class="btn btn-sm btn-light table-action details-btn" type="button" data-bs-toggle="modal" data-bs-target="#evaluationDetailModal">
+                        <i class="bi bi-eye"></i>
+                      </button>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <span>&copy; 2026 Prep Sant&eacute;</span>
+        <span>Plateforme de pr&eacute;paration aux urgences sanitaires</span>
+      </div>
+    </footer>
+
+    <div class="modal fade" id="newEvaluationModal" tabindex="-1" aria-labelledby="newEvaluationTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <form id="newEvaluationForm">
+            <div class="modal-header">
+              <div>
+                <p class="eyebrow mb-1">Evaluation</p>
+                <h2 class="modal-title h5" id="newEvaluationTitle">Ajouter une evaluation</h2>
+              </div>
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+            </div>
+            <div class="modal-body">
+              <div class="evaluation-form-grid">
+                <div>
+                  <label class="form-label" for="evaluationGroup">Groupe</label>
+                  <input class="form-control" id="evaluationGroup" type="text" value="Global" readonly>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationLevel">Niveau</label>
+                  <select class="form-select" id="evaluationLevel" name="level" required>
+                    <option value="">-- Choisir --</option>
+                    <option value="Province">Province</option>
+                    <option value="Zone de sante">Zone de sant&eacute;</option>
+                    <option value="Point d'entree">Point d'entr&eacute;e</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationProvince">Province</label>
+                  <select class="form-select" id="evaluationProvince" name="province" required>
+                    <option value="">-- Choisir --</option>
+                    <option value="Kinshasa">Kinshasa</option>
+                    <option value="Kongo Central">Kongo Central</option>
+                    <option value="Equateur">Equateur</option>
+                    <option value="Nord-Kivu">Nord-Kivu</option>
+                    <option value="Sud-Kivu">Sud-Kivu</option>
+                    <option value="Haut-Katanga">Haut-Katanga</option>
+                    <option value="Ituri">Ituri</option>
+                    <option value="Tshopo">Tshopo</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationMenace">Menace</label>
+                  <select class="form-select" id="evaluationMenace" name="menace" required>
+                    <option value="">-- Choisir --</option>
+                    <option value="MVE Ebola">MVE Ebola</option>
+                    <option value="Cholera">Chol&eacute;ra</option>
+                    <option value="Inondation">Inondation</option>
+                    <option value="Conflits armes">Conflits arm&eacute;s</option>
+                    <option value="Risque technologique">Risque technologique</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationPeriod">Periode</label>
+                  <input class="form-control" id="evaluationPeriod" name="period" type="month" required>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationEntity">Entit&eacute;</label>
+                  <select class="form-select" id="evaluationEntity" name="entity" required>
+                    <option value="">-- Choisir --</option>
+                    <option value="Aeroport N'djili">Aeroport N'djili</option>
+                    <option value="Beach Ngobila">Beach Ngobila</option>
+                    <option value="DPS Equateur">DPS Equateur</option>
+                    <option value="DPS Kongo Central">DPS Kongo Central</option>
+                    <option value="DPS Haut-Katanga">DPS Haut-Katanga</option>
+                    <option value="DPS Ituri">DPS Ituri</option>
+                    <option value="DPS Nord-Kivu">DPS Nord-Kivu</option>
+                    <option value="DPS Sud-Kivu">DPS Sud-Kivu</option>
+                    <option value="DPS Tshopo">DPS Tshopo</option>
+                    <option value="Bunia">Bunia</option>
+                    <option value="Goma">Goma</option>
+                    <option value="Butembo">Butembo</option>
+                    <option value="Beni">Beni</option>
+                    <option value="Limete">Limete</option>
+                    <option value="Nsele">Nsele</option>
+                    <option value="Gombe">Gombe</option>
+                    <option value="Lubumbashi">Lubumbashi</option>
+                    <option value="Kipushi">Kipushi</option>
+                    <option value="Likasi">Likasi</option>
+                    <option value="Matadi">Matadi</option>
+                    <option value="Boma">Boma</option>
+                    <option value="Moanda">Moanda</option>
+                    <option value="Mbandaka">Mbandaka</option>
+                    <option value="Bikoro">Bikoro</option>
+                    <option value="Wangata">Wangata</option>
+                    <option value="Uvira">Uvira</option>
+                    <option value="Kadutu">Kadutu</option>
+                    <option value="Ibanda">Ibanda</option>
+                    <option value="Poste frontalier Uvira">Poste frontalier Uvira</option>
+                    <option value="Port de Bukavu">Port de Bukavu</option>
+                    <option value="Port de Matadi">Port de Matadi</option>
+                    <option value="Poste frontalier Lufu">Poste frontalier Lufu</option>
+                    <option value="Port fluvial Mbandaka">Port fluvial Mbandaka</option>
+                    <option value="Port d'Irebu">Port d'Irebu</option>
+                    <option value="Aeroport de Goma">Aeroport de Goma</option>
+                    <option value="Poste frontalier Grande Barriere">Poste frontalier Grande Barriere</option>
+                    <option value="Aeroport de la Luano">Aeroport de la Luano</option>
+                    <option value="Poste frontalier Kasumbalesa">Poste frontalier Kasumbalesa</option>
+                    <option value="Aeroport Bunia">Aeroport Bunia</option>
+                    <option value="Poste frontalier Mahagi">Poste frontalier Mahagi</option>
+                    <option value="Port Boyoma">Port Boyoma</option>
+                    <option value="Aeroport de Bangoka">Aeroport de Bangoka</option>
+                    <option value="Kisangani">Kisangani</option>
+                    <option value="Makiso">Makiso</option>
+                    <option value="Kabondo">Kabondo</option>
+                  </select>
+                </div>
+                <div>
+                  <label class="form-label" for="evaluationParticipants">Participants</label>
+                  <input class="form-control" id="evaluationParticipants" name="participants" type="number" min="1" step="1" placeholder="Ex. 12" required>
+                </div>
+              </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-light" data-bs-dismiss="modal">Annuler</button>
+              <button type="submit" class="btn btn-primary">
+                <i class="bi bi-check2-circle"></i>
+                Enregistrer
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal fade" id="evaluationDetailModal" tabindex="-1" aria-labelledby="evaluationDetailTitle" aria-hidden="true">
+      <div class="modal-dialog modal-lg modal-dialog-centered">
+        <div class="modal-content">
+          <div class="modal-header">
+            <div>
+              <p class="eyebrow mb-1">Evaluation</p>
+              <h2 class="modal-title h5" id="evaluationDetailTitle">Details de l'evaluation</h2>
+            </div>
+            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Fermer"></button>
+          </div>
+          <div class="modal-body">
+            <div class="detail-summary-grid">
+              <div class="detail-summary-item">
+                <small>Niveau</small>
+                <strong>Zone de sante</strong>
+              </div>
+              <div class="detail-summary-item">
+                <small>Province</small>
+                <strong>Tshopo</strong>
+              </div>
+              <div class="detail-summary-item">
+                <small>Menace</small>
+                <strong>Inondation</strong>
+              </div>
+              <div class="detail-summary-item">
+                <small>Periode</small>
+                <strong>juil. 2026</strong>
+              </div>
+              <div class="detail-summary-item">
+                <small>Entit&eacute;</small>
+                <strong>Port Boyoma</strong>
+              </div>
+              <div class="detail-summary-item">
+                <small>Participants</small>
+                <strong>11</strong>
+              </div>
+            </div>
+
+            <div class="section-title mt-4">
+              <i class="bi bi-columns-gap"></i>
+              <h3>Scores par pilier</h3>
+            </div>
+            <div class="pillar-list">
+              <div class="pillar-row">
+                <div class="pillar-head">
+                  <span>Pilier 1 &mdash; Coordination</span>
+                  <span class="score-badge status-good">82%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-success" style="width: 82%;" role="progressbar" aria-valuenow="82" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="pillar-row">
+                <div class="pillar-head">
+                  <span>Pilier 2 &mdash; Surveillance</span>
+                  <span class="score-badge status-mid">68%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 68%;" role="progressbar" aria-valuenow="68" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="pillar-row">
+                <div class="pillar-head">
+                  <span>Pilier 3 &mdash; Pr&eacute;paration</span>
+                  <span class="score-badge status-mid">70%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 70%;" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="pillar-row">
+                <div class="pillar-head">
+                  <span>Pilier 4 &mdash; Prise en charge</span>
+                  <span class="score-badge status-mid">65%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-warning" style="width: 65%;" role="progressbar" aria-valuenow="65" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+              <div class="pillar-row">
+                <div class="pillar-head">
+                  <span>Pilier 5 &mdash; Communication</span>
+                  <span class="score-badge status-good">78%</span>
+                </div>
+                <div class="progress">
+                  <div class="progress-bar bg-success" style="width: 78%;" role="progressbar" aria-valuenow="78" aria-valuemin="0" aria-valuemax="100"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-primary" data-bs-dismiss="modal">Fermer</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>

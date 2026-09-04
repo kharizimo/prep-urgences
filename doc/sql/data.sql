@@ -1,0 +1,1 @@
+insert into menace(lib,uuid,axe)

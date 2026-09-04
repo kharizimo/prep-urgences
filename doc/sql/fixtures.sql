@@ -1,0 +1,35 @@
+insert into provinces (lib) values
+	('Niveau Central'),
+	('Bas-Uele'),
+	('Equateur'),
+	('Haut-Katanga'),
+	('Haut-Lomami'),
+	('Haut-Uele'),
+	('Ituri'),
+	('Kasaï'),
+	('Kasaï-Central'),
+	('Kasaï-Oriental'),
+	('Kinshasa'),
+	('Kongo-Central'),
+	('Kwango'),
+	('Kwilu'),
+	('Lomami'),
+	('Lualaba'),
+	('Maï-Ndombe'),
+	('Maniema'),
+	('Mongala'),
+	('Nord-Kivu'),
+	('Nord-Ubangi'),
+	('Sankuru'),
+	('Sud-Kivu'),
+	('Sud-Ubangi'),
+	('Tanganyika'),
+	('Tshopo'),
+	('Tshuapa');
+
+insert into users (id, nom, email, pwd, province, role) values
+	('550e8400-e29b-41d4-a716-446655440001', 'Admin General', 'admin@prep-sante.cd', 'admin', 'Kinshasa', 'Administrateur'),
+	('550e8400-e29b-41d4-a716-446655440002', 'Marie Kabeya', 'marie.kabeya@prep-sante.cd', 'demo', 'Nord-Kivu', 'Superviseur'),
+	('550e8400-e29b-41d4-a716-446655440003', 'Jean Mukendi', 'jean.mukendi@prep-sante.cd', 'demo', 'Kongo-Central', 'Evaluateur'),
+	('550e8400-e29b-41d4-a716-446655440004', 'Aline Mbuyi', 'aline.mbuyi@prep-sante.cd', 'demo', 'Haut-Katanga', 'Lecteur');
+

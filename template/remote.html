@@ -1,0 +1,200 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Remote - Prep Sante</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
+    <link href="assets/styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <nav class="app-shell navbar navbar-expand-lg sticky-top">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="index.html">
+          <span class="brand-mark"><i class="bi bi-shield-check"></i></span>
+          <span>
+            <strong>Prep Sant&eacute;</strong>
+            <small>Pr&eacute;paration aux Urgences</small>
+          </span>
+        </a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNavigation" aria-controls="mainNavigation" aria-expanded="false" aria-label="Afficher le menu">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="mainNavigation">
+          <ul class="navbar-nav main-menu me-lg-auto ms-lg-4 my-3 my-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">
+                <i class="bi bi-speedometer2"></i>
+                Dashboard
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="evaluations.html">
+                <i class="bi bi-clipboard2-check"></i>
+                Evaluation
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="referentiel.html">
+                <i class="bi bi-journal-bookmark"></i>
+                R&eacute;f&eacute;rentiel
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="remote.html">
+                <i class="bi bi-cloud-arrow-up"></i>
+                Remote
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="users.html">
+                <i class="bi bi-people"></i>
+                Utilisateurs
+              </a>
+            </li>
+          </ul>
+
+          <div class="navbar-actions d-flex align-items-lg-center gap-2">
+            <div class="dropdown user-menu">
+              <button class="btn btn-sm btn-light dropdown-toggle user-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <span class="user-avatar">AG</span>
+                <span class="user-meta">
+                  <strong>Admin General</strong>
+                  <small>Administrateur</small>
+                </span>
+              </button>
+              <ul class="dropdown-menu dropdown-menu-end shadow-sm">
+                <li>
+                  <a class="dropdown-item" href="profile.html">
+                    <i class="bi bi-person"></i>
+                    Profil
+                  </a>
+                </li>
+                <li><hr class="dropdown-divider"></li>
+                <li>
+                  <a class="dropdown-item text-danger" href="login.html">
+                    <i class="bi bi-box-arrow-right"></i>
+                    Deconnexion
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="py-4">
+      <div class="container">
+        <header class="page-header mb-4">
+          <div>
+            <p class="eyebrow mb-1">Remote</p>
+            <h1 class="h4 mb-1">Import, export et nettoyage</h1>
+            <p class="text-secondary mb-0">Operations sur la base de donnees et les evaluations.</p>
+          </div>
+        </header>
+
+        <section class="remote-action-grid">
+          <article class="card remote-action-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-primary"><i class="bi bi-database-up"></i></span>
+              <div>
+                <h2>Importer la base de donnees</h2>
+                <p>Charger un fichier SQL ou une archive de sauvegarde complete.</p>
+              </div>
+              <label class="btn btn-primary profile-save-btn" for="databaseImportFile">
+                <i class="bi bi-upload"></i>
+                Importer
+              </label>
+              <input class="visually-hidden" id="databaseImportFile" type="file" accept=".sql,.zip,.json">
+            </div>
+          </article>
+
+          <article class="card remote-action-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-success"><i class="bi bi-clipboard2-plus"></i></span>
+              <div>
+                <h2>Importer les evaluations</h2>
+                <p>Ajouter ou mettre a jour les donnees d'evaluation depuis un fichier.</p>
+              </div>
+              <label class="btn btn-primary profile-save-btn" for="evaluationImportFile">
+                <i class="bi bi-upload"></i>
+                Importer
+              </label>
+              <input class="visually-hidden" id="evaluationImportFile" type="file" accept=".csv,.xlsx,.json">
+            </div>
+          </article>
+
+          <article class="card remote-action-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-info"><i class="bi bi-database-down"></i></span>
+              <div>
+                <h2>Exporter la base de donnees</h2>
+                <p>Generer une sauvegarde complete des donnees de l'application.</p>
+              </div>
+              <button class="btn btn-outline-primary profile-save-btn" type="button">
+                <i class="bi bi-download"></i>
+                Exporter
+              </button>
+            </div>
+          </article>
+
+          <article class="card remote-action-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-warning"><i class="bi bi-clipboard2-data"></i></span>
+              <div>
+                <h2>Exporter les evaluations</h2>
+                <p>Telecharger uniquement les evaluations et leurs scores associes.</p>
+              </div>
+              <button class="btn btn-outline-primary profile-save-btn" type="button">
+                <i class="bi bi-download"></i>
+                Exporter
+              </button>
+            </div>
+          </article>
+
+          <article class="card remote-action-card remote-danger-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-danger"><i class="bi bi-database-x"></i></span>
+              <div>
+                <h2>Supprimer la base de donnees</h2>
+                <p>Effacer toutes les donnees applicatives apres confirmation.</p>
+              </div>
+              <button class="btn btn-outline-danger profile-save-btn" type="button">
+                <i class="bi bi-trash"></i>
+                Supprimer
+              </button>
+            </div>
+          </article>
+
+          <article class="card remote-action-card remote-danger-card">
+            <div class="card-body">
+              <span class="remote-action-icon text-danger"><i class="bi bi-clipboard2-x"></i></span>
+              <div>
+                <h2>Supprimer les evaluations</h2>
+                <p>Vider uniquement les evaluations sans toucher au referentiel.</p>
+              </div>
+              <button class="btn btn-outline-danger profile-save-btn" type="button">
+                <i class="bi bi-trash"></i>
+                Supprimer
+              </button>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+
+    <footer class="app-footer">
+      <div class="container">
+        <span>&copy; 2026 Prep Sant&eacute;</span>
+        <span>Plateforme de pr&eacute;paration aux urgences sanitaires</span>
+      </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/app.js"></script>
+  </body>
+</html>
