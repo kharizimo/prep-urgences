@@ -30,7 +30,7 @@ const handleConfirm = () => {
 </script>
 
 <template>
-  <div ref="modalRef" class="modal fade" tabindex="-1" aria-hidden="true">
+  <div ref="modalRef" class="modal modal-lg fade" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">

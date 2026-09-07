@@ -4,34 +4,34 @@ import Filtre from '../components/evaluations/Filtre.vue';
 </script>
 
 <template>
-    <Filtre />
-    <section class="card">
-      <div class="card-body">
-        <div class="evaluations-toolbar">
-          <div class="section-title mb-0">
-            <i class="bi bi-list-check"></i>
-            <h3>Liste des evaluations</h3>
-          </div>
-          <div class="evaluations-search input-group">
-            <span class="input-group-text"><i class="bi bi-search"></i></span>
-            <input class="form-control" id="evaluationSearch" type="search" placeholder="Rechercher">
-          </div>
+  <Filtre />
+  <section class="card">
+    <div class="card-body">
+      <div class="evaluations-toolbar">
+        <div class="section-title mb-0">
+          <i class="bi bi-list-check"></i>
+          <h3>Liste des evaluations</h3>
         </div>
-        <div class="table-responsive">
-          <table class="table align-middle mb-0">
-            <thead>
-              <tr>
-                <th>Niveau</th>
-                <th>Province</th>
-                <th>Menace</th>
-                <th>Periode</th>
-                <th>Entite</th>
-                <th class="text-end">Participants</th>
-                <th class="text-end">Score</th>
-                <th class="text-end">Details</th>
-              </tr>
-            </thead>
-            <tbody>
+        <div class="evaluations-search input-group">
+          <span class="input-group-text"><i class="bi bi-search"></i></span>
+          <input class="form-control" id="evaluationSearch" type="search" placeholder="Rechercher">
+        </div>
+      </div>
+      <div class="table-responsive">
+        <table class="table align-middle mb-0">
+          <thead>
+            <tr>
+              <th>Niveau</th>
+              <th>Province</th>
+              <th>Menace</th>
+              <th>Periode</th>
+              <th>Entite</th>
+              <th class="text-end">Participants</th>
+              <th class="text-end">Score</th>
+              <th class="text-end">Details</th>
+            </tr>
+          </thead>
+          <tbody>
               <tr class="evaluation-row">
                 <td>Zone de sante</td>
                 <td>Tshopo</td>
@@ -158,9 +158,10 @@ import Filtre from '../components/evaluations/Filtre.vue';
                   </button>
                 </td>
               </tr>
-            </tbody>
-          </table>
-        </div>
+          </tbody>
+        </table>
       </div>
-    </section>
+    </div>
+  </section>
+  
 </template>

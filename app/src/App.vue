@@ -3,6 +3,9 @@ import Navbar from './components/Navbar.vue'
 import Footer from './components/Footer.vue'
 import Header from './components/Header.vue'
 import AxeToggle from './components/AxeToggle.vue';
+
+
+
 </script>
 <template>
   <Navbar v-show="true" />
