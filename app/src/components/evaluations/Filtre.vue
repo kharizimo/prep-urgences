@@ -29,32 +29,16 @@
         </div>
       </div>
     </section>
-    <Modal ref="modalRef">
-      <template #title>Nouvelle evaluation</template>
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group">
-            <label for=""></label>
-          </div>
-        </div>
-      </div>
-    </Modal>
-    <teleport to="#custom-btn">
-      <button class="btn btn-success" type="button" @click="openModal">Nouvelle evaluation</button>
-    </teleport>
 </template>
 
 <script setup>
 import { useStore } from '../../store';
 import { ref, computed } from 'vue';
-import Modal from '../Modal.vue';
 
 const store = useStore()
-const modalRef = ref(null)
 const EntiteDisabled = computed(() => ['Provinces'].includes(store.STATES.niveau))
 
-const openModal = () => {
-  modalRef.value?.showModal()
-}
+
+
 </script>
     

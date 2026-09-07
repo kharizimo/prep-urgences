@@ -7,7 +7,7 @@ import Test from './pages/Test.vue'
 const routes = [
     {path:'/',component:Home},
     {path:'/evaluations',component:Evaluations},
-    {path:'/evaluations/:id',component:EvaluationDetail},
+    {path:'/evaluation/:id',component:EvaluationDetail},
     {path:'/test',component:Test},
 ]
 
