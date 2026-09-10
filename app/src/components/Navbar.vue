@@ -11,7 +11,7 @@ const route = useRoute();
     <a class="navbar-brand d-flex align-items-center gap-2" href="/">
       <Logo />
       <span>
-            <strong>Prep Sant&eacute;</strong>
+            <strong>Prep Urgences</strong>
             <small>Pr&eacute;paration aux Urgences</small>
       </span>
     </a>

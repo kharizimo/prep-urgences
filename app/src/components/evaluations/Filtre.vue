@@ -22,8 +22,9 @@
           </div>
           <div>
             <label class="form-label" for="filterEntity">Entit&eacute;</label>
-            <select class="form-select" :disabled="EntiteDisabled">
+            <select class="form-select" v-model="store.STATES.entite" :disabled="EntiteDisabled">
               <option value="">Toutes les entit&eacute;s</option>
+              <option v-for="entite in entites" :key="entite" :value="entite">{{ entite }}</option>
             </select>
           </div>
         </div>
@@ -33,9 +34,22 @@
 
 <script setup>
 import { useStore } from '../../store';
-import { ref, computed } from 'vue';
+import { computed } from 'vue';
 
 const store = useStore()
+const props = defineProps({
+  evaluations: {
+    type: Array,
+    default: () => []
+  }
+})
+
+const entites = computed(() => [...new Set(
+  props.evaluations
+    .map(evaluation => evaluation.entite)
+    .filter(Boolean)
+)].sort((first, second) => first.localeCompare(second)))
+
 const EntiteDisabled = computed(() => ['Provinces'].includes(store.STATES.niveau))
 
 

@@ -1,0 +1,47 @@
+{
+  "menace": {
+    "id": 1,
+    "lib": "MVE Ebola",
+    "groupe": "Epidemie",
+    "axe": "Sante publique"
+  },
+  "piliers": [
+    {
+      "id": 1,
+      "lib": "Coordination",
+      "menace_id": 1
+    },
+    {
+      "id": 2,
+      "lib": "Surveillance epidemiologique",
+      "menace_id": 1
+    },
+    {
+      "id": 3,
+      "lib": "Equipe d'intervention rapide",
+      "menace_id": 1
+    }
+  ],
+  "exigences": [
+    {
+      "id": 1,
+      "lib": "Plan de coordination disponible",
+      "pilier_id": 1
+    },
+    {
+      "id": 2,
+      "lib": "Reunions de coordination regulieres",
+      "pilier_id": 1
+    },
+    {
+      "id": 3,
+      "lib": "Systeme de notification fonctionnel",
+      "pilier_id": 2
+    },
+    {
+      "id": 4,
+      "lib": "EIR formee et prepositionnee",
+      "pilier_id": 3
+    }
+  ]
+}
