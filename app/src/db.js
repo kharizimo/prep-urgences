@@ -1,6 +1,6 @@
 import Dexie from 'dexie';
 
-const fixtures = Object.values(import.meta.glob('./fixture/*.json', {
+const fixtures = Object.values(import.meta.glob('./fixture/mve.json', {
     eager: true,
     import: 'default'
 }));
