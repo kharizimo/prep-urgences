@@ -38,13 +38,14 @@
 import { computed, onMounted, ref } from 'vue'
 import { db } from '../../db'
 import { useStore } from '../../store'
+import { latestValidEvaluations } from '../../consolidation'
 
 const store = useStore()
 const evaluations = ref([])
 const evaluationPillars = ref([])
 
 const filteredEvaluationIds = computed(() => new Set(
-  evaluations.value
+  latestValidEvaluations(evaluations.value)
     .filter(evaluation => {
       const matchesProvince = !store.STATES.province || evaluation.province === store.STATES.province
       const matchesAxe = !store.STATES.axe || evaluation.axe === store.STATES.axe
@@ -65,6 +66,7 @@ const pillars = computed(() => {
       const id = pillar.pilier_id
       const current = groupedPillars.get(id) || {
         id,
+        code: pillar.code,
         name: pillar.lib || `Pilier ${id}`,
         scores: []
       }
@@ -76,7 +78,9 @@ const pillars = computed(() => {
       groupedPillars.set(id, current)
     })
 
-  return [...groupedPillars.values()].map(pillar => ({
+  return [...groupedPillars.values()]
+    .sort((a, b) => String(a.code).localeCompare(String(b.code), undefined, { numeric: true }))
+    .map(pillar => ({
     id: pillar.id,
     name: pillar.name,
     score: pillar.scores.length > 0

@@ -8,6 +8,17 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css" rel="stylesheet">
     <link href="/assets/styles.css" rel="stylesheet">
     <title>app</title>
+    <script>
+  const sync = {
+    mode: 'offline', // 'online' ou 'offline'
+    url_online: 'http://localhost/digi-maturity/prep-urgences/api/',
+    url_offline: 'http://localhost/digi-maturity/prep-urgences/api/',
+    interval: 30000, // 30 secondes
+    url: function() {
+      return this.mode === 'online' ? this.url_online : this.url_offline;
+    }
+  };
+</script>
   </head>
   <body class="d-flex flex-column min-vh-100">
     <div class="preloader" id="preloader" role="status" aria-live="polite" aria-label="Chargement du dashboard">

@@ -41,13 +41,14 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { db } from '../../db'
 import { useStore } from '../../store'
+import { latestValidEvaluations } from '../../consolidation'
 
 const store = useStore()
 const evaluations = ref([])
 const selectedLevel = ref(store.CONSTANTES.niveau[0] || '')
 const levels = computed(() => store.CONSTANTES.niveau)
 
-const matchingEvaluations = computed(() => evaluations.value.filter(evaluation => {
+const matchingEvaluations = computed(() => latestValidEvaluations(evaluations.value).filter(evaluation => {
   const matchesProvince = !store.STATES.province || evaluation.province === store.STATES.province
   const matchesAxe = !store.STATES.axe || evaluation.axe === store.STATES.axe
   const matchesMenace = !store.STATES.menace_id ||

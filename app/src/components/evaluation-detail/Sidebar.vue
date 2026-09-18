@@ -46,15 +46,15 @@
       <div class="metadata-edit-grid mt-3">
         <div>
           <label class="form-label" for="detailPeriod">P&eacute;riode</label>
-          <input class="form-control" id="detailPeriod" type="date" :value="data.periode">
+          <input class="form-control" id="detailPeriod" type="date" v-model="data.periode">
         </div>
         <div>
           <label class="form-label" for="detailParticipants">Participants</label>
-          <textarea class="form-control" id="detailComments" rows="4">{{data.participants}}</textarea>
+          <textarea class="form-control" id="detailParticipants" rows="4" v-model="data.participants"></textarea>
         </div>
         <div>
           <label class="form-label" for="detailComments">Commentaires</label>
-          <textarea class="form-control" id="detailComments" rows="4">{{data.commentaires}}</textarea>
+          <textarea class="form-control" id="detailComments" rows="4" v-model="data.commentaires"></textarea>
         </div>
       </div>
     </div>

@@ -1,0 +1,324 @@
+{
+	"menace": {
+		"id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+		"lib": "Risques technologiques",
+		"groupe": "Technologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "63d81f74-d45e-4d0b-baf2-e5243081ac5d",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P01"
+		},
+		{
+			"id": "bb2740a7-6e78-44c4-8129-c51515381db7",
+			"lib": "Identification des sites et cartographie des risques",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P02"
+		},
+		{
+			"id": "9f13dac7-b115-469c-88bf-de13602cbb18",
+			"lib": "Alerte précoce et notification des incidents",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P03"
+		},
+		{
+			"id": "ec7c25d2-4141-4bcb-a61d-673caeca72f7",
+			"lib": "Préparation aux incidents chimiques",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P04"
+		},
+		{
+			"id": "1bce6d09-33f7-45fa-ac15-028fdcc91057",
+			"lib": "Préparation aux incidents radiologiques et nucléaires",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P05"
+		},
+		{
+			"id": "04373238-b28a-4ea4-8675-ab5c65711067",
+			"lib": "Préparation aux accidents industriels et incendies / explosions",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P06"
+		},
+		{
+			"id": "6bdbfd94-720c-4b68-bc25-b6ffd39a3f23",
+			"lib": "Surveillance sanitaire et environnementale",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P07"
+		},
+		{
+			"id": "06c137ff-aab6-458e-9a97-c99e6a717927",
+			"lib": "Prise en charge médicale et décontamination",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P08"
+		},
+		{
+			"id": "ae9762c1-3630-480a-b194-ffbc1ee0102f",
+			"lib": "Protection des populations et évacuation",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P09"
+		},
+		{
+			"id": "bb0be2dd-117b-463e-9cca-3eef6ba333b8",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P10"
+		},
+		{
+			"id": "5c462f19-9807-4328-8757-6f65cb8aa4d6",
+			"lib": "Logistique et Equipements spécialisés",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P11"
+		},
+		{
+			"id": "e5e1fc21-da3f-467b-9140-0f53c9d36bdc",
+			"lib": "Budget",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P12"
+		},
+		{
+			"id": "a2d2ae9f-5f75-4a55-a75e-8772616b3095",
+			"lib": "Relèvement / réhabilitation",
+			"menace_id": "80be50cf-d0cd-4892-a9e5-6d9192041d66",
+			"code": "P13"
+		}
+	],
+	"exigences": [
+		{
+			"id": "9d097b67-e4f8-407b-9646-2c65de28fc82",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour les risques technologiques associant santé, environnement, industrie, mines, énergie, transport, protection civile, sécurité, autorités territoriales et partenaires techniques.",
+			"pilier_id": "63d81f74-d45e-4d0b-baf2-e5243081ac5d",
+			"code": "E01"
+		},
+		{
+			"id": "35971db0-7d01-42a1-8f2d-8b3f39bbffa5",
+			"lib": "Disposer d’un plan de préparation et de riposte aux risques technologiques actualisé, budgétisé et harmonisé entre les niveaux national, provincial et local.",
+			"pilier_id": "63d81f74-d45e-4d0b-baf2-e5243081ac5d",
+			"code": "E02"
+		},
+		{
+			"id": "418d6830-23c9-441d-a201-1347dfd69a8c",
+			"lib": "Définir les rôles, responsabilités, chaînes de commandement, procédures d’activation et mécanismes de coordination intersectorielle en cas d’incident technologique majeur.",
+			"pilier_id": "63d81f74-d45e-4d0b-baf2-e5243081ac5d",
+			"code": "E03"
+		},
+		{
+			"id": "41c5584a-cd9e-4582-9283-629956e9365a",
+			"lib": "Identifier et cartographier les sites, installations et infrastructures exposant à des risques technologiques, notamment dépôts de carburant, sites miniers, usines, laboratoires, entrepôts chimiques, hôpitaux, axes de transport et installations énergétiques.",
+			"pilier_id": "bb2740a7-6e78-44c4-8129-c51515381db7",
+			"code": "E01"
+		},
+		{
+			"id": "aa5bd2e0-1cbd-4607-a959-c09b18771e85",
+			"lib": "Évaluer les scénarios de danger, les populations exposées, les infrastructures critiques menacées et les effets domino potentiels autour des sites à risque.",
+			"pilier_id": "bb2740a7-6e78-44c4-8129-c51515381db7",
+			"code": "E02"
+		},
+		{
+			"id": "39743280-bc78-462b-a585-523cebc72e56",
+			"lib": "Actualiser régulièrement la cartographie des risques technologiques et l’intégrer dans les plans territoriaux, sanitaires et de gestion des urgences.",
+			"pilier_id": "bb2740a7-6e78-44c4-8129-c51515381db7",
+			"code": "E03"
+		},
+		{
+			"id": "67e8d43e-9b96-4cc9-b58d-bf12369d87ed",
+			"lib": "Mettre en place des mécanismes de détection et de notification immédiate des incidents technologiques, y compris fuites chimiques, incendies industriels, explosions, radiations ou accidents liés au transport de matières dangereuses.",
+			"pilier_id": "9f13dac7-b115-469c-88bf-de13602cbb18",
+			"code": "E01"
+		},
+		{
+			"id": "3074e346-1bd7-4006-979e-fed10c117587",
+			"lib": "Définir des seuils d’alerte, des circuits d’information et des procédures de transmission rapide entre exploitants, autorités, services de santé, protection civile et communautés.",
+			"pilier_id": "9f13dac7-b115-469c-88bf-de13602cbb18",
+			"code": "E02"
+		},
+		{
+			"id": "7803f7b7-5faa-4aec-b914-ca39a618108d",
+			"lib": "Tester régulièrement les dispositifs d’alerte, de notification et de coordination opérationnelle au moyen d’exercices et de simulations.",
+			"pilier_id": "9f13dac7-b115-469c-88bf-de13602cbb18",
+			"code": "E03"
+		},
+		{
+			"id": "e209be0f-03cd-4f9a-939c-fee29a6563c8",
+			"lib": "Identifier les produits chimiques dangereux prioritaires, leurs sites de stockage, les voies d’exposition potentielles et les moyens de contrôle des risques.",
+			"pilier_id": "ec7c25d2-4141-4bcb-a61d-673caeca72f7",
+			"code": "E01"
+		},
+		{
+			"id": "638086ac-f1b2-47a9-97b3-612981e3aceb",
+			"lib": "Mettre en place des procédures de confinement, d’isolement de zone, de décontamination et de prise en charge initiale des expositions chimiques.",
+			"pilier_id": "ec7c25d2-4141-4bcb-a61d-673caeca72f7",
+			"code": "E02"
+		},
+		{
+			"id": "121f0430-12ff-48e1-a5c8-550b819676bd",
+			"lib": "Assurer la disponibilité des fiches de sécurité, des antidotes pertinents lorsqu’ils existent, des Equipements de protection et des capacités de conseil toxicologique.",
+			"pilier_id": "ec7c25d2-4141-4bcb-a61d-673caeca72f7",
+			"code": "E03"
+		},
+		{
+			"id": "c76cba3a-0c00-4a60-99ce-7863c973dc68",
+			"lib": "Identifier les sources radiologiques et installations concernées, les usages médicaux, industriels ou de recherche, et les scénarios d’incident associés.",
+			"pilier_id": "1bce6d09-33f7-45fa-ac15-028fdcc91057",
+			"code": "E01"
+		},
+		{
+			"id": "a54a7f7a-f38d-46de-b24a-de2d6f7ec462",
+			"lib": "Mettre en place des procédures de sécurisation, de zonage, de contrôle d’accès, de détection, de protection et de notification en cas d’incident radiologique.",
+			"pilier_id": "1bce6d09-33f7-45fa-ac15-028fdcc91057",
+			"code": "E02"
+		},
+		{
+			"id": "fca2efb2-74de-4df8-bafa-13a223aa8cf6",
+			"lib": "Former les Equipes concernées aux principes de radioprotection, à la gestion des victimes contaminées et à la coordination avec les autorités spécialisées compétentes.",
+			"pilier_id": "1bce6d09-33f7-45fa-ac15-028fdcc91057",
+			"code": "E03"
+		},
+		{
+			"id": "a40c8c69-2c41-4d6a-b47f-ecbc4a96d482",
+			"lib": "Évaluer les risques d’incendie, d’explosion, d’effondrement ou d’accident majeur dans les sites industriels, miniers, pétroliers, énergétiques et de stockage.",
+			"pilier_id": "04373238-b28a-4ea4-8675-ab5c65711067",
+			"code": "E01"
+		},
+		{
+			"id": "6e041446-3a32-4a43-9746-acb7b053386a",
+			"lib": "Prévoir des plans d’intervention, de confinement, de lutte incendie, de sauvetage et d’évacuation adaptés aux installations à haut risque.",
+			"pilier_id": "04373238-b28a-4ea4-8675-ab5c65711067",
+			"code": "E02"
+		},
+		{
+			"id": "2db6bcb2-582a-4e2d-bf2d-e780bd7d035c",
+			"lib": "Former et Equiper les Equipes de première intervention ainsi que les services d’urgence pour les scénarios d’accidents industriels complexes et multi-victimes.",
+			"pilier_id": "04373238-b28a-4ea4-8675-ab5c65711067",
+			"code": "E03"
+		},
+		{
+			"id": "ad5b1c5c-e1b2-438d-aa77-20654bb0ff01",
+			"lib": "Mettre en place une surveillance des effets sanitaires aigus et chroniques potentiellement liés aux incidents technologiques, ainsi qu’un suivi environnemental de l’air, de l’eau, du sol et des chaînes alimentaires si nécessaire.",
+			"pilier_id": "6bdbfd94-720c-4b68-bc25-b6ffd39a3f23",
+			"code": "E01"
+		},
+		{
+			"id": "c3957802-14db-44fd-8f38-f850668b1160",
+			"lib": "Définir des procédures de prélèvement, d’analyse, d’interprétation et de partage des données sanitaires et environnementales pour appuyer la décision.",
+			"pilier_id": "6bdbfd94-720c-4b68-bc25-b6ffd39a3f23",
+			"code": "E02"
+		},
+		{
+			"id": "abe3cb26-fad3-4bd9-85d0-bfd17c4169c4",
+			"lib": "Assurer la coordination entre santé publique, laboratoires, environnement et secteurs techniques pour l’évaluation rapide des impacts.",
+			"pilier_id": "6bdbfd94-720c-4b68-bc25-b6ffd39a3f23",
+			"code": "E03"
+		},
+		{
+			"id": "bfdcd96c-e36c-4786-9110-cebf5469eb7a",
+			"lib": "Identifier les structures de santé capables d’assurer le triage, la stabilisation, la prise en charge spécialisée et la référence des victimes d’incidents chimiques, radiologiques ou industriels.",
+			"pilier_id": "06c137ff-aab6-458e-9a97-c99e6a717927",
+			"code": "E01"
+		},
+		{
+			"id": "9dbba8f2-1a8b-46a5-a6d1-3159b0508871",
+			"lib": "Mettre en place des procédures de décontamination des victimes, du personnel, du matériel et des sites de soins lorsque cela est requis.",
+			"pilier_id": "06c137ff-aab6-458e-9a97-c99e6a717927",
+			"code": "E02"
+		},
+		{
+			"id": "b055241f-382e-4c83-b23f-9a6cb31838ac",
+			"lib": "Former le personnel de santé à la prise en charge des intoxications, brûlures, traumatismes, expositions radiologiques et incidents multi-victimes.",
+			"pilier_id": "06c137ff-aab6-458e-9a97-c99e6a717927",
+			"code": "E03"
+		},
+		{
+			"id": "f4b1d2a1-1ba0-4b1a-85b9-0ecadf70810c",
+			"lib": "Identifier les zones d’impact potentielles, les populations exposées et les groupes vulnérables nécessitant des mesures spécifiques de protection ou d’évacuation.",
+			"pilier_id": "ae9762c1-3630-480a-b194-ffbc1ee0102f",
+			"code": "E01"
+		},
+		{
+			"id": "e2c571af-0958-44d1-bf65-698b9c727d01",
+			"lib": "Prévoir des procédures de confinement, d’évacuation, de mise à l’abri, de contrôle des accès et d’organisation de sites d’accueil selon le type d’incident.",
+			"pilier_id": "ae9762c1-3630-480a-b194-ffbc1ee0102f",
+			"code": "E02"
+		},
+		{
+			"id": "140da930-10f2-48f1-9439-8dc9997b339e",
+			"lib": "Assurer la protection des personnes déplacées, des travailleurs de première ligne et des communautés affectées pendant toute la durée de la gestion de l’incident.",
+			"pilier_id": "ae9762c1-3630-480a-b194-ffbc1ee0102f",
+			"code": "E03"
+		},
+		{
+			"id": "d5171b3c-4592-467c-8ae1-adfe84320155",
+			"lib": "Déployer une stratégie de communication claire sur les dangers technologiques, les mesures de protection, les conduites à tenir et les restrictions éventuelles à appliquer en cas d’incident.",
+			"pilier_id": "bb0be2dd-117b-463e-9cca-3eef6ba333b8",
+			"code": "E01"
+		},
+		{
+			"id": "e0b7535f-1f99-443b-ae8e-16153af820b7",
+			"lib": "Adapter et diffuser des messages dans les langues locales via des canaux appropriés, en tenant compte des spécificités des zones industrielles, minières, urbaines et frontalières.",
+			"pilier_id": "bb0be2dd-117b-463e-9cca-3eef6ba333b8",
+			"code": "E02"
+		},
+		{
+			"id": "3f5b839f-54f4-43f3-9706-77cb9bbb05e6",
+			"lib": "Mettre en place des mécanismes de retour d’information, de gestion des rumeurs et d’engagement communautaire avant, pendant et après les incidents.",
+			"pilier_id": "bb0be2dd-117b-463e-9cca-3eef6ba333b8",
+			"code": "E03"
+		},
+		{
+			"id": "c9d75332-fef8-4852-9bbc-4ae7c763af96",
+			"lib": "Identifier, prépositionner et entretenir les Equipements spécialisés nécessaires : EPI adaptés, détecteurs, matériels de confinement, kits de décontamination, moyens de transport protégés et outils de communication.",
+			"pilier_id": "5c462f19-9807-4328-8757-6f65cb8aa4d6",
+			"code": "E01"
+		},
+		{
+			"id": "7e382075-c164-4137-914d-6d7ab097a991",
+			"lib": "Mettre en place un système de gestion des stocks, de maintenance, de réapprovisionnement rapide et de suivi logistique pour les Equipements critiques.",
+			"pilier_id": "5c462f19-9807-4328-8757-6f65cb8aa4d6",
+			"code": "E02"
+		},
+		{
+			"id": "4e011021-ae86-457c-9f1f-0fcf2720a132",
+			"lib": "Prévoir des accords d’assistance technique et de mobilisation rapide des ressources spécialisées nationales ou partenaires en cas d’événement majeur.",
+			"pilier_id": "5c462f19-9807-4328-8757-6f65cb8aa4d6",
+			"code": "E03"
+		},
+		{
+			"id": "b5b04b50-2048-4cb2-b005-88308805693e",
+			"lib": "Définir un budget opérationnel couvrant prévention, alerte, intervention, santé, décontamination, logistique, communication et relèvement après incident technologique.",
+			"pilier_id": "e5e1fc21-da3f-467b-9140-0f53c9d36bdc",
+			"code": "E01"
+		},
+		{
+			"id": "01ff1e0d-307e-4aa7-a167-62c77b457690",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour les premières actions critiques en cas d’incident majeur.",
+			"pilier_id": "e5e1fc21-da3f-467b-9140-0f53c9d36bdc",
+			"code": "E02"
+		},
+		{
+			"id": "4276882b-f6c9-4874-801e-6e47b17f5cdd",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses engagées dans la gestion des risques technologiques.",
+			"pilier_id": "e5e1fc21-da3f-467b-9140-0f53c9d36bdc",
+			"code": "E03"
+		},
+		{
+			"id": "34e32a92-2bb3-4e8e-9c80-ce91180cb83d",
+			"lib": "Prévoir des actions de réhabilitation des sites affectés, de gestion des déchets dangereux, de restauration environnementale et de rétablissement des services essentiels après incident.",
+			"pilier_id": "a2d2ae9f-5f75-4a55-a75e-8772616b3095",
+			"code": "E01"
+		},
+		{
+			"id": "ad3a33cd-1db9-4b3d-9bd4-586fe8eaf399",
+			"lib": "Organiser des évaluations post-incident, documenter les leçons apprises et mettre à jour les plans, normes et procédures de prévention et de riposte.",
+			"pilier_id": "a2d2ae9f-5f75-4a55-a75e-8772616b3095",
+			"code": "E02"
+		},
+		{
+			"id": "6171bc20-fcaf-47ee-b691-43767a0ca838",
+			"lib": "Renforcer durablement les capacités institutionnelles, réglementaires et communautaires pour réduire la récurrence et l’impact des risques technologiques.",
+			"pilier_id": "a2d2ae9f-5f75-4a55-a75e-8772616b3095",
+			"code": "E03"
+		}
+	]
+}

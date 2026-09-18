@@ -1,0 +1,300 @@
+{
+	"menace": {
+		"id": "45869547-6b68-49a4-bf86-73347ab0df41",
+		"lib": "Risques sociaux de type conflits",
+		"groupe": "Sociaux",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "0c8f1ee8-056c-4b10-967d-c225f0337a86",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P01"
+		},
+		{
+			"id": "bb5f6662-6282-43c2-8ad5-4ff71fe91dc9",
+			"lib": "Analyse du contexte et cartographie des conflits",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P02"
+		},
+		{
+			"id": "356a07d9-f711-40f0-8885-54b4d918f0af",
+			"lib": "Alerte précoce et suivi des tensions",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P03"
+		},
+		{
+			"id": "26c1acd3-f18a-446b-8593-8b22c47a9229",
+			"lib": "Déplacements de populations et sites d'accueil",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P04"
+		},
+		{
+			"id": "56b9746d-c7c5-40d2-81e6-3a42e8a42068",
+			"lib": "Protection des civils et groupes vulnérables",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P05"
+		},
+		{
+			"id": "622daf51-0620-4000-8466-52994797f93c",
+			"lib": "Surveillance sanitaire et épidémiologique en contexte de conflit",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P06"
+		},
+		{
+			"id": "1ebd9670-d784-4223-89b8-444a1d0224ed",
+			"lib": "Continuité des services de sante",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P07"
+		},
+		{
+			"id": "f4d6abe4-ec39-4426-bd32-360902a86128",
+			"lib": "Logistique et accès humanitaire",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P08"
+		},
+		{
+			"id": "eaf54967-33b1-44da-a555-b680c7ef1b91",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P09"
+		},
+		{
+			"id": "ac494ff6-1d2c-49b7-bdd5-184300ba8676",
+			"lib": "Santé mentale et soutien psychosocial",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P10"
+		},
+		{
+			"id": "bafdff59-6dd5-404c-851f-711747c96e2c",
+			"lib": "Budget",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P11"
+		},
+		{
+			"id": "034c583a-5954-4c99-9345-90b867e6814e",
+			"lib": "Relèvement / cohésion sociale / résilience",
+			"menace_id": "45869547-6b68-49a4-bf86-73347ab0df41",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "49d0a1c9-f7cf-44e5-99ac-f3365684d15e",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la gestion des risques sociaux de type conflits associant santé, affaires sociales, protection, sécurité civile, autorités locales, acteurs humanitaires et représentants communautaires.",
+			"pilier_id": "0c8f1ee8-056c-4b10-967d-c225f0337a86",
+			"code": "E01"
+		},
+		{
+			"id": "6e330868-e5f2-4be4-bac9-2d90c41ff6e6",
+			"lib": "Disposer d’un plan de préparation et de riposte aux crises liées aux conflits, actualisé, budgétisé et adapté aux contextes provinciaux et territoriaux de la RDC.",
+			"pilier_id": "0c8f1ee8-056c-4b10-967d-c225f0337a86",
+			"code": "E02"
+		},
+		{
+			"id": "0c3de364-246a-450b-b9c3-1db1d546a351",
+			"lib": "Définir les rôles, responsabilités, circuits d’information, mécanismes d’activation et modalités de coordination entre niveaux national, provincial, zone de santé et communauté.",
+			"pilier_id": "0c8f1ee8-056c-4b10-967d-c225f0337a86",
+			"code": "E03"
+		},
+		{
+			"id": "8e643646-2608-4afa-be5d-7ad2c9fcbcec",
+			"lib": "Analyser régulièrement le contexte sécuritaire, les dynamiques de conflit, les acteurs impliqués, les facteurs déclencheurs et les zones à risque de violence, déplacement ou instabilité sociale.",
+			"pilier_id": "bb5f6662-6282-43c2-8ad5-4ff71fe91dc9",
+			"code": "E01"
+		},
+		{
+			"id": "8cbcd035-b93d-41bd-95c5-27218d0a775b",
+			"lib": "Cartographier les zones touchées, les axes d’insécurité, les populations exposées, les infrastructures critiques et les contraintes d’accès pour les services essentiels et l’action humanitaire.",
+			"pilier_id": "bb5f6662-6282-43c2-8ad5-4ff71fe91dc9",
+			"code": "E02"
+		},
+		{
+			"id": "966024e8-6785-4dc6-88c3-e8c7e73398cb",
+			"lib": "Intégrer l’analyse des conflits dans la planification sanitaire, humanitaire et de réduction des risques afin d’anticiper les effets sur la santé publique et la protection.",
+			"pilier_id": "bb5f6662-6282-43c2-8ad5-4ff71fe91dc9",
+			"code": "E03"
+		},
+		{
+			"id": "b0550c6b-35c8-4fc8-b64c-72b06cefda33",
+			"lib": "Mettre en place ou renforcer un système d’alerte précoce communautaire et institutionnel pour détecter les tensions, incidents violents, déplacements soudains, atteintes aux civils et perturbations des services essentiels.",
+			"pilier_id": "356a07d9-f711-40f0-8885-54b4d918f0af",
+			"code": "E01"
+		},
+		{
+			"id": "fa7abfac-ef44-445d-996a-362f3cb9c32a",
+			"lib": "Définir des indicateurs d’alerte, des seuils de gravité et des procédures de notification rapide entre communautés, autorités, structures sanitaires et partenaires.",
+			"pilier_id": "356a07d9-f711-40f0-8885-54b4d918f0af",
+			"code": "E02"
+		},
+		{
+			"id": "c77c37f3-8612-46be-b4b5-e27cb9c0c434",
+			"lib": "Tester régulièrement les mécanismes d’alerte, de partage d’information et de coordination opérationnelle dans les zones à risque de conflits.",
+			"pilier_id": "356a07d9-f711-40f0-8885-54b4d918f0af",
+			"code": "E03"
+		},
+		{
+			"id": "daf5ccb3-1021-49ca-b19f-b2a3e0d47ed5",
+			"lib": "Prévoir des scénarios de déplacements massifs de populations et identifier des sites d’accueil temporaires sûrs, accessibles et compatibles avec les normes minimales en santé, WASH et protection.",
+			"pilier_id": "26c1acd3-f18a-446b-8593-8b22c47a9229",
+			"code": "E01"
+		},
+		{
+			"id": "c213401b-6928-4d4b-a8bd-c3372c646741",
+			"lib": "Mettre en place des procédures pour l’enregistrement, l’orientation, l’évaluation rapide des besoins et l’organisation des services essentiels dans les sites d’accueil et communautés hôtes.",
+			"pilier_id": "26c1acd3-f18a-446b-8593-8b22c47a9229",
+			"code": "E02"
+		},
+		{
+			"id": "d803f74b-b858-474d-8f8c-dddc00180ead",
+			"lib": "Prévoir des mécanismes de coordination avec les autorités locales et les partenaires pour éviter la surpopulation, les tensions communautaires et la dégradation des conditions sanitaires sur les sites.",
+			"pilier_id": "26c1acd3-f18a-446b-8593-8b22c47a9229",
+			"code": "E03"
+		},
+		{
+			"id": "0b7e1695-34fc-4fb3-80da-f6a5751b9f78",
+			"lib": "Identifier les groupes les plus exposés aux risques de protection, notamment enfants, femmes, personnes âgées, personnes vivant avec handicap, déplacés, survivants de violences et ménages extrêmement vulnérables.",
+			"pilier_id": "56b9746d-c7c5-40d2-81e6-3a42e8a42068",
+			"code": "E01"
+		},
+		{
+			"id": "d556425e-f83d-42d3-b7e9-73f4d663c6e5",
+			"lib": "Prévoir des mesures spécifiques de protection, de référencement, d’assistance et de continuité des services pour les groupes vulnérables en contexte de conflit.",
+			"pilier_id": "56b9746d-c7c5-40d2-81e6-3a42e8a42068",
+			"code": "E02"
+		},
+		{
+			"id": "373dfe9f-8910-45a3-9591-57ca9a413028",
+			"lib": "Intégrer la prévention des violences, y compris les violences basées sur le genre, l’exploitation, les abus et les séparations familiales, dans tous les dispositifs de préparation et de riposte.",
+			"pilier_id": "56b9746d-c7c5-40d2-81e6-3a42e8a42068",
+			"code": "E03"
+		},
+		{
+			"id": "7b76f0fd-b515-4ecb-9b34-c58bf2501c37",
+			"lib": "Renforcer la surveillance des maladies prioritaires, des traumatismes, de la malnutrition, des violences et des événements de santé publique dans les zones affectées par les conflits et déplacements.",
+			"pilier_id": "622daf51-0620-4000-8466-52994797f93c",
+			"code": "E01"
+		},
+		{
+			"id": "9edd8577-05b7-498f-ac89-653e1b87ae34",
+			"lib": "Mettre en place des mécanismes de surveillance communautaire et d’alerte rapide capables de fonctionner malgré l’insécurité, les déplacements et les ruptures d’accès.",
+			"pilier_id": "622daf51-0620-4000-8466-52994797f93c",
+			"code": "E02"
+		},
+		{
+			"id": "1f76d71a-a3dc-40a5-9836-dce60f1ca87f",
+			"lib": "Assurer la disponibilité d’outils de notification, de définitions de cas et de procédures d’investigation adaptées aux contextes fragiles et instables.",
+			"pilier_id": "622daf51-0620-4000-8466-52994797f93c",
+			"code": "E03"
+		},
+		{
+			"id": "38b10185-6233-446b-b6f3-cc38734469e2",
+			"lib": "Identifier les structures de santé exposées à l’insécurité, aux pillages, aux déplacements de personnel ou à l’interruption des services, et prévoir des mesures de protection et d’adaptation.",
+			"pilier_id": "1ebd9670-d784-4223-89b8-444a1d0224ed",
+			"code": "E01"
+		},
+		{
+			"id": "22216653-748b-4156-b7ff-7a18213c7e6d",
+			"lib": "Prévoir des stratégies de continuité des services essentiels, y compris Equipes mobiles, sites alternatifs, références adaptées et prépositionnement des intrants dans les zones à risque.",
+			"pilier_id": "1ebd9670-d784-4223-89b8-444a1d0224ed",
+			"code": "E02"
+		},
+		{
+			"id": "72a3f45a-ff30-4d58-b9e5-867809570555",
+			"lib": "Mettre en place des mesures de sécurité, de soutien et de rétention du personnel de santé travaillant dans les zones affectées par les conflits.",
+			"pilier_id": "1ebd9670-d784-4223-89b8-444a1d0224ed",
+			"code": "E03"
+		},
+		{
+			"id": "c87fab5a-335c-4f05-b670-cae3c819d12a",
+			"lib": "Identifier les contraintes d’accès liées à l’insécurité, aux restrictions de mouvement, aux routes coupées et aux contrôles armés, et prévoir des options logistiques adaptées.",
+			"pilier_id": "f4d6abe4-ec39-4426-bd32-360902a86128",
+			"code": "E01"
+		},
+		{
+			"id": "86e68169-b1d0-4935-97ca-205a738eb968",
+			"lib": "Prépositionner les intrants sanitaires, nutritionnels, WASH et de protection dans des sites sécurisés et accessibles avant les dégradations majeures du contexte.",
+			"pilier_id": "f4d6abe4-ec39-4426-bd32-360902a86128",
+			"code": "E02"
+		},
+		{
+			"id": "b65d749a-5ed5-4f61-a0fc-964517f15d64",
+			"lib": "Mettre en place des mécanismes de suivi des stocks, de réapprovisionnement rapide et de coordination logistique avec les acteurs humanitaires et les autorités compétentes.",
+			"pilier_id": "f4d6abe4-ec39-4426-bd32-360902a86128",
+			"code": "E03"
+		},
+		{
+			"id": "7333d952-e3dd-470c-a0c8-4fe22b2528b7",
+			"lib": "Déployer une stratégie de communication adaptée aux contextes de conflit pour diffuser des informations fiables sur la sécurité, l’accès aux soins, les déplacements et les services disponibles.",
+			"pilier_id": "eaf54967-33b1-44da-a555-b680c7ef1b91",
+			"code": "E01"
+		},
+		{
+			"id": "b054cfba-1c96-4376-8186-1c4265153524",
+			"lib": "Mettre en place des mécanismes d’écoute, de retour d’information et de gestion des rumeurs afin de renforcer la confiance et d’orienter la réponse.",
+			"pilier_id": "eaf54967-33b1-44da-a555-b680c7ef1b91",
+			"code": "E02"
+		},
+		{
+			"id": "93a45758-dfa0-413d-aae0-c5ce55dfb7e9",
+			"lib": "Impliquer les leaders communautaires, structures locales, femmes, jeunes et acteurs de proximité dans la prévention, l’alerte et la cohésion sociale.",
+			"pilier_id": "eaf54967-33b1-44da-a555-b680c7ef1b91",
+			"code": "E03"
+		},
+		{
+			"id": "ac7e5b86-f4f0-4348-b250-0194579d19c2",
+			"lib": "Intégrer la santé mentale et le soutien psychosocial dans la préparation et la riposte aux conflits, en tenant compte des traumatismes, pertes, violences et déplacements subis par les populations.",
+			"pilier_id": "ac494ff6-1d2c-49b7-bdd5-184300ba8676",
+			"code": "E01"
+		},
+		{
+			"id": "99a43bf4-f62f-4916-a82e-8a235e244583",
+			"lib": "Former le personnel de santé, les travailleurs sociaux et les relais communautaires à l’identification, au soutien initial et au référencement des personnes ayant des besoins psychosociaux ou psychiatriques.",
+			"pilier_id": "ac494ff6-1d2c-49b7-bdd5-184300ba8676",
+			"code": "E02"
+		},
+		{
+			"id": "9e9e6698-59f6-4226-a5f0-332241d3d016",
+			"lib": "Prévoir des services accessibles de soutien psychosocial pour les survivants de violences, les enfants, les familles déplacées et les agents de première ligne.",
+			"pilier_id": "ac494ff6-1d2c-49b7-bdd5-184300ba8676",
+			"code": "E03"
+		},
+		{
+			"id": "9b4b2678-025c-4076-b2b1-0e5e3f5082ff",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte aux risques sociaux de type conflits couvrant coordination, santé, protection, logistique, communication, soutien psychosocial et relèvement.",
+			"pilier_id": "bafdff59-6dd5-404c-851f-711747c96e2c",
+			"code": "E01"
+		},
+		{
+			"id": "486218e3-f5b3-41b1-8b01-448ccb645ac9",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour répondre aux chocs sécuritaires, déplacements soudains et interruptions de services.",
+			"pilier_id": "bafdff59-6dd5-404c-851f-711747c96e2c",
+			"code": "E02"
+		},
+		{
+			"id": "1353ee19-5e52-4770-94ca-e889a26ff318",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses engagées dans les zones affectées par les conflits.",
+			"pilier_id": "bafdff59-6dd5-404c-851f-711747c96e2c",
+			"code": "E03"
+		},
+		{
+			"id": "85105c7c-bc8b-413f-83be-08cdfdb51f7a",
+			"lib": "Prévoir des actions de relèvement rapide permettant de rétablir progressivement les services essentiels, les moyens de subsistance et la fonctionnalité des structures communautaires dans les zones affectées.",
+			"pilier_id": "034c583a-5954-4c99-9345-90b867e6814e",
+			"code": "E01"
+		},
+		{
+			"id": "8e8e9b78-02bb-415d-a9b9-dccccaf7e112",
+			"lib": "Intégrer des approches de cohésion sociale, de dialogue communautaire, de prévention des tensions et de résilience locale dans les plans de relèvement.",
+			"pilier_id": "034c583a-5954-4c99-9345-90b867e6814e",
+			"code": "E02"
+		},
+		{
+			"id": "4d8393e7-fd4c-4153-9111-cbe07d6dfe99",
+			"lib": "Organiser des revues après action, documenter les leçons apprises et renforcer durablement les capacités institutionnelles et communautaires face aux conflits récurrents.",
+			"pilier_id": "034c583a-5954-4c99-9345-90b867e6814e",
+			"code": "E03"
+		}
+	]
+}

@@ -1,575 +1,575 @@
 {
 	"menace": {
-		"id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
-		"lib": "Etat de préparation à faire face à la maladie à virus Ebola (MVE)",
+		"id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
+		"lib": "MVE",
 		"groupe": "Biologiques",
 		"axe": "Global"
 	},
 	"piliers": [
 		{
-			"id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"lib": "Coordination",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P01"
 		},
 		{
-			"id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"lib": "Equipe d'intervention rapide",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P02"
 		},
 		{
-			"id": "abe2868c-c82b-4a45-8a66-20a66672152e",
+			"id": "ca3e382c-222b-4386-9d80-8bebf61a187b",
 			"lib": "Sensibilisation du public et mobilisation communautaire",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P03"
 		},
 		{
-			"id": "9950fa97-f02a-4043-a218-a9e2a588caea",
+			"id": "369d1b04-a245-4307-9fef-719d340e3da3",
 			"lib": "Prévention et lutte contre l'infection",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P04"
 		},
 		{
-			"id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"lib": "Prise en charge des cas",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P05"
 		},
 		{
-			"id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"lib": "Prise en charge des cas: inhumations sans danger dans la dignité",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P06"
 		},
 		{
-			"id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"lib": "Surveillance épidémiologique",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P07"
 		},
 		{
-			"id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"lib": "Recherche de contacts",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P08"
 		},
 		{
-			"id": "ef86884c-5947-46e0-9a56-caa8f33c3916",
+			"id": "e19c30ac-bf7c-4b45-949b-7b54d89c87aa",
 			"lib": "Laboratoire",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P09"
 		},
 		{
-			"id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"lib": "Voyage / Points d’entrée",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P10"
 		},
 		{
-			"id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"lib": "Budget",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P11"
 		},
 		{
-			"id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"lib": "Logistique",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P12"
 		},
 		{
-			"id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"lib": "Prévention de l’exploitation, des abus et du harcèlement sexuels (EAS/HS) et violences basées sur le genre",
-			"menace_id": "6a2c2050-1760-40b9-b29c-f81f55c4f2ca",
+			"menace_id": "d2835c31-d119-4380-a5f9-70e8c5cd9059",
 			"code": "P13"
 		}
 	],
 	"exigences": [
 		{
-			"id": "5e2da2a1-529c-46b7-84ed-6d25d98e40a5",
+			"id": "8bd77289-37ed-4a28-8887-0d948c3301c9",
 			"lib": "Mettre en place des plans et des procédures cohérents pour la coordination et la gestion des incidents, y compris des liens entre le centre des opérations sanitaires d’urgence (EOC) et les structures nationales de gestion des catastrophes. Au minimum, cela devrait recouvrir : les mandats et les organigrammes aux niveaux stratégique, opérationnel et tactique de la coordination et de la gestion ; les voies de communication au sein de l’EOC/IMS, et entre l’EOC/IMS, les partenaires et le public ; la coordination du soutien des donateurs au niveau national.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E01"
 		},
 		{
-			"id": "3c7480be-5f2e-455e-a36b-66597bb012fd",
+			"id": "0c954f2b-b027-4d74-8c15-de9eabe0c1a0",
 			"lib": "Tester la coordination et les aspects opérationnels au moyen d’exercices de simulation et de tests de compétences.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E02"
 		},
 		{
-			"id": "c24e807c-6ba6-4582-8c39-a776fab22d01",
+			"id": "272d1b53-7559-4f51-965b-5de7f5232d95",
 			"lib": "Veiller à ce que des plans d’urgence existent et soient pleinement budgétés.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E03"
 		},
 		{
-			"id": "0b53acb0-07ce-4af6-8289-887ba2fdf332",
+			"id": "679a6f84-f461-40e8-95bf-9bd77123400b",
 			"lib": "Examiner les politiques et la législation en vigueur afin de s’assurer qu’elles autoriseront les mesures de préparation proposées.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E04"
 		},
 		{
-			"id": "93f8fb50-f722-43c5-af03-215b99f06f05",
+			"id": "9981a95e-9667-4cdc-bdf3-6386d9b3c616",
 			"lib": "Identifier les membres du Comité/groupe spécial Ebola au niveau national/provincial et dans les zones de santé et les informer de leurs fonctions.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E05"
 		},
 		{
-			"id": "5849f22e-9c64-415a-b3fa-7bbc3685d4b8",
+			"id": "537061c5-3a3a-4f4c-bf01-bea243bad291",
 			"lib": "Identifier, former et désigner des responsables des incidents/responsables opérationnels habilités à prendre les décisions opérationnelles.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E06"
 		},
 		{
-			"id": "7a97e6ab-a4b2-412d-9100-9b7d3cdc266a",
+			"id": "df833f8e-4ef2-429d-9152-1e8face2dced",
 			"lib": "Mettre en place du personnel COUSP/IMS au niveau infranational ou dans les zones de santé pour assurer une coordination et une gestion localisées",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E07"
 		},
 		{
-			"id": "b41eed5c-0f35-4b98-a4eb-26c0e4f63042",
+			"id": "a4bbb000-b767-4cba-bd79-ac7e50aa1435",
 			"lib": "Mettre en place un comité/un groupe spécial Ebola multisectoriel et opérationnel au niveaux national et infranational et dans les zones de santé.",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E08"
 		},
 		{
-			"id": "cd4ec170-c17b-4f81-bf3a-d607d68e3057",
+			"id": "921d2e87-bc7d-4f5d-98db-3d6f25ad9fbf",
 			"lib": "Trouver un site physique pour le centre des opérations sanitaires d’urgence (COUSP).",
-			"pilier_id": "b158d921-5a7f-4bb5-8250-f5a33a19f3c0",
+			"pilier_id": "81374c76-6139-419c-bc18-43e2061755c0",
 			"code": "E09"
 		},
 		{
-			"id": "ab95ae1b-1bd0-423c-a888-3adc16333fb6",
+			"id": "0fce140b-9a23-4838-9730-3b9b5a4c3d13",
 			"lib": "Désigner et affecter un(des) chef(s) et des membres appartenant à différentes disciplines. Fournir le matériel à l’Equipe, y compris une ambulance pouvant être déployée sous 24 heures.",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E01"
 		},
 		{
-			"id": "fe2b253a-7380-4628-8d91-3a6a58c6ff71",
+			"id": "4ac61218-b0ef-427c-92bf-f606d4144ad5",
 			"lib": "Définir clairement les responsabilités pour l’activation et la coordination de l’EIR face à des cas de MVE potentiels",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E02"
 		},
 		{
-			"id": "a3971113-1ded-44f3-ae1a-0d9a6b0471b7",
+			"id": "d0c21e59-cc7b-4104-8f5f-8ca1466b385c",
 			"lib": "Former comme il convient les EIR, y compris pour la prise en charge des cas, le prélèvement et le transport des échantillons, la recherche des contacts, la décontamination, les investigations sur les flambées et la mobilisation sociale.",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E03"
 		},
 		{
-			"id": "b787bd86-b97a-4165-980e-5a4e4175160b",
+			"id": "f88297a6-68fe-4fa3-9239-972ba0b6627a",
 			"lib": "Former l’EIR infranationale à la surveillance et à la recherche des contacts.",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E04"
 		},
 		{
-			"id": "32540eed-b899-4c6b-9323-7a0328067716",
+			"id": "946909d6-ca1d-47ed-aa02-0bde99637871",
 			"lib": "Recenser les établissements de santé du district qui sont prêts à la survenue éventuelle de cas de MVE.",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E05"
 		},
 		{
-			"id": "5900ad9f-9c22-493c-8bef-04604bce4354",
+			"id": "9370668d-fc25-45ac-ad16-d3d90ffb4152",
 			"lib": "Si 60 jours sont passés sans cas de MVE dans le pays, mener au moins un exercice de simulation en vue de maintenir la capacité des EIR à répondre rapidement.",
-			"pilier_id": "44d032f0-53bf-4f34-8e11-e330578dad61",
+			"pilier_id": "c1867818-9506-40ae-aec9-50a22863f07a",
 			"code": "E06"
 		},
 		{
-			"id": "22d62b9b-522a-46de-bff7-4fb145998628",
+			"id": "e3f8f9e1-fe97-4c9d-a4a1-638279e5bf77",
 			"lib": "Élaborer une stratégie, un plan et un budget complets pour la collaboration avec les médias et le public (y compris une approche renforcée). Recenser les principaux canaux de communication et les principales rumeurs et en assurer un suivi.",
-			"pilier_id": "abe2868c-c82b-4a45-8a66-20a66672152e",
+			"pilier_id": "ca3e382c-222b-4386-9d80-8bebf61a187b",
 			"code": "E01"
 		},
 		{
-			"id": "28d562df-f41f-44e9-bf93-536ec529cbf4",
+			"id": "8b71d661-3758-4d20-a26c-3d66fb7ae6f7",
 			"lib": "Mettre en place un mécanisme opérationnel de coordination de la communication en vue de mobiliser l’ensemble des parties prenantes, y compris les organisations de la société civile, les ONG et la communauté. Recenser et former les porte-paroles/ acteurs clé/mobilisateurs, par exemple les chefs religieux, les politiciens ou les guérisseurs traditionnels, ainsi que les médias, en zone urbaine et en zone rurale.",
-			"pilier_id": "abe2868c-c82b-4a45-8a66-20a66672152e",
+			"pilier_id": "ca3e382c-222b-4386-9d80-8bebf61a187b",
 			"code": "E02"
 		},
 		{
-			"id": "fe0d4cdd-400d-49c2-b30f-a6a14a5befb0",
+			"id": "27c82e51-d850-4c31-b7ab-edaa6194bcc3",
 			"lib": "Élaborer une stratégie et un plan de communication sur les risques. Recenser les capacités de communication et les compétences en la matière, dans le secteur de la santé publique et dans les autres secteurs.",
-			"pilier_id": "abe2868c-c82b-4a45-8a66-20a66672152e",
+			"pilier_id": "ca3e382c-222b-4386-9d80-8bebf61a187b",
 			"code": "E03"
 		},
 		{
-			"id": "bee5b108-4132-4b46-b7da-fda645c3af0d",
+			"id": "c7640291-51c9-488f-890e-affe78df46b5",
 			"lib": "Mettre au point ou adapter, revoir, traduire dans les langues locales et diffuser des messages ciblés à l’intention des médias, du personnel soignant, des dirigeants locaux et chefs traditionnels, des églises, des écoles, des tradipraticiens et d’autres parties prenantes dans la communauté",
-			"pilier_id": "abe2868c-c82b-4a45-8a66-20a66672152e",
+			"pilier_id": "ca3e382c-222b-4386-9d80-8bebf61a187b",
 			"code": "E04"
 		},
 		{
-			"id": "7ddd9a5a-3519-468d-8e27-25bc994c81b8",
+			"id": "7e7adf13-7103-4b80-84fb-c4071d128df5",
 			"lib": "Renforcer la présence de lignes directrices et modes opératoires normalisés sur la prévention et la lutte contre l’infection dans tous les établissements de santé",
-			"pilier_id": "9950fa97-f02a-4043-a218-a9e2a588caea",
+			"pilier_id": "369d1b04-a245-4307-9fef-719d340e3da3",
 			"code": "E01"
 		},
 		{
-			"id": "fb7e9068-93cc-4bcd-ae62-7f06517363cd",
+			"id": "c73afbf6-0f4e-4175-b4f7-0e735759bef1",
 			"lib": "Fournir aux établissements de santé des moyens en matière d’hygiène de base, d’assainissement, de désinfection, d’EPI, ainsi que des services comme l’eau courante et l’électricité. La priorité doit être donnée aux hôpitaux, puis aux centres de santé des districts prioritaires.",
-			"pilier_id": "9950fa97-f02a-4043-a218-a9e2a588caea",
+			"pilier_id": "369d1b04-a245-4307-9fef-719d340e3da3",
 			"code": "E02"
 		},
 		{
-			"id": "64365ffd-a8c5-47c9-af1e-b29a9b39f7cb",
+			"id": "411b4146-ae3c-4071-a5fc-7ff749d9d6d5",
 			"lib": "Equiper et former convenablement le personnel soignant, y compris le personnel chargé de la santé environnementale, les hygiénistes et le personnel de nettoyage, en leur présentant les mesures d’IPC et procédures de gestion des déchets supplémentaires, priorité étant donnée à ceux qui entrent les premiers en contact avec les malades",
-			"pilier_id": "9950fa97-f02a-4043-a218-a9e2a588caea",
+			"pilier_id": "369d1b04-a245-4307-9fef-719d340e3da3",
 			"code": "E03"
 		},
 		{
-			"id": "f901e09c-52ce-44cd-85ec-82eafa5b8d71",
+			"id": "ba0e180c-9a76-4dd7-9266-6b9edb111541",
 			"lib": "Identifier et Equiper des structures de soins afin de mettre en place des unités d’isolement de base (2 lits) pour les cas de MVE potentiels, dans les hôpitaux régionaux et de district et dans tous les points d’entrée désignés.",
-			"pilier_id": "9950fa97-f02a-4043-a218-a9e2a588caea",
+			"pilier_id": "369d1b04-a245-4307-9fef-719d340e3da3",
 			"code": "E04"
 		},
 		{
-			"id": "35af587a-55bd-478b-8287-07c0f672df17",
+			"id": "56957eec-4bde-416c-8da1-dcf2c71406b1",
 			"lib": "Désigner et mettre sur pied au moins un établissement disposant de fournitures suffisantes et d’une ou plusieurs salles d’isolement qui soit prêt à dispenser des soins à un cas ou un groupe de cas suspects de MVE.",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E01"
 		},
 		{
-			"id": "954cde4c-fb6d-4de0-bceb-d2863e952d60",
+			"id": "29a9f0a0-8775-426a-aa42-8ce88154429f",
 			"lib": "Recenser et faire appliquer tous les modes opératoires normalisés (MON) relatifs à la logistique (achats, mobilisation des stocks, transport des échantillons, utilisation des télécommunications, assistance et maintenance des structures, mobilisation des ressources pour le transport et gestion de la sécurité).",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E02"
 		},
 		{
-			"id": "03644b32-fa2c-48e2-8bec-5c9a16b35afc",
+			"id": "502824e7-78cd-4afb-ae15-4a3138cedb22",
 			"lib": "Recenser le personnel clinique et le former à la prise en charge des cas de MVE et aux mesures d’IPC supplémentaires, si possible en faisant appel à des cliniciens expérimentés.",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E03"
 		},
 		{
-			"id": "c30d682a-7952-4c27-aad9-7ae8c4bce6fd",
+			"id": "f55354b9-df44-4922-8e17-26565728a0f8",
 			"lib": "Equiper et former convenablement les Equipes d’ambulanciers pour le transport des cas suspects de MVE",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E04"
 		},
 		{
-			"id": "d9f52233-b9b0-4d7a-9045-056462fd913b",
+			"id": "f26252a0-85c0-49cd-9e87-3c81c0147a42",
 			"lib": "Recenser les établissements de soins au niveau du district pouvant être transformés en peu de temps en CTE.",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E05"
 		},
 		{
-			"id": "20236d84-ec4f-47fe-bbe5-96ef90d70920",
+			"id": "a08d2a74-b67c-49f4-9fc3-7a117794c824",
 			"lib": "Recenser les établissements de soins au niveau local pouvant être transformés en peu de temps en CTE.",
-			"pilier_id": "0c07771f-3cb0-4570-9abb-1e14802e6ae7",
+			"pilier_id": "e05483e4-bf52-405e-8137-3ec27d279783",
 			"code": "E06"
 		},
 		{
-			"id": "399971c4-d6a7-40fb-b756-011176367c69",
+			"id": "8f82c4a7-ae77-4ca6-ab40-023c301ce4f4",
 			"lib": "Mettre au point des MON pour l’inhumation sans risque et dans la dignité, et pour la décontamination.",
-			"pilier_id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"pilier_id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"code": "E01"
 		},
 		{
-			"id": "ace2ca06-a82f-4c83-84cd-45e5fd2b335b",
+			"id": "b7ff7bbe-2a9a-436f-912b-4f5d2d205db4",
 			"lib": "Equiper et former au moins une Equipe d’inhumation (4 personnes pour transporter les corps, 1 agent de désinfection, 1 personne chargée de la communication avec la communauté, 1 superviseur, 1 chauffeur).",
-			"pilier_id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"pilier_id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"code": "E02"
 		},
 		{
-			"id": "83abba37-8c22-4776-8a7f-d3fa828923be",
+			"id": "6172cb79-4ab1-46ca-8989-3bf58be79d6d",
 			"lib": "S’assurer de l’existence d’une procédure de transport spéciale pour inhumer sans risque les restes humains.",
-			"pilier_id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"pilier_id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"code": "E03"
 		},
 		{
-			"id": "520e979c-16f3-4f0a-9338-b83fd833e56d",
+			"id": "99c09d96-c752-4172-a028-921952a514b7",
 			"lib": "S’assurer que, pendant l’enterrement, les Equipes d’inhumation reçoivent l’aide de creuseurs de tombe et bénéficient d’un appui sur le plan de la sécurité.",
-			"pilier_id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"pilier_id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"code": "E04"
 		},
 		{
-			"id": "52b35d01-ba15-478d-acd9-eeb26be1f919",
+			"id": "7e8e4e76-a90e-4fd6-a83f-42374cacefbf",
 			"lib": "Identifier un lieu d’inhumation sûr et approprié avec l’accord de la communauté.",
-			"pilier_id": "464c923d-a075-4ac2-a80e-898e81748e85",
+			"pilier_id": "5dfa8266-6cbc-45e2-9e19-fcf324c0aa7e",
 			"code": "E05"
 		},
 		{
-			"id": "c13d3838-491a-42f4-9bf9-744e2936894b",
+			"id": "5663d9a2-6c14-4723-b81a-70f371e25e25",
 			"lib": "Mettre en place une ligne 24h/24, 7j/7 ou s’assurer que les numéros d’urgence existants peuvent prendre en charge les alertes. Former le personnel aux processus d’alerte et aux demandes d’information relatives à la MVE. Veiller à ce qu’un personnel suffisant soit disponible pour le travail posté, et avoir un plan pour le renforcer si besoin.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E01"
 		},
 		{
-			"id": "0e8c342a-e185-4e12-ad96-f8d0eccf0bd5",
+			"id": "df59ca65-0351-45d4-a47f-0fdcbd1031a7",
 			"lib": "Fournir des orientations (lignes directrices, définitions de cas et formulaires d’investigation) à tous les niveaux du système de soins, en les adaptant aux besoins.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E02"
 		},
 		{
-			"id": "1dd6c4e9-b258-4ed0-a70d-00ebd8834f75",
+			"id": "1f22ecbf-5f71-45e6-87e7-24d83adb55fb",
 			"lib": "Dispenser une formation spéciale sur l’utilisation des définitions de cas de MVE et des formulaires d’investigation.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E03"
 		},
 		{
-			"id": "3f07c23c-e43f-4896-b41d-2bab3530e9d0",
+			"id": "e35a3268-071d-438d-834b-ff533a033b38",
 			"lib": "Veiller à ce qu’un système de surveillance fondé sur les événements soit en place et permette de suivre en temps opportun les informations/rumeurs de toutes origines (communauté, médias, etc.).",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E04"
 		},
 		{
-			"id": "c3df0d33-4971-471c-993e-30a7f4ca8725",
+			"id": "013bc5b4-8ace-4f76-be1f-7a4ab6d863f6",
 			"lib": "Mettre en place des lignes de notification immédiate pour les cas potentiels de MVE (vivants ou décédés), avec une définition claire des responsabilités pour ces actions.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E05"
 		},
 		{
-			"id": "f153f7af-984d-4b15-a76a-7468186db5ef",
+			"id": "a4e243bd-1746-436e-b778-8af9473ef181",
 			"lib": "Tester les systèmes de surveillance de la MVE existants, recenser les lacunes et prendre des mesures correctives le cas échéant.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E06"
 		},
 		{
-			"id": "54b84403-5350-4069-891e-ffd21b3121c1",
+			"id": "bb0c0c13-bbfd-4e57-96f2-9fa3e0917e97",
 			"lib": "Identifier les ressources humaines pour la surveillance communautaire (agents de santé communautaires, bénévoles, ONG, tradipraticiens, chefs communautaires, etc.).",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E07"
 		},
 		{
-			"id": "bf960684-4474-423a-862a-2005813ac1cf",
+			"id": "7091c663-0273-4b76-9fdf-f66fac8deb84",
 			"lib": "Diffuser des définitions de cas simplifiées à l’usage des communautés.",
-			"pilier_id": "d8c67267-f3f4-4c56-810c-9cb1255ce053",
+			"pilier_id": "3fe54a0d-0254-4aa3-bf82-e49f74d73335",
 			"code": "E08"
 		},
 		{
-			"id": "f0688318-3ec4-4bb3-8962-d0a58e0cc84c",
+			"id": "429ea7e5-0506-4a8e-b739-9d013e427ff0",
 			"lib": "Diffuser les lignes directrices et les MON sur la recherche des contacts aux niveaux national et infranational.",
-			"pilier_id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"pilier_id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"code": "E01"
 		},
 		{
-			"id": "8e1cc074-3953-4822-901d-b89b3854360a",
+			"id": "e193134c-510d-401a-81a0-a1cc120c729e",
 			"lib": "Former au moins une Equipe nationale à la recherche des contacts et la gestion des données.",
-			"pilier_id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"pilier_id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"code": "E02"
 		},
 		{
-			"id": "bcddffe9-ad7b-4204-b9b4-553b2ba74279",
+			"id": "e1465ead-e812-4b29-b8da-05a29d86edbb",
 			"lib": "Mettre en place/renforcer le système de gestion de données pour la recherche des contacts des cas de MVE aux niveaux national et infranational.",
-			"pilier_id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"pilier_id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"code": "E03"
 		},
 		{
-			"id": "b6b8f837-3a32-4d9e-916b-b01789e5052a",
+			"id": "98e3d2c3-0ed7-4146-a7b1-e8d9509feca9",
 			"lib": "Former le personnel de district à la recherche des contacts.",
-			"pilier_id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"pilier_id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"code": "E04"
 		},
 		{
-			"id": "e00d84c0-424b-4b03-8e5d-d5b4cf0a001f",
+			"id": "67b9358f-b05e-427c-9fe6-e05e8292f926",
 			"lib": "Former le personnel des sous-districts et le personnel communautaire à la recherche des contacts et trouver pour chaque zone un vivier local de chercheurs de contacts.",
-			"pilier_id": "ba7960e0-0a5f-4e85-b4e8-a60b58a2f32a",
+			"pilier_id": "a974e680-3895-4509-a5b3-33cf4205c3e1",
 			"code": "E05"
 		},
 		{
-			"id": "ca7d282a-a1da-422d-b5ca-8210a264dca6",
+			"id": "009bb73c-b3d3-48c0-9d95-23e1205e9943",
 			"lib": "Mettre en place un laboratoire de référence national pour l’analyse ou la manipulation des échantillons biologiques et s’assurer que les procédures de transfert vers ces structures sont connues au niveau infranational.",
-			"pilier_id": "ef86884c-5947-46e0-9a56-caa8f33c3916",
+			"pilier_id": "e19c30ac-bf7c-4b45-949b-7b54d89c87aa",
 			"code": "E01"
 		},
 		{
-			"id": "474c6636-fe96-4498-830d-d49754c74115",
+			"id": "6ff0aace-4c55-48a0-99a5-a0d278d75f16",
 			"lib": "Élaborer des protocoles pour la collecte d’échantillons sur des cas de MVE potentiels et leur expédition vers un laboratoire de référence désigné, pour confirmation au niveau national ou international. Distribuer le triple emballage et en reconstituer les stocks.",
-			"pilier_id": "ef86884c-5947-46e0-9a56-caa8f33c3916",
+			"pilier_id": "e19c30ac-bf7c-4b45-949b-7b54d89c87aa",
 			"code": "E02"
 		},
 		{
-			"id": "72821076-2800-4d5e-badd-577bf272fbbf",
+			"id": "ec2bba1d-19db-4e99-8ef2-5b9a05abe7f3",
 			"lib": "Veiller à ce que le personnel de laboratoire soit formé aux procédures de sécurité et à l’IPC en ce qui concerne la collecte des échantillons, l’emballage, l’étiquetage, le transfert et l’expédition, y compris à la certification pour la manipulation des matières infectieuses.",
-			"pilier_id": "ef86884c-5947-46e0-9a56-caa8f33c3916",
+			"pilier_id": "e19c30ac-bf7c-4b45-949b-7b54d89c87aa",
 			"code": "E03"
 		},
 		{
-			"id": "1817eac2-edd5-4767-881e-f0ad1e41d078",
+			"id": "a778581d-c366-46e7-8cba-0ef46f84c979",
 			"lib": "Mettre en place des arrangements prévisionnels et veiller à ce que des accords soient en place avec les centres collaborateurs de l’OMS, pour les tests de confirmation, et avec les compagnies aériennes concernées, pour l’expédition internationale des échantillons.",
-			"pilier_id": "ef86884c-5947-46e0-9a56-caa8f33c3916",
+			"pilier_id": "e19c30ac-bf7c-4b45-949b-7b54d89c87aa",
 			"code": "E04"
 		},
 		{
-			"id": "c9cd7412-7bf0-4899-a127-17fd5afd4318",
+			"id": "379fca13-23a6-4f0d-9a00-ecc968ce2e61",
 			"lib": "S’assurer qu’un plan d’urgence soit en place au point d’entrée désigné (aéroports, ports et postes-frontières).",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E01"
 		},
 		{
-			"id": "6ec70577-ddf5-4b5d-96d3-2c662ea9a912",
+			"id": "fa457be2-560a-494d-a176-306b689fedb4",
 			"lib": "Recenser des établissements de soins de référence pour chaque point d’entrée et élaborer un MON pour identifier, prendre en charge et aiguiller en toute sécurité les cas de MVE potentiels depuis le point d’entrée vers un hôpital ou un site d’isolement désigné, en identifiant les services d’ambulance.",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E02"
 		},
 		{
-			"id": "954a468a-489c-434c-a66e-31733f98583d",
+			"id": "5f16c10e-3987-410f-b4f9-f31de081616a",
 			"lib": "Désigner des Equipes qualifiées, proportionnelles au volume et à la fréquence des voyageurs, chargées de détecter, d’évaluer et de prendre correctement en charge les cas potentiels de MVE en suivant les procédures adaptées en matière d’IPC.",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E03"
 		},
 		{
-			"id": "39f1e0bc-f04c-4baf-a70e-c4960407d302",
+			"id": "c343c46a-7d5e-48b9-b959-2f25839c43d9",
 			"lib": "Élaborer un MON pour la mise en place d’un dépistage à la sortie dans l’éventualité d’un cas confirmé de MVE.",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E04"
 		},
 		{
-			"id": "e0073adb-fb01-4ace-bb76-a5db77a3d64d",
+			"id": "09f1e0a9-2d0c-48a7-b9f8-76b198446f73",
 			"lib": "Veiller à ce que chaque point d’entrée ait immédiatement accès au matériel et aux fournitures (EPI, thermomètres infrarouge, produits de désinfection et de nettoyage, structures d’observation/d’isolement et ambulance, selon la localisation).",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E05"
 		},
 		{
-			"id": "d4e049f9-bacc-4690-a9d7-0fc98afcee88",
+			"id": "ba1d294c-544b-403f-a745-6941282d5926",
 			"lib": "Examiner et tester les systèmes de communication actuels entre les autorités sanitaires au point d’entrée et les opérateurs de transport, et entre ces autorités et les systèmes de surveillance sanitaire nationaux.",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E06"
 		},
 		{
-			"id": "8c348f53-ce3a-4d31-8245-7cafbe3a2eb4",
+			"id": "53f46f3a-f986-478b-a0ad-369359c05e82",
 			"lib": "Sensibiliser à la MVE les autorités de santé publique et les parties prenantes au point d’entrée, examiner leurs rôles et leurs procédures de gestion des cas de MVE potentiels, et souligner que les opérateurs de transport doivent immédiatement notifier les cas suspects de MVE aux autorités sanitaires du point d’entrée.",
-			"pilier_id": "6706eea6-639c-4411-a354-c825e49b35b9",
+			"pilier_id": "b6ac0878-2096-46f3-82e3-eea7b0aeeb79",
 			"code": "E07"
 		},
 		{
-			"id": "1a2b02df-f45b-4354-845d-6ddadcd10031",
+			"id": "167306c0-8475-4198-81fa-cc94f4fd3cb3",
 			"lib": "Définir un budget opérationnel pour les activités (communication, surveillance renforcée, investigation, etc.), le dépistage pré-épidémique et les premières étapes de la riposte.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E01"
 		},
 		{
-			"id": "2d3c95e4-25bc-4466-8601-988bbe6ccf4c",
+			"id": "1c68a92c-bf65-4253-95e6-9bd0372ad1f3",
 			"lib": "Mettre en place, ou rendre facilement accessible, un fonds de réserve pour la riposte immédiate à la flambée au niveau national et en d’autres sites appropriés.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E02"
 		},
 		{
-			"id": "ad055ef5-8d4a-4de1-80cf-9a4d0e1764f3",
+			"id": "13e62a86-d195-40ac-bb1e-49a06cf42737",
 			"lib": "Déterminer le cadre juridique permettant de dépenser les fonds d’urgence et de les transférer du niveau central vers tous les sites identifiés en vue de leur usage en situation d’urgence.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E03"
 		},
 		{
-			"id": "3879775b-d175-435b-a54c-bbea188c2333",
+			"id": "ef3ee6eb-d7d1-4688-bc7d-411d3f9aba14",
 			"lib": "Faire bénéficier tous les travailleurs à risque d’un régime de rémunération et d’avantages recouvrant le traitement et des mesures incitatives pour les missions à haut risque ainsi que des indemnités en cas d’infection ou de décès.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E04"
 		},
 		{
-			"id": "742e7014-d689-41e8-a6bd-46f0f3d88ad5",
+			"id": "9793a270-4725-4341-b761-963aa6f8c950",
 			"lib": "Trouver des sources de financement, y compris l’allocation de ressources nationales et des mécanismes pour mobiliser des ressources supplémentaires si nécessaire, et s’assurer que les mécanismes d’accès aux sources de financement sont connus.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E05"
 		},
 		{
-			"id": "1cf7ca5a-38f4-40df-8274-cb31751e535e",
+			"id": "c2ee3b89-fcbc-4d06-93f3-589307089998",
 			"lib": "Élaborer des modèles pour la mobilisation des ressources et pour les rapports aux pays et aux donateurs, notamment des mécanismes pour suivre l’emploi des fonds.",
-			"pilier_id": "c1d74828-ed71-4099-85ca-c3cf153ee1b6",
+			"pilier_id": "6908472f-f2fb-45ce-8d60-94e8a89670b7",
 			"code": "E06"
 		},
 		{
-			"id": "5c376cef-56f8-4453-add4-98142d8133f3",
+			"id": "85bd4077-e494-4996-96a7-4ea6d59a9a7a",
 			"lib": "Mettre en oeuvre la composante logistique au niveau de la coordination nationale et infranationale de l’IMS, en vue de définir et de mettre en place tous les moyens demandés en se conformant au calendrier et aux normes de qualité stipulés.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E01"
 		},
 		{
-			"id": "8f22ae96-cea0-4277-b402-d2b01ade1619",
+			"id": "b7625fe0-8895-44c7-ad86-f17c6e549c47",
 			"lib": "Évaluer les capacités de stockage et le système de gestion des stocks en place, déterminer les stocks nécessaires pour toutes les composantes, et mettre en place si nécessaire un système de gestion des stocks efficient au niveau national et dans les districts.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E02"
 		},
 		{
-			"id": "465c5f59-cd94-4ea0-b67e-92f99e637aab",
+			"id": "c1e974ca-603e-4d95-af7e-d4a8f7a0aaa6",
 			"lib": "Identifier tous les moyens de transport nécessaires pour les biens et les personnes et veiller à ce qu’ils soient disponibles, en fonction des besoins et des exigences de sécurité, pour toutes les composantes. Au moins une ambulance doit être disponible et correctement préparée pour le transport des cas d’Ebola (le conducteur doit être formé aux spécificités de cette opération).",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E03"
 		},
 		{
-			"id": "c2e31896-33e0-4669-a215-bb065db0bbd5",
+			"id": "5d53f38e-f6ed-4f8a-8fd5-8d8bb821d47a",
 			"lib": "Évaluer si le mécanisme existant de transport d’échantillons est fiable et opérationnel et, sinon, déterminer et mettre en place un système adapté et fiable dans ce domaine, aux niveaux national et international, depuis le point de départ jusqu’au laboratoire de référence, y compris les ressources financières nécessaires pour ces activités.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E04"
 		},
 		{
-			"id": "de7da06d-cd6b-4034-af6c-d0d40744eb39",
+			"id": "d7db3225-d063-4695-941e-e0c2af7b047e",
 			"lib": "Recenser les structures d’isolement potentielles et les évaluer au regard des aspects suivants : lutte anti-infectieuse et possibilités d’isolement adéquates, gestion des déchets, eau et électricité.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E05"
 		},
 		{
-			"id": "73023e3e-d17d-4920-843f-649906c177e3",
+			"id": "1c9c2ee7-b1d7-4bd9-b8f5-7bcfa330b231",
 			"lib": "Identifier et former les ressources humaines nécessaires pour que toutes les activités puissent être mises en oeuvre (logistique, conducteurs, Equipes d’inhumation, sécurité, administration, achats, magasiniers, etc.).",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E06"
 		},
 		{
-			"id": "1f7c4a62-accc-42e1-a967-d7d6423d29e7",
+			"id": "8e667cde-7441-4ef2-b836-a7766e2d48a9",
 			"lib": "Recenser toutes les ressources disponibles, y compris les sites potentiellement utiles pour la riposte à Ebola du fait de possibilités d’entreposage ou d’autres usages logistiques.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E07"
 		},
 		{
-			"id": "2d5f75f7-3ab8-47c7-a4ea-309a1c4b48f8",
+			"id": "51280832-958f-41a7-a642-fd26e4e41ba1",
 			"lib": "Recenser les fournisseurs d’articles essentiels standard pour l’intervention d’urgence, au niveau local/international. Évaluer leurs capacités/délais de livraison. Étudier les possibilités d’accords préalables.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E08"
 		},
 		{
-			"id": "cef90b42-85dd-418b-bd97-a0dd455a05c2",
+			"id": "01872eca-356f-4d7c-b672-81ec21971e0c",
 			"lib": "Déterminer les besoins d’approvisionnement (23 articles essentiels), optimiser les chaînes d’approvisionnement, définir et mettre en oeuvre des MON sur l’approvisionnement, en vue de réduire les délais de livraison et d’améliorer la reconstitution des stocks.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E09"
 		},
 		{
-			"id": "a9271415-06ea-43ac-a7a6-15a6931c6c3b",
+			"id": "e6348cd3-c891-4751-bdfc-c47133c38949",
 			"lib": "Évaluer les capacités du réseau de communication et, si nécessaire, mettre en place un système de télécommunications couvrant l’ensemble des opérations.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E10"
 		},
 		{
-			"id": "24411bf5-6466-475c-925c-2c3a1384ed84",
+			"id": "08a23cd6-234e-49c0-a964-5b07aa531cc7",
 			"lib": "S’assurer que les structures médicales désignées appliquent les lignes directrices sur la lutte anti-infectieuse, sont correctement isolées, disposent d’un système de gestion des déchets, aient l’eau courante et l’électricité, reconstituent leurs stocks et bénéficient d’une maintenance.",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E11"
 		},
 		{
-			"id": "8b6405d3-95aa-4cb7-bb1f-961a1c31ad2d",
+			"id": "a423a095-7d37-4f94-beaa-073cfe3a96a4",
 			"lib": "Définir et mettre en œuvre tous les MON relatifs à la composante logistique (achats, mobilisation des stocks, transport des échantillons, usages des télécommunications, appui et maintenance pour les structures, mobilisation des ressources de transport, gestion de la sécurité).",
-			"pilier_id": "1b9a0e6a-6552-4b61-aa38-a9abc76d08ff",
+			"pilier_id": "45520007-15d0-45f9-a770-c67d4c37d4fd",
 			"code": "E12"
 		},
 		{
-			"id": "81596386-633f-4523-9fb1-4842793597cf",
+			"id": "ec205a4d-e808-4f8e-9298-a50d9aea06cc",
 			"lib": "Cartographie et mécanisme de référencement : L’entité dispose d’une cartographie actualisée des acteurs PSEAH/VBG, des points focaux sectoriels et des services de prise en charge médicale, psychosociale, juridique, sécuritaire et socio-économique disponibles pour les survivantes, avec des procédures documentées de référencement rapide et confidentiel.",
-			"pilier_id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"pilier_id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"code": "E01"
 		},
 		{
-			"id": "f45d25bb-6db1-4a65-be47-95b8d3e910e6",
+			"id": "0ce91aab-3bb5-4229-a7dc-11bcbd93b8d2",
 			"lib": "Gouvernance, personnel et partenaires : Tous les agents, volontaires, consultants, prestataires, équipes d’intervention rapide, ReCo et partenaires ont reçu une formation PSEAH/VBG, signé un Code de conduite et font l’objet d’un contrôle préalable de références et d’antécédents conformément aux procédures nationales.",
-			"pilier_id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"pilier_id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"code": "E02"
 		},
 		{
-			"id": "e5fa1593-f674-45b3-bd1e-e330cb91f85e",
+			"id": "52e6c357-67df-4370-87b1-37fdb1827e30",
 			"lib": "Mécanismes sûrs de plainte et de signalement : L’entité dispose de mécanismes de plainte confidentiels, accessibles, adaptés au genre, à l’âge et au handicap, permettant le signalement sécurisé des cas d’EAS/HS et de VBG, avec protection contre les représailles et gestion sécurisée des données.",
-			"pilier_id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"pilier_id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"code": "E03"
 		},
 		{
-			"id": "7681da94-dfa3-4145-b350-293cf073bf04",
+			"id": "e61a5c37-6668-4f60-ad48-a49d13aac544",
 			"lib": "Gestion des risques et redevabilité des partenaires : Des analyses périodiques des risques d’EAS/HS et de VBG sont réalisées dans les activités à haut risque (recrutement, distributions, transport, hébergement, isolement, recherche des contacts, équipes mobiles). Les accords de partenariat, contrats et mécanismes de financement intègrent des clauses PSEAH obligatoires et une évaluation des capacités des partenaires est réalisée avant tout engagement..",
-			"pilier_id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"pilier_id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"code": "E04"
 		},
 		{
-			"id": "170ee62c-df71-4df3-be2e-4ba0663f9496",
+			"id": "dc9e4f09-33ca-45c6-af72-1eb6c532b72c",
 			"lib": "Intégration du genre et suivi des inégalités : L’entité réalise une analyse des inégalités de genre liées à la préparation et à la riposte MVE, élabore un plan d’action financé pour réduire les risques et vulnérabilités différenciés entre femmes, hommes, filles et garçons, et assure le suivi régulier des indicateurs de genre, VBG et PSEAH",
-			"pilier_id": "14dd6fc2-77d6-46f5-877a-e521fb3383a2",
+			"pilier_id": "d75d76d1-bf3a-4b53-910f-6e99917e9876",
 			"code": "E05"
 		}
 	]

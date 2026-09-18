@@ -1,0 +1,636 @@
+{
+	"menace": {
+		"id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+		"lib": "MPOX",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"lib": "Coordination d’urgence, gouvernance et gestion de l’incident",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P01"
+		},
+		{
+			"id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"lib": "Équipes d’intervention rapide et investigation des alertes Mpox",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P02"
+		},
+		{
+			"id": "252a6dd3-d819-4a02-b9fc-288416ea8bb8",
+			"lib": "Communication sur les risques, engagement communautaire et protection communautaire",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P03"
+		},
+		{
+			"id": "7c06684b-6ba1-4862-a838-2fb1c70b7e30",
+			"lib": "Prévention et contrôle de l’infection, WASH et sécurité des soins",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P04"
+		},
+		{
+			"id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"lib": "Prise en charge sûre et évolutive des cas Mpox",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P05"
+		},
+		{
+			"id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"lib": "Gestion sécurisée et digne des décès liés au Mpox",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P06"
+		},
+		{
+			"id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"lib": "Surveillance épidémiologique, alerte précoce et analyse des données",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P07"
+		},
+		{
+			"id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"lib": "Recherche des contacts, suivi et rupture des chaînes de transmission",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P08"
+		},
+		{
+			"id": "1905d65b-7067-492b-9e9e-bff11b13810d",
+			"lib": "Laboratoire, diagnostic et surveillance génomique",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P09"
+		},
+		{
+			"id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"lib": "Voyage, points d’entrée et collaboration transfrontalière",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P10"
+		},
+		{
+			"id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"lib": "Budget, financement et mobilisation des ressources",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P11"
+		},
+		{
+			"id": "d828ebe9-5630-4646-a5b8-af7923ac6cf2",
+			"lib": "Vaccination et accès équitable aux contre-mesures médicales",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P12"
+		},
+		{
+			"id": "0eace8fb-edc4-45c1-a068-30a4e6a25648",
+			"lib": "Santé mentale, soutien psychosocial, nutrition et protection",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P13"
+		},
+		{
+			"id": "4bea76c6-06a5-4407-9a1b-c9e88f44a4c3",
+			"lib": "Collaboration One Health et interface humain-animal-environnement",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P14"
+		},
+		{
+			"id": "4e9660da-8069-48bb-9a22-da843a8af8ef",
+			"lib": "Recherche, planification, analyse intégrée et suivi-évaluation",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P15"
+		},
+		{
+			"id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"lib": "Logistique, approvisionnement et soutien opérationnel",
+			"menace_id": "25eb9aec-31bc-4bad-ac44-dc593ed60e86",
+			"code": "P16"
+		}
+	],
+	"exigences": [
+		{
+			"id": "32f949c7-285d-4be7-8871-4f2dabf66b1b",
+			"lib": "Mettre en place ou activer un mécanisme national et infranational de coordination Mpox sous incident management system, avec des termes de référence, des rôles clairement définis, des réunions régulières, un circuit de prise de décision rapide, un tableau de bord opérationnel et des liens fonctionnels entre le COUSP, l’INSP, les DPS, les zones de santé, les partenaires, les secteurs animal/environnement et les autorités administratives.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E01"
+		},
+		{
+			"id": "6196027a-b92d-4ba5-8328-c8b79ddc722b",
+			"lib": "Organiser des exercices de simulation ou revues intra-action testant la détection d’un cas suspect de Mpox, l’alerte, l’investigation, le prélèvement, le transfert des échantillons, l’isolement, la recherche des contacts, la communication communautaire et la coordination transfrontalière.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E02"
+		},
+		{
+			"id": "9cbaa24e-6656-417e-85ae-ce629778276f",
+			"lib": "Veiller à ce qu’un plan de préparation et de réponse Mpox actualisé, budgétisé et aligné sur les niveaux national, provincial et zone de santé soit disponible, incluant les scénarios d’extension, les zones prioritaires, les responsabilités, les ressources critiques et les modalités de mobilisation rapide des partenaires.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E03"
+		},
+		{
+			"id": "7b062aab-e92a-4e41-81f3-4855e0b31ac1",
+			"lib": "Examiner les politiques et la législation en vigueur afin de s’assurer qu’elles autoriseront les mesures de préparation proposées.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E04"
+		},
+		{
+			"id": "8e56a9d3-3942-4b72-a475-826bf2b13886",
+			"lib": "Identifier les membres du comité ou groupe de travail Mpox aux niveaux national, provincial et zone de santé, incluant surveillance, laboratoire, prise en charge, PCI/WASH, CREC, vaccination, logistique, PoE, One Health, sécurité et suivi-évaluation, et leur notifier leurs fonctions.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E05"
+		},
+		{
+			"id": "522c886a-f66b-484d-bf52-32819f75f3e8",
+			"lib": "Identifier, former et désigner des responsables des incidents/responsables opérationnels habilités à prendre les décisions opérationnelles.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E06"
+		},
+		{
+			"id": "99b7a570-8f6a-4446-9ec6-a007034e31a8",
+			"lib": "Mettre en place du personnel COUSP/IMS au niveau infranational ou dans les zones de santé pour assurer une coordination et une gestion localisées",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E07"
+		},
+		{
+			"id": "e2e57b3a-18ba-4999-a414-9f6ab7825fd8",
+			"lib": "Mettre en place un comité ou groupe technique Mpox multisectoriel et opérationnel aux niveaux national, provincial et zone de santé, aligné sur le SGI/COUSP et incluant les piliers surveillance, laboratoire, prise en charge, PCI/WASH, CREC, vaccination, logistique, PoE, One Health, planification, finances et redevabilité.",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E08"
+		},
+		{
+			"id": "7151695a-5d0b-47a9-a0e6-33689cd0dea6",
+			"lib": "Trouver un site physique pour le centre des opérations sanitaires d’urgence (COUSP).",
+			"pilier_id": "398dc35a-cc5f-4010-97a9-7384b1fdfdc4",
+			"code": "E09"
+		},
+		{
+			"id": "4554d27d-7b51-42f0-af43-61d3666adeea",
+			"lib": "Désigner et équiper des équipes d’intervention rapide multidisciplinaires Mpox capables d’être déployées dans les 24 heures, incluant au minimum épidémiologiste, clinicien, laboratoire/prélèvement, PCI/WASH, CREC, logistique, données et, si nécessaire, santé animale/environnement.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E01"
+		},
+		{
+			"id": "6c10e771-9c84-4f14-b5a8-abec16bc6f0f",
+			"lib": "Définir les critères d’activation de l’EIR pour les alertes Mpox, les responsabilités de notification, le circuit de validation de l’alerte, la coordination avec le laboratoire et la transmission rapide des rapports d’investigation.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E02"
+		},
+		{
+			"id": "740c6131-2cf5-4f7e-907b-1562b0c84019",
+			"lib": "Former les EIR à la définition de cas Mpox, l’investigation épidémiologique, le prélèvement de lésions cutanées, l’emballage et le transport des échantillons, l’identification des contacts, l’orientation des cas, la PCI, la gestion des rumeurs et la mobilisation communautaire sans stigmatisation.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E03"
+		},
+		{
+			"id": "4d68f08b-00d0-466c-850b-f5d358c169dd",
+			"lib": "Former l’EIR infranationale à la surveillance et à la recherche des contacts.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E04"
+		},
+		{
+			"id": "14457300-cf66-4264-a563-08b78ce0dc06",
+			"lib": "Recenser les établissements de santé, unités de triage, sites d’isolement et structures de référence prêts à détecter, isoler temporairement, prélever, notifier et orienter en sécurité les cas suspects de Mpox.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E05"
+		},
+		{
+			"id": "62253913-2e4a-409b-9606-1189ee851bea",
+			"lib": "Organiser au moins un exercice de simulation ou une revue intra-action Mpox pour tester la détection, l’alerte, l’investigation, le prélèvement, l’orientation des cas, la recherche des contacts, la CREC, la PCI/WASH et la coordination transfrontalière.",
+			"pilier_id": "009f95e0-008f-4b11-b213-8e8e650d63b4",
+			"code": "E06"
+		},
+		{
+			"id": "f58b6473-c8d9-4c41-abd4-34061944b089",
+			"lib": "Élaborer ou actualiser une stratégie CREC Mpox budgétisée, fondée sur les données sociales, les perceptions du risque, les rumeurs, les barrières d’accès aux soins, les dynamiques de transmission et les besoins des populations vulnérables, notamment enfants, femmes enceintes, personnes vivant avec le VIH, personnes déplacées, contacts des cas et travailleurs de santé.",
+			"pilier_id": "252a6dd3-d819-4a02-b9fc-288416ea8bb8",
+			"code": "E01"
+		},
+		{
+			"id": "a70cfe03-6d04-40ca-b66b-6c10f978487b",
+			"lib": "Mettre en place un mécanisme opérationnel de dialogue communautaire incluant leaders communautaires, relais communautaires, organisations de femmes et de jeunes, OSC, écoles, structures confessionnelles, médias, associations de personnes affectées et acteurs intervenant dans les camps de déplacés ou autres milieux de rassemblement.",
+			"pilier_id": "252a6dd3-d819-4a02-b9fc-288416ea8bb8",
+			"code": "E02"
+		},
+		{
+			"id": "6475d145-2311-430c-9fa2-84d519f5e708",
+			"lib": "Développer des messages adaptés sur les signes et symptômes du Mpox, les modes de transmission, la recherche précoce de soins, l’isolement à domicile lorsque recommandé, la réduction des contacts rapprochés, la protection des ménages, la lutte contre la stigmatisation et les mesures de prévention en contexte communautaire.",
+			"pilier_id": "252a6dd3-d819-4a02-b9fc-288416ea8bb8",
+			"code": "E03"
+		},
+		{
+			"id": "255c3f88-2d7e-472b-b530-d49d986f35c9",
+			"lib": "Mettre au point ou adapter, revoir, traduire dans les langues locales et diffuser des messages ciblés à l’intention des médias, du personnel soignant, des dirigeants locaux et chefs traditionnels, des églises, des écoles, des tradipraticiens et d’autres parties prenantes dans la communauté",
+			"pilier_id": "252a6dd3-d819-4a02-b9fc-288416ea8bb8",
+			"code": "E04"
+		},
+		{
+			"id": "f572a3af-8eb7-4586-b5e6-896e875dee1a",
+			"lib": "Disponibiliser et appliquer des lignes directrices et MON Mpox sur le triage, l’isolement, l’utilisation rationnelle des EPI, l’hygiène des mains, la désinfection des surfaces, la gestion du linge, la gestion des déchets infectieux, la protection du personnel et la prévention de la transmission dans les formations sanitaires.",
+			"pilier_id": "7c06684b-6ba1-4862-a838-2fb1c70b7e30",
+			"code": "E01"
+		},
+		{
+			"id": "521a6cb8-6ffa-430e-82d3-14bd8d82d2ae",
+			"lib": "Assurer dans les structures prioritaires et les sites communautaires à risque la disponibilité d’eau sûre, de stations d’hygiène des mains, de produits de nettoyage et désinfection, d’EPI adaptés, de dispositifs de gestion des déchets et d’électricité, avec un plan de réapprovisionnement régulier.",
+			"pilier_id": "7c06684b-6ba1-4862-a838-2fb1c70b7e30",
+			"code": "E02"
+		},
+		{
+			"id": "da77c193-0418-45b3-bbb3-720068905008",
+			"lib": "Equiper et former convenablement le personnel soignant, y compris le personnel chargé de la santé environnementale, les hygiénistes et le personnel de nettoyage, en leur présentant les mesures d’IPC et procédures de gestion des déchets supplémentaires, priorité étant donnée à ceux qui entrent les premiers en contact avec les malades",
+			"pilier_id": "7c06684b-6ba1-4862-a838-2fb1c70b7e30",
+			"code": "E03"
+		},
+		{
+			"id": "a93273e6-c4d1-434d-b5b3-5d1e826f3a11",
+			"lib": "Identifier et équiper des structures de soins afin de mettre en place des zones de triage, d’isolement temporaire et de prise en charge Mpox, y compris aux points d’entrée désignés, avec EPI, hygiène des mains, désinfection, gestion du linge et circuit de référence.",
+			"pilier_id": "7c06684b-6ba1-4862-a838-2fb1c70b7e30",
+			"code": "E04"
+		},
+		{
+			"id": "8abfa4a4-a28d-4680-8739-b134e3634f45",
+			"lib": "Désigner des structures de prise en charge Mpox disposant de zones de triage, d’isolement, de soins de soutien, de protocoles cliniques adaptés à l’âge et au genre, d’un circuit de référence, de capacités PCI/WASH et de mécanismes de protection des patients et du personnel.",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E01"
+		},
+		{
+			"id": "6a0d28dd-191a-4a4d-a104-065eb785eab0",
+			"lib": "Recenser et faire appliquer tous les modes opératoires normalisés (MON) relatifs à la logistique (achats, mobilisation des stocks, transport des échantillons, utilisation des télécommunications, assistance et maintenance des structures, mobilisation des ressources pour le transport et gestion de la sécurité).",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E02"
+		},
+		{
+			"id": "05b74457-3dc3-4f4b-9fea-4a77a4d9dfb1",
+			"lib": "Recenser et former le personnel clinique à la prise en charge du Mpox, y compris l’évaluation de la gravité, la prise en charge des douleurs et complications, le dépistage VIH lorsque pertinent, la prise en charge pédiatrique et maternelle, l’appui psychosocial, la collecte standardisée des données cliniques et la notification des décès.",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E03"
+		},
+		{
+			"id": "782e88df-aa76-424c-8368-a1521f7c28eb",
+			"lib": "Équiper et former les équipes d’ambulanciers et de transport sanitaire sécurisé pour le transfert des cas suspects, probables ou confirmés de Mpox, en appliquant les précautions standard, contact et gouttelettes selon le risque.",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E04"
+		},
+		{
+			"id": "198ecbe1-f08e-428e-a714-32103d91e203",
+			"lib": "Recenser les établissements de soins au niveau provincial et zone de santé pouvant être rapidement organisés en unités de prise en charge Mpox ou CTMpox selon la catégorisation des cas et les besoins de réfréence.",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E05"
+		},
+		{
+			"id": "6cb905cb-71fa-44cf-a4a9-01650b8d1506",
+			"lib": "Recenser les structures locales pouvant être adaptées rapidement en unités de triage, d’isolement temporaire, de soins de soutien ou de référence Mpox, y compris pour les enfants, femmes enceintes et personnes immunodéprimées.",
+			"pilier_id": "d044f645-085d-4d6e-be2f-5164ba94ae15",
+			"code": "E06"
+		},
+		{
+			"id": "919f2761-bac6-4524-9de4-0d18971c84f3",
+			"lib": "Mettre au point des MON pour la gestion sécurisée et digne des décès liés au Mpox, incluant l’information de la famille, l’utilisation appropriée des EPI, la limitation des contacts directs avec les lésions, fluides ou matériels contaminés, la désinfection et le respect des pratiques culturelles compatibles avec la sécurité.",
+			"pilier_id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"code": "E01"
+		},
+		{
+			"id": "486577ae-445e-4909-a84b-8beb3b219568",
+			"lib": "Former une équipe de gestion des décès Mpox comprenant personnel clinique ou hygiéniste, agent de désinfection, relais communautaire ou communicateur, superviseur et transporteur, avec des rôles clairement définis.",
+			"pilier_id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"code": "E02"
+		},
+		{
+			"id": "d77f09f9-6b4e-4599-973b-9db288a78306",
+			"lib": "S’assurer de l’existence d’une procédure de transport sécurisé du corps lorsque nécessaire, avec emballage approprié, désinfection, traçabilité, respect de la dignité de la personne décédée et communication préalable avec la famille.",
+			"pilier_id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"code": "E03"
+		},
+		{
+			"id": "289009d1-6505-428f-bdbb-289fe3d642ce",
+			"lib": "S’assurer que toute manipulation du corps est réalisée avec les précautions standard et contact, sans exposition directe aux lésions ou fluides, avec disponibilité des EPI, solution de désinfection, sacs ou draps appropriés et gestion sécurisée des déchets.",
+			"pilier_id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"code": "E04"
+		},
+		{
+			"id": "20f1a856-810e-402a-9591-9842c3dc420d",
+			"lib": "Identifier avec la famille et les autorités locales les modalités de funérailles sûres, dignes et culturellement acceptables, en évitant toute stigmatisation et en maintenant l’accès à l’information et au soutien psychosocial.",
+			"pilier_id": "9621c38d-b607-491f-8610-478dd2030fbb",
+			"code": "E05"
+		},
+		{
+			"id": "d90060d6-36b1-4cf9-9633-7b5e733377e1",
+			"lib": "Assurer un système d’alerte Mpox disponible 24h/24 et 7j/7, intégré à la surveillance IDSR/SIMS, capable de recevoir, vérifier, notifier et suivre les alertes communautaires, sanitaires, transfrontalières et médiatiques, avec des délais de notification clairement définis.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E01"
+		},
+		{
+			"id": "283cd149-9067-48c1-a2b2-b80b2d1265fa",
+			"lib": "Diffuser à tous les niveaux les définitions de cas Mpox, les formulaires d’investigation, les outils de liste linéaire, les fiches de notification, les procédures de recherche active des cas et les directives de collecte des données désagrégées par âge, sexe, lieu, statut de vulnérabilité et lien épidémiologique.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E02"
+		},
+		{
+			"id": "cc79a649-cb6a-4143-a1c2-e21363eac3ee",
+			"lib": "Former les acteurs de surveillance à l’utilisation des définitions de cas Mpox, des formulaires d’investigation, des listes linéaires, des outils de notification, de recherche active et de suivi des contacts, avec intégration des données dans le système national.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E03"
+		},
+		{
+			"id": "5fec519b-1ab8-46ea-982d-7ca20cea3369",
+			"lib": "Mettre en place une surveillance fondée sur les événements et une surveillance communautaire fonctionnelles pour détecter rapidement les rumeurs, regroupements de cas, lésions cutanées évocatrices, décès inhabituels, cas dans les ménages, écoles, prisons, camps de déplacés, zones minières, marchés et autres milieux à risque.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E04"
+		},
+		{
+			"id": "37906678-50a9-4610-83db-7631403c23fb",
+			"lib": "Mettre en place des lignes de notification immédiate pour les cas suspects, probables ou confirmés de Mpox, y compris les décès suspects, avec responsabilités clairement définies pour la vérification, l’investigation, le prélèvement et la remontée des données.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E05"
+		},
+		{
+			"id": "16069d48-da92-4c3a-aa19-34da75a903a9",
+			"lib": "Tester les systèmes de surveillance Mpox existants, y compris la surveillance communautaire, événementielle, sanitaire, transfrontalière et numérique, recenser les lacunes et mettre en œuvre des actions correctives selon l’approche 7-1-7.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E06"
+		},
+		{
+			"id": "7e5ef631-6548-4629-836b-ddc8b4cb7e70",
+			"lib": "Identifier les ressources humaines pour la surveillance communautaire (agents de santé communautaires, bénévoles, ONG, tradipraticiens, chefs communautaires, etc.).",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E07"
+		},
+		{
+			"id": "d7f05a6d-ce5c-45a1-b4b0-1746c37a25c6",
+			"lib": "Diffuser des définitions de cas simplifiées à l’usage des communautés.",
+			"pilier_id": "fe4fba73-ebb3-41a7-9bf9-15ae1d3dbf5d",
+			"code": "E08"
+		},
+		{
+			"id": "c20f9e8b-6999-413d-b546-e8abf5b6e3e9",
+			"lib": "Diffuser et appliquer les lignes directrices Mpox sur l’identification, l’enregistrement, la classification, le suivi quotidien et la libération des contacts, incluant contacts familiaux, sexuels, communautaires, de soins, scolaires, professionnels et contacts exposés aux animaux ou produits animaux.",
+			"pilier_id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"code": "E01"
+		},
+		{
+			"id": "80669f6c-a52d-47ad-af06-6af582444461",
+			"lib": "Former des équipes de recherche des contacts à la conduite d’entretiens confidentiels et non stigmatisants, au suivi sécurisé des contacts, à la référence rapide des contacts symptomatiques, à la gestion des données, à la protection de la confidentialité et à l’orientation vers la vaccination post-exposition lorsque disponible et recommandée.",
+			"pilier_id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"code": "E02"
+		},
+		{
+			"id": "d7dc0b65-5aad-4b52-91b1-550333c268ce",
+			"lib": "Mettre en place ou renforcer un système de gestion des données pour la recherche des contacts Mpox aux niveaux national, provincial et zone de santé, garantissant la confidentialité, l’analyse rapide et l’orientation des contacts symptomatiques vers les soins et le prélèvement.",
+			"pilier_id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"code": "E03"
+		},
+		{
+			"id": "20d8053e-2f49-46f2-b866-79a341a93d44",
+			"lib": "Former le personnel de district à la recherche des contacts.",
+			"pilier_id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"code": "E04"
+		},
+		{
+			"id": "a8b9cfb4-e808-48a9-af70-1357411065dd",
+			"lib": "Former le personnel des sous-districts et le personnel communautaire à la recherche des contacts et trouver pour chaque zone un vivier local de chercheurs de contacts.",
+			"pilier_id": "5d9ea959-c142-45d0-804e-7e430a975dfa",
+			"code": "E05"
+		},
+		{
+			"id": "00aff141-4121-4eb4-ba4a-724b4c7d13b4",
+			"lib": "Identifier les laboratoires nationaux et provinciaux capables de réaliser ou référer le diagnostic Mpox par PCR, avec procédures connues de prélèvement sur lésions, biosécurité, conservation, transport, réception des échantillons, rendu rapide des résultats et intégration des résultats dans le système national de surveillance.",
+			"pilier_id": "1905d65b-7067-492b-9e9e-bff11b13810d",
+			"code": "E01"
+		},
+		{
+			"id": "3eca0060-8bd9-4631-bd9a-109c909bffda",
+			"lib": "Disponibiliser les protocoles de collecte des échantillons Mpox, les écouvillons adaptés, milieux de transport lorsque requis, triple emballage, fiches de demande d’analyse, procédures de transport sécurisé et mécanismes de reconstitution des stocks dans les zones prioritaires.",
+			"pilier_id": "1905d65b-7067-492b-9e9e-bff11b13810d",
+			"code": "E02"
+		},
+		{
+			"id": "923f5757-0dd0-4506-b5b2-6ae92e8efb71",
+			"lib": "Veiller à ce que le personnel de laboratoire soit formé aux procédures de sécurité et à l’IPC en ce qui concerne la collecte des échantillons, l’emballage, l’étiquetage, le transfert et l’expédition, y compris à la certification pour la manipulation des matières infectieuses.",
+			"pilier_id": "1905d65b-7067-492b-9e9e-bff11b13810d",
+			"code": "E03"
+		},
+		{
+			"id": "13ecb5c4-24fe-415a-938f-a61b46c34927",
+			"lib": "Mettre en place des arrangements prévisionnels et veiller à ce que des accords soient en place avec les centres collaborateurs de l’OMS, pour les tests de confirmation, et avec les compagnies aériennes concernées, pour l’expédition internationale des échantillons.",
+			"pilier_id": "1905d65b-7067-492b-9e9e-bff11b13810d",
+			"code": "E04"
+		},
+		{
+			"id": "a39005d6-dc95-4c32-b596-a3db4fdb23cb",
+			"lib": "S’assurer que chaque point d’entrée prioritaire dispose d’un plan de contingence Mpox fondé sur le risque, incluant surveillance des voyageurs malades, notification des cas suspects, orientation sûre vers une structure désignée, PCI, communication aux voyageurs et coordination avec les autorités frontalières, sans recours à des restrictions générales injustifiées de voyage ou de commerce.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E01"
+		},
+		{
+			"id": "777b815f-ad8e-45b8-8cb9-2bce86b7aca5",
+			"lib": "Identifier pour chaque PoE les structures de référence, les circuits de transfert, les équipes formées, les ambulances ou moyens de transport adaptés, les modalités de prélèvement ou de référence des échantillons, et les contacts opérationnels avec les zones de santé et provinces frontalières.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E02"
+		},
+		{
+			"id": "d3a28686-f622-4fdb-9cfb-2f6c80a48332",
+			"lib": "Désigner des équipes qualifiées, proportionnelles au volume et à la fréquence des voyageurs, chargées de détecter, évaluer, notifier et orienter correctement les voyageurs présentant des signes compatibles avec le Mpox, selon les procédures de PCI et de référence adaptées.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E03"
+		},
+		{
+			"id": "99741346-e743-4439-af2d-87c9fd9b1147",
+			"lib": "Élaborer un MON de surveillance sanitaire fondée sur le risque aux points d’entrée, incluant information des voyageurs, notification des voyageurs malades, orientation sûre des cas suspects, coordination transfrontalière et absence de restrictions générales injustifiées de voyage ou de commerce.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E04"
+		},
+		{
+			"id": "e01d5647-394a-41a4-8bbc-21948276adfd",
+			"lib": "Veiller à ce que chaque point d’entrée ait immédiatement accès au matériel et aux fournitures (EPI, thermomètres infrarouge, produits de désinfection et de nettoyage, structures d’observation/d’isolement et ambulance, selon la localisation).",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E05"
+		},
+		{
+			"id": "47fe931d-d055-414d-b57d-de1560173bc5",
+			"lib": "Examiner et tester les systèmes de communication actuels entre les autorités sanitaires au point d’entrée et les opérateurs de transport, et entre ces autorités et les systèmes de surveillance sanitaire nationaux.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E06"
+		},
+		{
+			"id": "298f835b-ed9c-4171-b74f-87b584b49355",
+			"lib": "Sensibiliser les autorités de santé publique, services frontaliers, opérateurs de transport et parties prenantes des points d’entrée au Mpox, à leurs rôles respectifs, aux procédures de notification des voyageurs malades, à la communication sans stigmatisation et à l’orientation vers les structures désignées.",
+			"pilier_id": "ce07347d-342f-4ee2-9e5b-9b402763deef",
+			"code": "E07"
+		},
+		{
+			"id": "002851ed-f799-4e60-b36b-0b61c0b3df85",
+			"lib": "Définir un budget opérationnel pour les activités (communication, surveillance renforcée, investigation, etc.), le dépistage pré-épidémique et les premières étapes de la riposte.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E01"
+		},
+		{
+			"id": "182279c7-d433-4825-a18a-20b6436e4e28",
+			"lib": "Mettre en place, ou rendre facilement accessible, un fonds de réserve pour la riposte immédiate à la flambée au niveau national et en d’autres sites appropriés.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E02"
+		},
+		{
+			"id": "99a038e3-869f-4d3e-bd91-737adb1687db",
+			"lib": "Déterminer le cadre juridique permettant de dépenser les fonds d’urgence et de les transférer du niveau central vers tous les sites identifiés en vue de leur usage en situation d’urgence.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E03"
+		},
+		{
+			"id": "f12b776e-c291-41be-b89e-5aae8fa5afec",
+			"lib": "Faire bénéficier tous les travailleurs à risque d’un régime de rémunération et d’avantages recouvrant le traitement et des mesures incitatives pour les missions à haut risque ainsi que des indemnités en cas d’infection ou de décès.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E04"
+		},
+		{
+			"id": "bb6cafec-c8bc-4a1c-a7d1-763f7303ce87",
+			"lib": "Trouver des sources de financement, y compris l’allocation de ressources nationales et des mécanismes pour mobiliser des ressources supplémentaires si nécessaire, et s’assurer que les mécanismes d’accès aux sources de financement sont connus.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E05"
+		},
+		{
+			"id": "abfe4d93-27ae-49c5-9960-8a3c81fbc275",
+			"lib": "Élaborer des modèles pour la mobilisation des ressources et pour les rapports aux pays et aux donateurs, notamment des mécanismes pour suivre l’emploi des fonds.",
+			"pilier_id": "26694100-e8b6-4be9-95a1-64bc561d7087",
+			"code": "E06"
+		},
+		{
+			"id": "f56a33bf-ef49-4b93-bf6a-a59bcb4e44ec",
+			"lib": "Préparer une stratégie de vaccination Mpox ciblée sur les contacts des cas récents, les travailleurs de santé et de première ligne et les autres groupes à haut risque définis par l’analyse épidémiologique locale.",
+			"pilier_id": "d828ebe9-5630-4646-a5b8-af7923ac6cf2",
+			"code": "E01"
+		},
+		{
+			"id": "64a501a8-c381-4733-8aeb-53576c8f1c2b",
+			"lib": "Vérifier l’existence d’un microplan de vaccination, d’un mécanisme d’identification des cibles, de consentement et d’enregistrement, d’une chaîne du froid adaptée, d’un suivi des événements indésirables et d’une communication communautaire transparente.",
+			"pilier_id": "d828ebe9-5630-4646-a5b8-af7923ac6cf2",
+			"code": "E02"
+		},
+		{
+			"id": "93b88754-9c7a-4789-b1db-9c5e90c6d511",
+			"lib": "Assurer l’accès équitable aux diagnostics, EPI, médicaments essentiels, soins de soutien, vaccins lorsqu’ils sont disponibles, et autres produits de santé prioritaires, avec un suivi des stocks et des ruptures.",
+			"pilier_id": "d828ebe9-5630-4646-a5b8-af7923ac6cf2",
+			"code": "E03"
+		},
+		{
+			"id": "87896e1e-7801-4b37-9b00-cb5f23dffe16",
+			"lib": "Prévoir un paquet SMSPS Mpox pour les cas, contacts, familles, accompagnants, travailleurs de santé, EIR et communautés affectées, incluant counseling, psychoéducation, soutien aux personnes stigmatisées et référence spécialisée si nécessaire.",
+			"pilier_id": "0eace8fb-edc4-45c1-a068-30a4e6a25648",
+			"code": "E01"
+		},
+		{
+			"id": "f00c2cae-ef0b-43f2-8d9a-34d893f581bb",
+			"lib": "Intégrer l’évaluation nutritionnelle, le soutien alimentaire et nutritionnel des cas confirmés, notamment enfants, femmes enceintes, personnes malnutries ou immunodéprimées, avec outils de suivi et circuit de référence nutritionnelle.",
+			"pilier_id": "0eace8fb-edc4-45c1-a068-30a4e6a25648",
+			"code": "E02"
+		},
+		{
+			"id": "6f371247-cde6-4905-aece-9d51d2b5d394",
+			"lib": "Prévoir des mesures de protection, dignité, confidentialité, prévention de l’exploitation, abus et harcèlement sexuels, ainsi que des mécanismes de plainte et feedback accessibles aux communautés.",
+			"pilier_id": "0eace8fb-edc4-45c1-a068-30a4e6a25648",
+			"code": "E03"
+		},
+		{
+			"id": "43f5a121-5f31-4941-93b1-703f1526d224",
+			"lib": "Mettre en place un mécanisme One Health associant santé humaine, santé animale, environnement, faune sauvage, agriculture et autorités locales pour analyser les risques de transmission zoonotique et orienter les interventions.",
+			"pilier_id": "4bea76c6-06a5-4407-9a1b-c9e88f44a4c3",
+			"code": "E01"
+		},
+		{
+			"id": "4fdd49e8-1115-433f-9200-b5352b2fcde4",
+			"lib": "Identifier les zones à forte interaction humain-animal, notamment chasse, manipulation de viande de brousse, marchés, élevage, forêts et zones d’endémie, et y intégrer des activités de surveillance, sensibilisation et réduction des risques.",
+			"pilier_id": "4bea76c6-06a5-4407-9a1b-c9e88f44a4c3",
+			"code": "E02"
+		},
+		{
+			"id": "81a0acd8-b16f-41de-9406-012d11705937",
+			"lib": "Développer des messages communautaires sur les pratiques sûres autour des animaux, la manipulation des carcasses, la cuisson complète des viandes, l’évitement des contacts avec animaux malades ou morts et le signalement des événements inhabituels.",
+			"pilier_id": "4bea76c6-06a5-4407-9a1b-c9e88f44a4c3",
+			"code": "E03"
+		},
+		{
+			"id": "b150ba02-228d-4e1f-a3f2-9773cd0c5dc1",
+			"lib": "Mettre en place une cellule d’analyse intégrée des données Mpox pour trianguler les données de surveillance, laboratoire, clinique, CREC, vaccination, PoE, One Health et logistique afin d’orienter les décisions opérationnelles.",
+			"pilier_id": "4e9660da-8069-48bb-9a22-da843a8af8ef",
+			"code": "E01"
+		},
+		{
+			"id": "2032b54e-b461-43e6-b831-543086c23d72",
+			"lib": "Définir un agenda de recherche opérationnelle Mpox : dynamiques de transmission, facteurs de risque, gravité, co-infections VIH/IST, efficacité des interventions, acceptabilité vaccinale, interface humain-animal et performance diagnostique.",
+			"pilier_id": "4e9660da-8069-48bb-9a22-da843a8af8ef",
+			"code": "E02"
+		},
+		{
+			"id": "753bbd22-27ab-41de-83d5-0cff5c106f5b",
+			"lib": "Suivre des indicateurs clés : délai symptôme-détection, délai alerte-investigation, délai prélèvement-résultat, proportion de cas suspects testés, proportion de contacts listés et suivis, disponibilité PCI/WASH, couverture vaccinale des cibles, fonctionnalité des PoE et complétude des rapports.",
+			"pilier_id": "4e9660da-8069-48bb-9a22-da843a8af8ef",
+			"code": "E03"
+		},
+		{
+			"id": "70fd922f-fab1-49fc-b2de-c917bdcefa84",
+			"lib": "Mettre en oeuvre la composante logistique au niveau de la coordination nationale et infranationale de l’IMS, en vue de définir et de mettre en place tous les moyens demandés en se conformant au calendrier et aux normes de qualité stipulés.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E01"
+		},
+		{
+			"id": "ec9d4b7f-ea86-46bf-bba0-4e7aa29e7f78",
+			"lib": "Évaluer les capacités de stockage et le système de gestion des stocks en place, déterminer les stocks nécessaires pour toutes les composantes, et mettre en place si nécessaire un système de gestion des stocks efficient au niveau national et dans les districts.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E02"
+		},
+		{
+			"id": "3c57dd53-51c6-4aa0-b3af-1ca1df41848a",
+			"lib": "Identifier tous les moyens de transport nécessaires pour les biens, les échantillons, les équipes et les patients, et veiller à ce qu’au moins un moyen de transport sanitaire soit disponible, préparé et désinfectable pour le transfert sécurisé des cas suspects, probables ou confirmés de Mpox.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E03"
+		},
+		{
+			"id": "408d3fd1-e08e-4b01-8907-cc3a3582a700",
+			"lib": "Évaluer si le mécanisme existant de transport d’échantillons est fiable et opérationnel et, sinon, déterminer et mettre en place un système adapté et fiable dans ce domaine, aux niveaux national et international, depuis le point de départ jusqu’au laboratoire de référence, y compris les ressources financières nécessaires pour ces activités.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E04"
+		},
+		{
+			"id": "f00766b4-fea2-4ed9-ae46-c408a83cf7b7",
+			"lib": "Recenser les structures d’isolement potentielles et les évaluer au regard des aspects suivants : lutte anti-infectieuse et possibilités d’isolement adéquates, gestion des déchets, eau et électricité.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E05"
+		},
+		{
+			"id": "fa8de77f-a7fd-44bd-88ac-61d31126e7b0",
+			"lib": "Identifier et former les ressources humaines nécessaires pour que toutes les activités puissent être mises en oeuvre (logistique, conducteurs, Equipes d’inhumation, sécurité, administration, achats, magasiniers, etc.).",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E06"
+		},
+		{
+			"id": "f672919a-ed1b-4e17-b11b-39dae62d3a10",
+			"lib": "Recenser toutes les ressources disponibles, y compris les sites potentiellement utiles pour la riposte à Ebola du fait de possibilités d’entreposage ou d’autres usages logistiques.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E07"
+		},
+		{
+			"id": "52b1bac7-b5cb-4be0-b688-88b908b32bb8",
+			"lib": "Recenser les fournisseurs d’articles essentiels standard pour l’intervention d’urgence, au niveau local/international. Évaluer leurs capacités/délais de livraison. Étudier les possibilités d’accords préalables.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E08"
+		},
+		{
+			"id": "2bd205a4-2dc9-40f3-9d3d-f749fa8f9b2a",
+			"lib": "Déterminer les besoins d’approvisionnement (23 articles essentiels), optimiser les chaînes d’approvisionnement, définir et mettre en oeuvre des MON sur l’approvisionnement, en vue de réduire les délais de livraison et d’améliorer la reconstitution des stocks.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E09"
+		},
+		{
+			"id": "645cbc37-3493-47f0-a78d-fad2d2a5c859",
+			"lib": "Évaluer les capacités du réseau de communication et, si nécessaire, mettre en place un système de télécommunications couvrant l’ensemble des opérations.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E10"
+		},
+		{
+			"id": "088fa939-8e9d-4f55-9713-93af09b32420",
+			"lib": "S’assurer que les structures médicales désignées appliquent les lignes directrices sur la lutte anti-infectieuse, sont correctement isolées, disposent d’un système de gestion des déchets, aient l’eau courante et l’électricité, reconstituent leurs stocks et bénéficient d’une maintenance.",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E11"
+		},
+		{
+			"id": "92670dc9-d274-437b-91f6-2ff862e37939",
+			"lib": "Définir et mettre en œuvre tous les MON relatifs à la composante logistique (achats, mobilisation des stocks, transport des échantillons, usages des télécommunications, appui et maintenance pour les structures, mobilisation des ressources de transport, gestion de la sécurité).",
+			"pilier_id": "18bf502a-9089-4e61-a7cb-4870df0bb35b",
+			"code": "E12"
+		}
+	]
+}

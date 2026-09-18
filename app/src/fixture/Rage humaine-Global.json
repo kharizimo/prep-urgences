@@ -1,0 +1,282 @@
+{
+	"menace": {
+		"id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+		"lib": "Rage humaine",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "bf340023-0983-4908-a0d8-586d9c08ee3d",
+			"lib": "Coordination multisectorielle",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P01"
+		},
+		{
+			"id": "9528065a-5c1d-4dce-a462-70861c95c377",
+			"lib": "Surveillance épidémiologique et notification des morsures / expositions",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P02"
+		},
+		{
+			"id": "ad1d1d4b-7fca-45ce-8681-3b7f9c472209",
+			"lib": "Prise en charge des expositions et prophylaxie post-exposition",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P03"
+		},
+		{
+			"id": "b61dd5e8-772f-4fbd-967a-9ab0aaa094e3",
+			"lib": "Laboratoire",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P04"
+		},
+		{
+			"id": "e3ac9507-0863-43cd-ae58-84012dfae657",
+			"lib": "Gestion clinique des cas humains",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P05"
+		},
+		{
+			"id": "2f695bd4-d12a-48b3-b4a9-8819af21adb9",
+			"lib": "Equipe d'intervention rapide / investigation",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P06"
+		},
+		{
+			"id": "4eff1afd-3926-48a4-9f0f-d5cebaf5c688",
+			"lib": "Prévention communautaire et communication des risques",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P07"
+		},
+		{
+			"id": "befddffd-f653-4da3-9835-264d3d15930b",
+			"lib": "Sante animale et vaccination canine",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P08"
+		},
+		{
+			"id": "4b1f031c-5ac3-4694-8d7e-3362d0ce81a5",
+			"lib": "Points d'entrée / voyageurs / approvisionnement",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P09"
+		},
+		{
+			"id": "f8fad657-e502-45d0-9c5d-a7688892a1e2",
+			"lib": "Budget",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P10"
+		},
+		{
+			"id": "b351eddb-9295-41ab-a4e4-56fe2b822781",
+			"lib": "Logistique",
+			"menace_id": "deebd1bb-8db2-4beb-8331-3b96182a100b",
+			"code": "P11"
+		}
+	],
+	"exigences": [
+		{
+			"id": "caaac35c-a54c-4b6a-b5c2-9d3a2b737855",
+			"lib": "Mettre en place un mécanisme de coordination One Health associant santé humaine, santé animale, laboratoires, autorités locales, communication et partenaires pour la prévention et la riposte à la rage.",
+			"pilier_id": "bf340023-0983-4908-a0d8-586d9c08ee3d",
+			"code": "E01"
+		},
+		{
+			"id": "19a82ea2-1f91-4f44-b997-a80bcdfee57c",
+			"lib": "Disposer d’un plan de préparation et de riposte à la rage humaine actualisé, budgétisé et harmonisé entre les secteurs humain et animal.",
+			"pilier_id": "bf340023-0983-4908-a0d8-586d9c08ee3d",
+			"code": "E02"
+		},
+		{
+			"id": "06c3d930-e45a-40a2-86b9-d8ca0bf50169",
+			"lib": "Définir les rôles, responsabilités, circuits de notification et mécanismes de coordination pour la gestion des morsures, des expositions et des cas suspects.",
+			"pilier_id": "bf340023-0983-4908-a0d8-586d9c08ee3d",
+			"code": "E03"
+		},
+		{
+			"id": "3467bc73-c913-46a3-8137-7534e074df0e",
+			"lib": "Mettre en place un système de notification immédiate des morsures, griffures, léchages sur peau lésée ou muqueuses, ainsi que des cas suspects de rage humaine.",
+			"pilier_id": "9528065a-5c1d-4dce-a462-70861c95c377",
+			"code": "E01"
+		},
+		{
+			"id": "591b84ee-598f-4255-bbd1-5183f0268971",
+			"lib": "Diffuser les définitions de cas, formulaires de notification et outils de suivi pour les expositions et les cas suspects de rage humaine à tous les niveaux.",
+			"pilier_id": "9528065a-5c1d-4dce-a462-70861c95c377",
+			"code": "E02"
+		},
+		{
+			"id": "9939d8c5-8012-4b2b-afce-daf52b10a204",
+			"lib": "Assurer le lien entre les données de santé humaine et animale pour permettre l’investigation des animaux mordeurs et le suivi des personnes exposées.",
+			"pilier_id": "9528065a-5c1d-4dce-a462-70861c95c377",
+			"code": "E03"
+		},
+		{
+			"id": "cb2b21d6-5068-47dd-8bb4-be4afbecb6bb",
+			"lib": "Former les prestataires et relais communautaires à la détection précoce des expositions, à la référence rapide et à la notification des événements suspects.",
+			"pilier_id": "9528065a-5c1d-4dce-a462-70861c95c377",
+			"code": "E04"
+		},
+		{
+			"id": "294eabd0-d6f0-4669-9fa8-56aae58d0788",
+			"lib": "Assurer dans tous les sites de prise en charge la capacité à réaliser immédiatement le lavage abondant des plaies à l’eau et au savon pendant au moins 15 minutes et l’application d’un antiseptique approprié.",
+			"pilier_id": "ad1d1d4b-7fca-45ce-8681-3b7f9c472209",
+			"code": "E01"
+		},
+		{
+			"id": "502f0297-01a2-4b68-92fc-5a8ba5383fd4",
+			"lib": "Rendre disponibles les protocoles nationaux/OMS d’évaluation du risque et de prophylaxie post-exposition selon les catégories d’exposition.",
+			"pilier_id": "ad1d1d4b-7fca-45ce-8681-3b7f9c472209",
+			"code": "E02"
+		},
+		{
+			"id": "8ccc0d7f-2283-4d36-b6b4-ad14a3f6bb0d",
+			"lib": "Prépositionner les vaccins antirabiques, les immunoglobulines ou anticorps monoclonaux antirabiques selon disponibilité, ainsi que les consommables nécessaires à leur administration.",
+			"pilier_id": "ad1d1d4b-7fca-45ce-8681-3b7f9c472209",
+			"code": "E03"
+		},
+		{
+			"id": "f47fed15-b0f3-43f9-9315-a36170f74e28",
+			"lib": "Former le personnel de santé à la classification des expositions, à la décision de PPE, au calendrier vaccinal, à l’infiltration des immunoglobulines si indiquée et au suivi de l’observance.",
+			"pilier_id": "ad1d1d4b-7fca-45ce-8681-3b7f9c472209",
+			"code": "E04"
+		},
+		{
+			"id": "8027de54-a1d0-471c-b0bd-e9c7f658c3f5",
+			"lib": "Renforcer les capacités de laboratoire pour la confirmation de la rage chez l’animal ou l’humain selon les procédures nationales et les capacités de référence disponibles.",
+			"pilier_id": "b61dd5e8-772f-4fbd-967a-9ab0aaa094e3",
+			"code": "E01"
+		},
+		{
+			"id": "bc055439-955b-44c8-b2cb-b1163a9acee5",
+			"lib": "Mettre en place des procédures de prélèvement, conservation, transport et biosécurité pour les échantillons suspects de rage.",
+			"pilier_id": "b61dd5e8-772f-4fbd-967a-9ab0aaa094e3",
+			"code": "E02"
+		},
+		{
+			"id": "314d5a59-ca2b-41ab-939d-ceb0dddaf5a9",
+			"lib": "Assurer une transmission rapide des résultats entre laboratoire, santé humaine et santé animale pour orienter les décisions de prophylaxie et de riposte.",
+			"pilier_id": "b61dd5e8-772f-4fbd-967a-9ab0aaa094e3",
+			"code": "E03"
+		},
+		{
+			"id": "3838b48a-cf49-4696-b7b7-fa44332d2002",
+			"lib": "Former les cliniciens à reconnaître les signes évocateurs de rage humaine, y compris hydrophobie, aérophobie, agitation, paralysie progressive et antécédent d’exposition animale.",
+			"pilier_id": "e3ac9507-0863-43cd-ae58-84012dfae657",
+			"code": "E01"
+		},
+		{
+			"id": "d50d13f2-c859-4bdb-afaf-58787615ffa1",
+			"lib": "Prévoir des procédures de prise en charge palliative, de prévention des expositions nosocomiales, de soutien aux familles et de notification immédiate des cas probables ou confirmés.",
+			"pilier_id": "e3ac9507-0863-43cd-ae58-84012dfae657",
+			"code": "E02"
+		},
+		{
+			"id": "34aa8534-36b7-4d3b-a554-a3b7db54745d",
+			"lib": "Assurer l’existence de mesures de protection du personnel soignant lors de la prise en charge des cas suspects ou confirmés de rage humaine.",
+			"pilier_id": "e3ac9507-0863-43cd-ae58-84012dfae657",
+			"code": "E03"
+		},
+		{
+			"id": "27b28c76-e93a-4adf-92cb-0ceb4d3a3db4",
+			"lib": "Former et prépositionner des Equipes capables d’investiguer les morsures, d’évaluer l’animal mordeur, d’identifier d’autres personnes exposées et de coordonner la réponse entre santé humaine et animale.",
+			"pilier_id": "2f695bd4-d12a-48b3-b4a9-8819af21adb9",
+			"code": "E01"
+		},
+		{
+			"id": "1529ec21-55b4-4b7c-9f40-01fc6a1f4c66",
+			"lib": "Définir des procédures d’activation rapide pour l’investigation conjointe des cas humains suspects et des animaux impliqués.",
+			"pilier_id": "2f695bd4-d12a-48b3-b4a9-8819af21adb9",
+			"code": "E02"
+		},
+		{
+			"id": "46e82000-56f7-400f-aa99-8e91dad5997a",
+			"lib": "Assurer la disponibilité des outils d’investigation, des moyens de transport, de communication et de collecte des données pour les Equipes de terrain.",
+			"pilier_id": "2f695bd4-d12a-48b3-b4a9-8819af21adb9",
+			"code": "E03"
+		},
+		{
+			"id": "f2d6fccb-1d8f-4695-bb86-aae3e68d709f",
+			"lib": "Déployer une stratégie de communication sur la prévention des morsures, le lavage immédiat des plaies, la recherche rapide de soins et l’importance de compléter la prophylaxie post-exposition.",
+			"pilier_id": "4eff1afd-3926-48a4-9f0f-d5cebaf5c688",
+			"code": "E01"
+		},
+		{
+			"id": "48a4036f-ddf5-4cfa-8b67-af653ad2928b",
+			"lib": "Adapter et diffuser des messages dans les langues locales à l’intention des ménages, écoles, communautés rurales et urbaines, et groupes à risque élevé.",
+			"pilier_id": "4eff1afd-3926-48a4-9f0f-d5cebaf5c688",
+			"code": "E02"
+		},
+		{
+			"id": "c08e9962-982a-4cbd-8ef5-f4634a781624",
+			"lib": "Impliquer les relais communautaires, enseignants, leaders locaux et médias dans la détection précoce des morsures et la promotion des comportements protecteurs.",
+			"pilier_id": "4eff1afd-3926-48a4-9f0f-d5cebaf5c688",
+			"code": "E03"
+		},
+		{
+			"id": "e0d4cb63-f4ab-4de0-9efe-63a5c76fe7e2",
+			"lib": "Mettre en place ou renforcer la surveillance de la rage animale, en particulier chez les chiens, et l’investigation des animaux mordeurs.",
+			"pilier_id": "befddffd-f653-4da3-9835-264d3d15930b",
+			"code": "E01"
+		},
+		{
+			"id": "23f085cf-d99f-473e-b439-da6196d10d22",
+			"lib": "Définir des procédures pour l’observation, la quarantaine ou la gestion des animaux mordeurs et la communication rapide des résultats aux services de santé humaine.",
+			"pilier_id": "befddffd-f653-4da3-9835-264d3d15930b",
+			"code": "E02"
+		},
+		{
+			"id": "b1d00fea-5eba-4fa4-8803-5f886557d624",
+			"lib": "Identifier les points d’entrée prioritaires et les zones de mobilité où l’accès rapide à la prophylaxie post-exposition doit être garanti.",
+			"pilier_id": "4b1f031c-5ac3-4694-8d7e-3362d0ce81a5",
+			"code": "E01"
+		},
+		{
+			"id": "872c8770-1f62-40b7-9050-98ac56fe94de",
+			"lib": "Prévoir des mécanismes d’approvisionnement et de redistribution rapides des vaccins antirabiques et immunoglobulines vers les zones exposées, rurales ou enclavées.",
+			"pilier_id": "4b1f031c-5ac3-4694-8d7e-3362d0ce81a5",
+			"code": "E02"
+		},
+		{
+			"id": "30723eab-84e0-415e-9709-e446e6d4e8de",
+			"lib": "Informer les voyageurs, travailleurs itinérants et populations mobiles sur les risques de morsure et les conduites à tenir après exposition.",
+			"pilier_id": "4b1f031c-5ac3-4694-8d7e-3362d0ce81a5",
+			"code": "E03"
+		},
+		{
+			"id": "5383b5a5-dbbb-460c-88ad-c1a851666e9b",
+			"lib": "Définir un budget opérationnel pour la prévention et la riposte à la rage humaine couvrant surveillance, PPE, laboratoire, communication, investigation et vaccination canine.",
+			"pilier_id": "f8fad657-e502-45d0-9c5d-a7688892a1e2",
+			"code": "E01"
+		},
+		{
+			"id": "b98369ef-bfc8-4ca8-9e11-3d329698a602",
+			"lib": "Prévoir un mécanisme de mobilisation rapide des ressources pour éviter les ruptures de vaccins, d’immunoglobulines et d’intrants essentiels.",
+			"pilier_id": "f8fad657-e502-45d0-9c5d-a7688892a1e2",
+			"code": "E02"
+		},
+		{
+			"id": "de55ea96-4e50-4708-88eb-9bddb33f4876",
+			"lib": "Mettre en place des outils de suivi financier et de redevabilité pour les dépenses engagées dans l’approche One Health contre la rage.",
+			"pilier_id": "f8fad657-e502-45d0-9c5d-a7688892a1e2",
+			"code": "E03"
+		},
+		{
+			"id": "c485b037-f939-4e6a-a8e0-e6fec1ab0318",
+			"lib": "Prévoir la logistique nécessaire pour l’approvisionnement, le stockage, la distribution et le suivi des vaccins antirabiques, immunoglobulines, consommables et outils d’investigation.",
+			"pilier_id": "b351eddb-9295-41ab-a4e4-56fe2b822781",
+			"code": "E01"
+		},
+		{
+			"id": "49d9101e-d567-4adb-afb7-3682f14caae8",
+			"lib": "Identifier les entrepôts, capacités de chaîne de froid, moyens de transport, ressources humaines et circuits de distribution mobilisables jusqu’au niveau périphérique.",
+			"pilier_id": "b351eddb-9295-41ab-a4e4-56fe2b822781",
+			"code": "E02"
+		},
+		{
+			"id": "f557f042-a362-42fc-9fb3-b1d8bd682cc0",
+			"lib": "Mettre en place un système de gestion des stocks, de réapprovisionnement rapide et de suivi des ruptures pour les intrants antirabiques et les outils de terrain.",
+			"pilier_id": "b351eddb-9295-41ab-a4e4-56fe2b822781",
+			"code": "E03"
+		}
+	]
+}

@@ -30,12 +30,13 @@
 import { computed, onMounted, ref, watch } from 'vue'
 import { db } from '../../db'
 import { useStore } from '../../store'
+import { latestValidEvaluations } from '../../consolidation'
 
 const store = useStore()
 const evaluations = ref([])
 
 const threats = computed(() => {
-  const matchingEvaluations = evaluations.value.filter(evaluation => {
+  const matchingEvaluations = latestValidEvaluations(evaluations.value).filter(evaluation => {
     const matchesProvince = !store.STATES.province || evaluation.province === store.STATES.province
     const matchesAxe = !store.STATES.axe || evaluation.axe === store.STATES.axe
     return matchesProvince && matchesAxe && evaluation.menace_lib

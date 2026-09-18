@@ -1,0 +1,300 @@
+{
+	"menace": {
+		"id": "d87b39b2-726b-4d48-b7f3-124742732995",
+		"lib": "Risques météorologiques",
+		"groupe": "Météorologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "1e05b301-c4a5-4a15-8ab8-f0183125ba7e",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P01"
+		},
+		{
+			"id": "8ba4361d-6e0c-471a-b76c-3898a7e84461",
+			"lib": "Alerte précoce et surveillance météorologique",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P02"
+		},
+		{
+			"id": "06fa4498-354e-4bf3-a75d-d7b37bee9f45",
+			"lib": "Cartographie des zones exposées et planification",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P03"
+		},
+		{
+			"id": "3c4e7b94-d67c-490c-835d-bfcdf76add58",
+			"lib": "Protection des populations et abris",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P04"
+		},
+		{
+			"id": "52b66f3a-0d43-475a-bf98-e923b3fae3c8",
+			"lib": "Soins de santé et continuité des services",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P05"
+		},
+		{
+			"id": "f68c5bf2-11e5-4944-acad-80a038d8435e",
+			"lib": "EAU - HYGIENE - ASSAINISSEMENT",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P06"
+		},
+		{
+			"id": "10ba7dc3-87c9-4226-b65d-bbf7983b72ec",
+			"lib": "Surveillance épidémiologique post-évènement",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P07"
+		},
+		{
+			"id": "a12c64fe-d69e-4d21-8017-c89c62842607",
+			"lib": "Logistique et accès",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P08"
+		},
+		{
+			"id": "1eefb51f-e9ac-4a6e-a28e-ebfa990ecd2b",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P09"
+		},
+		{
+			"id": "cf8bc06f-17dd-48ec-a4ff-27da59b28b6d",
+			"lib": "Protection des groupes vulnérables",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P10"
+		},
+		{
+			"id": "54a70f6f-27bb-46a3-8ef7-ff32b3cd7cd4",
+			"lib": "Budget",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P11"
+		},
+		{
+			"id": "0eab5e6a-8a7c-4085-ada4-56eab9fda59e",
+			"lib": "Relèvement / reconstruction résiliente",
+			"menace_id": "d87b39b2-726b-4d48-b7f3-124742732995",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "95172eaf-4acb-494d-b925-4530087e965b",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la préparation et la riposte aux tempêtes et tornades, associant météorologie, protection civile, santé, infrastructures, habitat, WASH, éducation, transport et autorités locales.",
+			"pilier_id": "1e05b301-c4a5-4a15-8ab8-f0183125ba7e",
+			"code": "E01"
+		},
+		{
+			"id": "a4c07614-572e-4854-985b-230d35ed0629",
+			"lib": "Disposer d’un plan de préparation et de riposte aux risques météorologiques actualisé, budgétisé et adapté aux provinces et territoires exposés en RDC.",
+			"pilier_id": "1e05b301-c4a5-4a15-8ab8-f0183125ba7e",
+			"code": "E02"
+		},
+		{
+			"id": "138c2efc-3d9e-4a71-9121-70b29dd6b46a",
+			"lib": "Définir les rôles, responsabilités, chaînes de commandement, procédures d’activation et mécanismes de coordination entre niveaux national, provincial, territorial et communautaire.",
+			"pilier_id": "1e05b301-c4a5-4a15-8ab8-f0183125ba7e",
+			"code": "E03"
+		},
+		{
+			"id": "24af3e16-414f-4111-afec-2c59ad945f74",
+			"lib": "Mettre en place ou renforcer un système d’alerte précoce basé sur les prévisions météorologiques, le suivi des vents violents, orages sévères, pluies associées et autres signaux annonciateurs de tempêtes ou tornades.",
+			"pilier_id": "8ba4361d-6e0c-471a-b76c-3898a7e84461",
+			"code": "E01"
+		},
+		{
+			"id": "74646f84-5755-44b4-bafc-fc93632c9e10",
+			"lib": "Définir des seuils d’alerte, des messages normalisés et des procédures de diffusion rapide vers les autorités, services techniques, structures de santé, écoles et communautés exposées.",
+			"pilier_id": "8ba4361d-6e0c-471a-b76c-3898a7e84461",
+			"code": "E02"
+		},
+		{
+			"id": "7bb25608-0b84-449a-84cd-6f77d8000a18",
+			"lib": "Assurer des mécanismes de veille météorologique continue et de partage rapide de l’information entre les services compétents et les plateformes de gestion des urgences.",
+			"pilier_id": "8ba4361d-6e0c-471a-b76c-3898a7e84461",
+			"code": "E03"
+		},
+		{
+			"id": "a70da082-dc49-4bb0-8930-878f3413b2f8",
+			"lib": "Identifier et cartographier les zones les plus exposées aux vents violents, tempêtes localisées, tornades, chutes d’arbres, destructions d’habitations et interruptions des services essentiels.",
+			"pilier_id": "06fa4498-354e-4bf3-a75d-d7b37bee9f45",
+			"code": "E01"
+		},
+		{
+			"id": "3ce493eb-404b-45ed-a414-81761576a619",
+			"lib": "Cartographier les infrastructures critiques, établissements de santé, écoles, marchés, axes de transport et réseaux essentiels particulièrement vulnérables aux événements météorologiques violents.",
+			"pilier_id": "06fa4498-354e-4bf3-a75d-d7b37bee9f45",
+			"code": "E02"
+		},
+		{
+			"id": "7787ee27-a67c-4d6c-a6d4-b343b2420b25",
+			"lib": "Élaborer des plans locaux de contingence incluant scénarios d’impact, besoins prioritaires, sites de refuge et options de déploiement rapide des secours.",
+			"pilier_id": "06fa4498-354e-4bf3-a75d-d7b37bee9f45",
+			"code": "E03"
+		},
+		{
+			"id": "5cd29f33-a0b5-4672-89ca-f9ac2b1653dd",
+			"lib": "Prévoir des mesures de protection immédiate des populations avant et pendant les tempêtes ou tornades, y compris l’identification de lieux sûrs et de consignes de mise à l’abri.",
+			"pilier_id": "3c4e7b94-d67c-490c-835d-bfcdf76add58",
+			"code": "E01"
+		},
+		{
+			"id": "ca19cb17-7a1e-408d-bd9c-1501bc694a0d",
+			"lib": "Identifier, préparer et Equiper des abris temporaires ou espaces de refuge adaptés, avec accès à l’eau, à l’assainissement, à la sécurité et aux soins de santé essentiels.",
+			"pilier_id": "3c4e7b94-d67c-490c-835d-bfcdf76add58",
+			"code": "E02"
+		},
+		{
+			"id": "2fd12fb3-2121-4f07-92b3-d17f6a269079",
+			"lib": "Prévoir des procédures d’évacuation, de regroupement familial, d’enregistrement et d’assistance pour les ménages affectés par les destructions d’habitations ou le déplacement temporaire.",
+			"pilier_id": "3c4e7b94-d67c-490c-835d-bfcdf76add58",
+			"code": "E03"
+		},
+		{
+			"id": "e7848de4-d3ae-4f09-9505-0e09fca72054",
+			"lib": "Identifier les établissements de santé exposés aux dommages liés aux vents violents, aux chutes d’arbres, à l’arrachement de toitures et aux coupures d’énergie, et prévoir des mesures de protection ou d’adaptation.",
+			"pilier_id": "52b66f3a-0d43-475a-bf98-e923b3fae3c8",
+			"code": "E01"
+		},
+		{
+			"id": "eabfe4e1-7355-4152-93d8-fa047b5a4c44",
+			"lib": "Prépositionner les médicaments essentiels, kits d’urgence, moyens de première réponse et Equipements nécessaires à la prise en charge des blessés et des urgences post-événement.",
+			"pilier_id": "52b66f3a-0d43-475a-bf98-e923b3fae3c8",
+			"code": "E02"
+		},
+		{
+			"id": "29104219-6405-4f06-b06d-ac0bc1c437b4",
+			"lib": "Prévoir des stratégies alternatives de continuité des services de santé, y compris Equipes mobiles, sites temporaires, références adaptées et solutions énergétiques de secours.",
+			"pilier_id": "52b66f3a-0d43-475a-bf98-e923b3fae3c8",
+			"code": "E03"
+		},
+		{
+			"id": "9089b791-e0b0-4018-8a03-8ed91646226c",
+			"lib": "Prévoir des interventions WASH d’urgence pour maintenir ou rétablir l’accès à l’eau potable, à l’hygiène de base et à l’assainissement dans les zones touchées par les tempêtes ou tornades.",
+			"pilier_id": "f68c5bf2-11e5-4944-acad-80a038d8435e",
+			"code": "E01"
+		},
+		{
+			"id": "83d89a30-de6f-462a-9227-31a5a503e621",
+			"lib": "Identifier les risques de dommages aux réseaux d’eau, latrines, installations sanitaires et systèmes de drainage, et prévoir des solutions temporaires ou de remplacement.",
+			"pilier_id": "f68c5bf2-11e5-4944-acad-80a038d8435e",
+			"code": "E02"
+		},
+		{
+			"id": "ef395117-1edc-440c-bc22-e84947397a43",
+			"lib": "Prépositionner les intrants essentiels tels que chlore, jerrycans, savons, kits d’hygiène, bâches et matériels de réparation rapide dans les zones exposées.",
+			"pilier_id": "f68c5bf2-11e5-4944-acad-80a038d8435e",
+			"code": "E03"
+		},
+		{
+			"id": "af8b5f3e-f271-4daf-b844-88d3a61a8377",
+			"lib": "Renforcer la surveillance des blessures, traumatismes, maladies prioritaires et événements de santé publique susceptibles d’augmenter après les tempêtes ou tornades.",
+			"pilier_id": "10ba7dc3-87c9-4226-b65d-bbf7983b72ec",
+			"code": "E01"
+		},
+		{
+			"id": "97c1829b-233d-4770-a0f0-d7fb7eaf9524",
+			"lib": "Diffuser les définitions de cas, outils de notification rapide et procédures d’alerte aux structures de santé, communautés affectées et sites d’accueil.",
+			"pilier_id": "10ba7dc3-87c9-4226-b65d-bbf7983b72ec",
+			"code": "E02"
+		},
+		{
+			"id": "b2c08d30-4ccb-4441-a234-b2a1557f7c9f",
+			"lib": "Prévoir des mécanismes de surveillance communautaire et d’investigation rapide des flambées ou événements inhabituels après les intempéries.",
+			"pilier_id": "10ba7dc3-87c9-4226-b65d-bbf7983b72ec",
+			"code": "E03"
+		},
+		{
+			"id": "e4502ff4-c8ce-4be6-9cd1-c97945186009",
+			"lib": "Identifier les contraintes d’accès liées aux destructions de routes, ponts, réseaux électriques et télécommunications, et prévoir des solutions logistiques alternatives.",
+			"pilier_id": "a12c64fe-d69e-4d21-8017-c89c62842607",
+			"code": "E01"
+		},
+		{
+			"id": "736b0e7b-ef13-4051-b76e-5b3cdd16297c",
+			"lib": "Prépositionner les stocks d’urgence, Equipements de secours, bâches, outils de dégagement, carburant et moyens de transport dans les zones à risque.",
+			"pilier_id": "a12c64fe-d69e-4d21-8017-c89c62842607",
+			"code": "E02"
+		},
+		{
+			"id": "6168b4c9-4f61-49ea-ad49-9397fa1a51a8",
+			"lib": "Mettre en place un mécanisme de suivi des stocks, de réapprovisionnement rapide et de coordination logistique pour les zones affectées ou isolées.",
+			"pilier_id": "a12c64fe-d69e-4d21-8017-c89c62842607",
+			"code": "E03"
+		},
+		{
+			"id": "2fe8a8c7-d1f6-4484-bf4a-46406e2964bb",
+			"lib": "Déployer une stratégie de communication sur les alertes météorologiques, les consignes de mise à l’abri, les mesures de sécurité, l’accès aux services et les conduites à tenir après tempête ou tornade.",
+			"pilier_id": "1eefb51f-e9ac-4a6e-a28e-ebfa990ecd2b",
+			"code": "E01"
+		},
+		{
+			"id": "88645db8-396b-4a3c-8926-1eda66acd456",
+			"lib": "Adapter et diffuser des messages dans les langues locales via radios, relais communautaires, écoles, leaders locaux, téléphonie mobile et autres canaux appropriés.",
+			"pilier_id": "1eefb51f-e9ac-4a6e-a28e-ebfa990ecd2b",
+			"code": "E02"
+		},
+		{
+			"id": "ea6307f1-f9bb-4e77-a3dc-1f0144272d40",
+			"lib": "Impliquer les communautés dans les dispositifs d’alerte, la préparation des ménages, la remontée d’information et l’identification rapide des besoins post-événement.",
+			"pilier_id": "1eefb51f-e9ac-4a6e-a28e-ebfa990ecd2b",
+			"code": "E03"
+		},
+		{
+			"id": "a2b03db4-a303-4d9d-a823-ac5a7a61eb56",
+			"lib": "Identifier les groupes les plus vulnérables face aux tempêtes et tornades, notamment enfants, femmes enceintes, personnes âgées, personnes vivant avec handicap, malades chroniques et ménages vivant dans des abris précaires.",
+			"pilier_id": "cf8bc06f-17dd-48ec-a4ff-27da59b28b6d",
+			"code": "E01"
+		},
+		{
+			"id": "e6b6c25d-cb40-4ad5-92c8-cb5ccbdd7440",
+			"lib": "Prévoir des mesures spécifiques d’évacuation, d’assistance, de protection et de continuité des soins pour ces populations avant, pendant et après l’événement.",
+			"pilier_id": "cf8bc06f-17dd-48ec-a4ff-27da59b28b6d",
+			"code": "E02"
+		},
+		{
+			"id": "f790d1f9-b212-46e6-afad-0fc2db9df90d",
+			"lib": "Intégrer les considérations de protection, de sécurité et de prévention des violences dans la gestion des abris, évacuations et interventions post-tempête.",
+			"pilier_id": "cf8bc06f-17dd-48ec-a4ff-27da59b28b6d",
+			"code": "E03"
+		},
+		{
+			"id": "507eeae5-2188-4499-9b25-7eeb7a86568e",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte aux risques météorologiques couvrant alerte, évacuation, santé, abris, WASH, logistique, communication et relèvement.",
+			"pilier_id": "54a70f6f-27bb-46a3-8ef7-ff32b3cd7cd4",
+			"code": "E01"
+		},
+		{
+			"id": "10dbb7eb-f659-4b49-9174-0957dd1533f1",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour les actions prioritaires avant, pendant et après les tempêtes ou tornades.",
+			"pilier_id": "54a70f6f-27bb-46a3-8ef7-ff32b3cd7cd4",
+			"code": "E02"
+		},
+		{
+			"id": "7df409b6-f91d-411c-a94f-841ef8ca84a9",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses engagées dans la gestion des événements météorologiques extrêmes.",
+			"pilier_id": "54a70f6f-27bb-46a3-8ef7-ff32b3cd7cd4",
+			"code": "E03"
+		},
+		{
+			"id": "5e2a2dba-eae3-42f1-bf40-e5f59cb16f8a",
+			"lib": "Prévoir des actions de relèvement rapide pour rétablir les services essentiels, les abris, les infrastructures de base et les conditions de vie des ménages affectés.",
+			"pilier_id": "0eab5e6a-8a7c-4085-ada4-56eab9fda59e",
+			"code": "E01"
+		},
+		{
+			"id": "0c2ff179-0cc2-48f8-935f-d41f88ee3fe0",
+			"lib": "Intégrer des normes de reconstruction résiliente et des mesures de réduction des risques météorologiques dans la remise en Etat des habitations, écoles, structures de santé et infrastructures publiques.",
+			"pilier_id": "0eab5e6a-8a7c-4085-ada4-56eab9fda59e",
+			"code": "E02"
+		},
+		{
+			"id": "0f3e74f4-5a23-401f-951e-5397190167cf",
+			"lib": "Organiser des revues après action, documenter les leçons apprises et renforcer durablement les capacités locales face aux tempêtes, tornades et autres événements météorologiques extrêmes.",
+			"pilier_id": "0eab5e6a-8a7c-4085-ada4-56eab9fda59e",
+			"code": "E03"
+		}
+	]
+}

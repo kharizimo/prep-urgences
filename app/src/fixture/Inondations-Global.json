@@ -1,0 +1,300 @@
+{
+	"menace": {
+		"id": "a36a5e47-eabf-4329-a721-751089cc0978",
+		"lib": "Inondations",
+		"groupe": "Hydroliques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "3ba3a483-112e-4105-8a55-9d996a9cbedd",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P01"
+		},
+		{
+			"id": "f68a88a3-793f-4152-b4e8-ee3be080729d",
+			"lib": "Alerte précoce et surveillance hydrométéorologique",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P02"
+		},
+		{
+			"id": "979b9943-b41b-4879-8404-f20ff2e7be1b",
+			"lib": "Cartographie des zones à risque et planification",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P03"
+		},
+		{
+			"id": "f8f2c0bf-e833-44dc-8e7f-71246cf2cbf0",
+			"lib": "Evacuation et gestion des sites d'accueil",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P04"
+		},
+		{
+			"id": "b8bd6c46-c279-44ee-83a5-ed3e9d31989c",
+			"lib": "EAU - HYGIENE - ASSAINISSEMENT",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P05"
+		},
+		{
+			"id": "16bb26e0-3a43-4571-ad37-c51b2c33a768",
+			"lib": "Surveillance épidémiologique post-inondation",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P06"
+		},
+		{
+			"id": "40896bf3-5815-4b8f-ac57-116028fd9139",
+			"lib": "Soins de santé et continuité des services",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P07"
+		},
+		{
+			"id": "b60bc573-f573-4bea-ac84-e6e4ffe5a93b",
+			"lib": "Logistique et accès",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P08"
+		},
+		{
+			"id": "7ad7b2a7-970c-48cd-8245-d09062eba30d",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P09"
+		},
+		{
+			"id": "b8d9458b-d927-4a85-a0bc-1d4a9e67b2bc",
+			"lib": "Protection des populations vulnérables",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P10"
+		},
+		{
+			"id": "e0053287-5dca-46fd-ad36-1e52b7ba648d",
+			"lib": "Budget",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P11"
+		},
+		{
+			"id": "5a32aca9-3eb6-42a9-b2f2-5b911962db45",
+			"lib": "Relèvement précoce et résilience",
+			"menace_id": "a36a5e47-eabf-4329-a721-751089cc0978",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "7c18c94d-8a5e-4f7b-aa0b-e65ce25195c3",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la préparation et la riposte aux inondations aux niveaux national, provincial et local, associant santé, protection civile, météorologie, hydrologie, eau-hygiène-assainissement, environnement, affaires sociales, transport et autorités territoriales.",
+			"pilier_id": "3ba3a483-112e-4105-8a55-9d996a9cbedd",
+			"code": "E01"
+		},
+		{
+			"id": "f57aa7dd-7832-4b88-8d97-76300924dd8c",
+			"lib": "Disposer d’un plan de préparation et de riposte aux inondations actualisé, budgétisé et contextualisé pour les provinces et zones de santé exposées en RDC.",
+			"pilier_id": "3ba3a483-112e-4105-8a55-9d996a9cbedd",
+			"code": "E02"
+		},
+		{
+			"id": "1b43da4e-2d4c-47c9-89b2-321d6b621921",
+			"lib": "Définir les rôles, responsabilités, circuits de décision, mécanismes d’activation et modalités de coordination entre les niveaux national, provincial et communautaire.",
+			"pilier_id": "3ba3a483-112e-4105-8a55-9d996a9cbedd",
+			"code": "E03"
+		},
+		{
+			"id": "3481dcb1-9e3c-4287-8ec8-177e94cf2e9d",
+			"lib": "Mettre en place ou renforcer un système d’alerte précoce fondé sur les données hydrologiques et météorologiques, incluant le suivi des pluies intenses, crues, débordements de rivières et niveaux d’eau dans les zones à risque.",
+			"pilier_id": "f68a88a3-793f-4152-b4e8-ee3be080729d",
+			"code": "E01"
+		},
+		{
+			"id": "42133407-67bc-4f00-9723-6aa493639549",
+			"lib": "Définir et diffuser des seuils d’alerte et des procédures d’activation rapide pour les autorités sanitaires, les autorités locales et les communautés exposées.",
+			"pilier_id": "f68a88a3-793f-4152-b4e8-ee3be080729d",
+			"code": "E02"
+		},
+		{
+			"id": "ab00d61a-dde9-4bad-9c07-32a5f066bf90",
+			"lib": "Assurer des mécanismes de partage en temps réel des informations entre les services techniques, les structures sanitaires et les plateformes de coordination des urgences.",
+			"pilier_id": "f68a88a3-793f-4152-b4e8-ee3be080729d",
+			"code": "E03"
+		},
+		{
+			"id": "2c03b9b0-d807-4c32-b239-cb991b4f273b",
+			"lib": "Identifier et cartographier les zones de santé, quartiers, villages, infrastructures critiques et établissements de santé exposés aux inondations récurrentes, à l’érosion et à l’isolement.",
+			"pilier_id": "979b9943-b41b-4879-8404-f20ff2e7be1b",
+			"code": "E01"
+		},
+		{
+			"id": "02d7e082-c3e1-48e3-97bb-c9d9debc635a",
+			"lib": "Actualiser régulièrement les cartes des risques, itinéraires d’évacuation, zones de refuge, points de rassemblement et zones d’accès difficile.",
+			"pilier_id": "979b9943-b41b-4879-8404-f20ff2e7be1b",
+			"code": "E02"
+		},
+		{
+			"id": "6a8f345c-f2e5-4fee-96d6-05d43c317a85",
+			"lib": "Élaborer des plans locaux de contingence intégrant scénarios d’inondation, besoins prioritaires, estimation des populations exposées et options de déploiement rapide.",
+			"pilier_id": "979b9943-b41b-4879-8404-f20ff2e7be1b",
+			"code": "E03"
+		},
+		{
+			"id": "4b87dbb0-b8f6-4e4c-a9a6-a710c636b3f7",
+			"lib": "Définir des procédures d’évacuation préventive ou d’urgence pour les populations exposées, en tenant compte des zones enclavées, riveraines et urbaines à drainage insuffisant.",
+			"pilier_id": "f8f2c0bf-e833-44dc-8e7f-71246cf2cbf0",
+			"code": "E01"
+		},
+		{
+			"id": "a38d050d-733b-40b8-ba20-243105932fc8",
+			"lib": "Identifier, préparer et Equiper des sites d’accueil temporaires sûrs avec accès à l’eau, à l’assainissement, à la sécurité, à la protection et aux soins de santé de base.",
+			"pilier_id": "f8f2c0bf-e833-44dc-8e7f-71246cf2cbf0",
+			"code": "E02"
+		},
+		{
+			"id": "f275f27c-8ad3-4bb5-b284-ecee0cdcf48b",
+			"lib": "Prévoir l’enregistrement des déplacés, l’organisation interne des sites, les mécanismes de gestion et la coordination des services essentiels sur les sites d’accueil.",
+			"pilier_id": "f8f2c0bf-e833-44dc-8e7f-71246cf2cbf0",
+			"code": "E03"
+		},
+		{
+			"id": "89087798-1c56-45f6-a364-42ef7af74d48",
+			"lib": "Prévoir des interventions WASH d’urgence pour sécuriser l’accès à l’eau potable, la chloration, le stockage sûr de l’eau et la distribution de kits d’hygiène dans les zones inondées et sites d’accueil.",
+			"pilier_id": "b8bd6c46-c279-44ee-83a5-ed3e9d31989c",
+			"code": "E01"
+		},
+		{
+			"id": "22f76fe3-5f5a-4996-98d0-a6d934cfa882",
+			"lib": "Identifier des solutions temporaires d’assainissement, de gestion des excreta et des déchets pour limiter la contamination de l’environnement après les inondations.",
+			"pilier_id": "b8bd6c46-c279-44ee-83a5-ed3e9d31989c",
+			"code": "E02"
+		},
+		{
+			"id": "37b8a18a-8925-47a5-aceb-96eca423418d",
+			"lib": "Prépositionner le chlore, les réservoirs, jerrycans, savons, matériels de désinfection et autres intrants EAH dans les zones à haut risque.",
+			"pilier_id": "b8bd6c46-c279-44ee-83a5-ed3e9d31989c",
+			"code": "E03"
+		},
+		{
+			"id": "f9ec760b-ed55-46b0-92d9-f76e3c23a899",
+			"lib": "Renforcer la surveillance des maladies prioritaires associées aux inondations, notamment les maladies diarrhéiques, le choléra, le paludisme, les infections respiratoires, les maladies de la peau et autres événements de santé publique.",
+			"pilier_id": "16bb26e0-3a43-4571-ad37-c51b2c33a768",
+			"code": "E01"
+		},
+		{
+			"id": "1d9aebda-dcb5-45ea-9d2f-db92c8d22b94",
+			"lib": "Diffuser les définitions de cas, formulaires d’alerte et outils de notification rapide dans les structures sanitaires, sites d’accueil et communautés affectées.",
+			"pilier_id": "16bb26e0-3a43-4571-ad37-c51b2c33a768",
+			"code": "E02"
+		},
+		{
+			"id": "a0298fa4-c146-48a8-824b-2bb239a326b8",
+			"lib": "Prévoir des mécanismes de surveillance communautaire et d’investigation rapide pour détecter précocement les flambées post-inondation.",
+			"pilier_id": "16bb26e0-3a43-4571-ad37-c51b2c33a768",
+			"code": "E03"
+		},
+		{
+			"id": "f177ee04-ae31-43e5-a49a-7e35ef8715f3",
+			"lib": "Identifier les établissements de santé exposés aux inondations et prévoir des mesures de protection, de relocalisation temporaire ou d’adaptation pour maintenir la continuité des services essentiels.",
+			"pilier_id": "40896bf3-5815-4b8f-ac57-116028fd9139",
+			"code": "E01"
+		},
+		{
+			"id": "7aea84b0-89c3-4c65-8bae-d9e78d217f01",
+			"lib": "Prépositionner les médicaments essentiels, intrants médicaux, kits d’urgence, moyens de référence et Equipements nécessaires à la prise en charge des blessés et malades dans les zones à risque.",
+			"pilier_id": "40896bf3-5815-4b8f-ac57-116028fd9139",
+			"code": "E02"
+		},
+		{
+			"id": "6ebfb5e1-b149-4fa3-a8c0-94a9f2ea629b",
+			"lib": "Prévoir des stratégies alternatives de prestation des soins en cas de rupture d’accès, y compris Equipes mobiles, cliniques temporaires et références adaptées.",
+			"pilier_id": "40896bf3-5815-4b8f-ac57-116028fd9139",
+			"code": "E03"
+		},
+		{
+			"id": "0dcb9e98-1abb-4d8c-a6e9-510a1b60d55e",
+			"lib": "Identifier les contraintes d’accès liées aux routes coupées, ponts endommagés, zones enclavées et besoins en moyens alternatifs de transport fluvial, motorisé ou aérien selon le contexte.",
+			"pilier_id": "b60bc573-f573-4bea-ac84-e6e4ffe5a93b",
+			"code": "E01"
+		},
+		{
+			"id": "e8213191-7ad1-479f-a4bf-aea206545a5d",
+			"lib": "Prépositionner les stocks humanitaires et sanitaires dans des sites sécurisés avant les saisons à haut risque hydrologique.",
+			"pilier_id": "b60bc573-f573-4bea-ac84-e6e4ffe5a93b",
+			"code": "E02"
+		},
+		{
+			"id": "1cc7fe62-5736-494f-91ce-e3d095ff3831",
+			"lib": "Mettre en place un mécanisme de suivi des stocks, de redistribution rapide et de mobilisation logistique pour répondre aux besoins des zones affectées.",
+			"pilier_id": "b60bc573-f573-4bea-ac84-e6e4ffe5a93b",
+			"code": "E03"
+		},
+		{
+			"id": "7c8a53bb-69ba-4e47-b0c5-dd8b2df56333",
+			"lib": "Déployer une stratégie de communication sur les alertes d’inondation, les consignes d’évacuation, les comportements de protection, l’accès aux services et la prévention des maladies après inondation.",
+			"pilier_id": "7ad7b2a7-970c-48cd-8245-d09062eba30d",
+			"code": "E01"
+		},
+		{
+			"id": "4e9e2f9f-e81b-4df4-b608-8999ca8bf171",
+			"lib": "Adapter et diffuser des messages dans les langues locales via radios, relais communautaires, leaders locaux, écoles, téléphonie et autres canaux appropriés.",
+			"pilier_id": "7ad7b2a7-970c-48cd-8245-d09062eba30d",
+			"code": "E02"
+		},
+		{
+			"id": "f933bea4-b46a-487d-acab-5cc5d9a64072",
+			"lib": "Impliquer les communautés dans l’identification des risques, les alertes précoces, la préparation des ménages et la gestion des retours d’information.",
+			"pilier_id": "7ad7b2a7-970c-48cd-8245-d09062eba30d",
+			"code": "E03"
+		},
+		{
+			"id": "fb9a64ba-e0c8-49bb-9c15-ba2a386d9917",
+			"lib": "Identifier les groupes les plus vulnérables exposés aux inondations, notamment enfants, femmes enceintes, personnes âgées, personnes vivant avec handicap, malades chroniques et ménages très précaires.",
+			"pilier_id": "b8d9458b-d927-4a85-a0bc-1d4a9e67b2bc",
+			"code": "E01"
+		},
+		{
+			"id": "37ee9635-45b3-4a0b-ae5d-0687b18ac133",
+			"lib": "Prévoir des mesures spécifiques de protection, d’accès aux soins, de sécurité, d’assistance sociale et de continuité thérapeutique pour ces populations.",
+			"pilier_id": "b8d9458b-d927-4a85-a0bc-1d4a9e67b2bc",
+			"code": "E02"
+		},
+		{
+			"id": "164a0f83-3d29-4f72-af64-41a0210f30a0",
+			"lib": "Intégrer les considérations de protection, de prévention des violences et de sauvegarde dans les évacuations et la gestion des sites d’accueil.",
+			"pilier_id": "b8d9458b-d927-4a85-a0bc-1d4a9e67b2bc",
+			"code": "E03"
+		},
+		{
+			"id": "1ffce310-07ea-43d8-8af4-96b635eff259",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte aux inondations couvrant alerte, évacuation, santé, WASH, logistique, communication, protection et relèvement précoce.",
+			"pilier_id": "e0053287-5dca-46fd-ad36-1e52b7ba648d",
+			"code": "E01"
+		},
+		{
+			"id": "fa1a917b-a569-4559-98aa-d0bc9a029487",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour déclencher les actions prioritaires avant, pendant et après les inondations.",
+			"pilier_id": "e0053287-5dca-46fd-ad36-1e52b7ba648d",
+			"code": "E02"
+		},
+		{
+			"id": "feb14163-0b04-4dc2-9126-228c4d2304e8",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses liées à la gestion des inondations.",
+			"pilier_id": "e0053287-5dca-46fd-ad36-1e52b7ba648d",
+			"code": "E03"
+		},
+		{
+			"id": "7615006c-3b80-4fba-9018-5b015098053d",
+			"lib": "Prévoir des actions de relèvement rapide pour rétablir l’accès aux services essentiels, aux moyens de subsistance, à l’eau potable et aux infrastructures communautaires après les inondations.",
+			"pilier_id": "5a32aca9-3eb6-42a9-b2f2-5b911962db45",
+			"code": "E01"
+		},
+		{
+			"id": "31be1e3e-cbd5-4ebd-a6e1-76730b3c0c7d",
+			"lib": "Intégrer les mesures de réduction des risques de catastrophe dans la reconstruction, l’aménagement des sites, la protection des établissements de santé et la planification locale.",
+			"pilier_id": "5a32aca9-3eb6-42a9-b2f2-5b911962db45",
+			"code": "E02"
+		},
+		{
+			"id": "ef31acbf-da30-4833-88f0-896ff647d70e",
+			"lib": "Organiser des revues après action, documenter les leçons apprises et renforcer durablement les capacités communautaires et institutionnelles face aux risques hydrométéorologiques.",
+			"pilier_id": "5a32aca9-3eb6-42a9-b2f2-5b911962db45",
+			"code": "E03"
+		}
+	]
+}

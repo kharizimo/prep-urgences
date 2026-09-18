@@ -1,0 +1,300 @@
+{
+	"menace": {
+		"id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+		"lib": "Feux de brousse",
+		"groupe": "Climatologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "3039ab7f-bdef-423b-b6d7-46867e59739c",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P01"
+		},
+		{
+			"id": "4e0f59a1-657b-46e4-b7f3-9ce0e6c95380",
+			"lib": "Alerte précoce et surveillance climatologique",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P02"
+		},
+		{
+			"id": "6312a5f4-6424-4634-bf9f-99eb818003c5",
+			"lib": "Cartographie des zones à risque et suivi environnemental",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P03"
+		},
+		{
+			"id": "c2a30958-d9f3-4042-82a1-8378538b9d48",
+			"lib": "Prévention communautaire et gestion des combustibles",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P04"
+		},
+		{
+			"id": "a41f7872-3090-4c5b-acff-a6ad3a2adf37",
+			"lib": "Surveillance sanitaire et qualité de l'air",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P05"
+		},
+		{
+			"id": "530731d7-31c5-4c39-9593-457e7af1311a",
+			"lib": "Protection des populations et évacuation",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P06"
+		},
+		{
+			"id": "8b3a87f8-a1bc-49f3-85d2-72cef3e4e3a1",
+			"lib": "Soins de santé et continuité des services",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P07"
+		},
+		{
+			"id": "6fc5321f-8b2b-4852-9b31-c5a5658e5615",
+			"lib": "EAU - HYGIENE - ASSAINISSEMENT ET RESSOURCES ESSENTIELLES",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P08"
+		},
+		{
+			"id": "919b42ff-2d90-4d28-849e-940d81bab642",
+			"lib": "Logistique et accès",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P09"
+		},
+		{
+			"id": "56b163c3-7343-47de-b45c-820eced6aa97",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P10"
+		},
+		{
+			"id": "793ba1f7-6be5-4bbe-ad44-0fa8e895a968",
+			"lib": "Budget",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P11"
+		},
+		{
+			"id": "f2e28a64-1057-4b03-88f3-523535ee9630",
+			"lib": "Relèvement écologique et résilience",
+			"menace_id": "10e583b4-7071-481d-9e2b-d4c9259b7c13",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "48a78f15-03a6-4918-ace6-e57dcaa40fd4",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la prévention et la riposte aux feux de brousse, associant environnement, météorologie, santé, protection civile, agriculture, autorités territoriales et communautés locales.",
+			"pilier_id": "3039ab7f-bdef-423b-b6d7-46867e59739c",
+			"code": "E01"
+		},
+		{
+			"id": "3af52259-b4ef-4dda-998f-b065af8edc66",
+			"lib": "Disposer d’un plan de préparation et de riposte aux feux de brousse actualisé, budgétisé et adapté aux zones forestières, savanicoles et interfaces habitat-végétation en RDC.",
+			"pilier_id": "3039ab7f-bdef-423b-b6d7-46867e59739c",
+			"code": "E02"
+		},
+		{
+			"id": "6a3e3cc6-1d12-4498-9d55-d54ed610390f",
+			"lib": "Définir les rôles, responsabilités, circuits d’alerte, modalités d’activation et mécanismes de coordination entre niveaux national, provincial, territorial et communautaire.",
+			"pilier_id": "3039ab7f-bdef-423b-b6d7-46867e59739c",
+			"code": "E03"
+		},
+		{
+			"id": "b201fef5-b622-410b-9085-bbbfe93b5b7a",
+			"lib": "Mettre en place ou renforcer un système d’alerte précoce fondé sur les conditions climatiques favorables aux feux, notamment sécheresse, chaleur, vent, faible humidité et saisonnalité locale.",
+			"pilier_id": "4e0f59a1-657b-46e4-b7f3-9ce0e6c95380",
+			"code": "E01"
+		},
+		{
+			"id": "ee75d235-89ce-4841-95d2-a80432443180",
+			"lib": "Définir des seuils d’alerte, des procédures de diffusion rapide des informations et des mécanismes de veille partagée entre services techniques, autorités locales et communautés.",
+			"pilier_id": "4e0f59a1-657b-46e4-b7f3-9ce0e6c95380",
+			"code": "E02"
+		},
+		{
+			"id": "b4e2e529-1253-4837-9070-9d133cd8ddb0",
+			"lib": "Assurer le suivi régulier des indices de risque incendie, des épisodes de fumée et des conditions météorologiques critiques dans les zones exposées.",
+			"pilier_id": "4e0f59a1-657b-46e4-b7f3-9ce0e6c95380",
+			"code": "E03"
+		},
+		{
+			"id": "1562ca78-673e-46af-9c2f-3e56e460a329",
+			"lib": "Identifier et cartographier les zones sujettes aux feux de brousse, les couloirs de propagation, les villages exposés, les infrastructures critiques et les aires protégées vulnérables.",
+			"pilier_id": "6312a5f4-6424-4634-bf9f-99eb818003c5",
+			"code": "E01"
+		},
+		{
+			"id": "6f4a9621-1abb-4c3e-bda6-7f040f250b5f",
+			"lib": "Utiliser les données de télédétection, d’observation locale et de suivi environnemental pour détecter, localiser et suivre l’évolution des feux et des zones dégradées.",
+			"pilier_id": "6312a5f4-6424-4634-bf9f-99eb818003c5",
+			"code": "E02"
+		},
+		{
+			"id": "87034cf0-1044-4d06-8f06-be221727bc20",
+			"lib": "Actualiser régulièrement les cartes de risque en intégrant les changements d’occupation des sols, la pression anthropique, la déforestation et la variabilité climatique.",
+			"pilier_id": "6312a5f4-6424-4634-bf9f-99eb818003c5",
+			"code": "E03"
+		},
+		{
+			"id": "b56dd0ea-2fe2-469d-84c7-3f9346aecc69",
+			"lib": "Mettre en œuvre des actions communautaires de prévention des feux de brousse, notamment la sensibilisation, la surveillance locale, la réglementation des brûlis et la réduction des pratiques à haut risque.",
+			"pilier_id": "c2a30958-d9f3-4042-82a1-8378538b9d48",
+			"code": "E01"
+		},
+		{
+			"id": "e973d82c-1048-4c21-9e8d-38d48e06a6b4",
+			"lib": "Identifier et gérer les combustibles végétaux à risque autour des habitations, écoles, structures de santé, routes, entrepôts et autres installations sensibles.",
+			"pilier_id": "c2a30958-d9f3-4042-82a1-8378538b9d48",
+			"code": "E02"
+		},
+		{
+			"id": "ddf5074e-ad72-434d-8a1d-f8ed44616ce9",
+			"lib": "Prévoir des coupe-feux, des zones tampons, des dispositifs locaux de surveillance et des Equipes communautaires formées à la prévention et à la première intervention.",
+			"pilier_id": "c2a30958-d9f3-4042-82a1-8378538b9d48",
+			"code": "E03"
+		},
+		{
+			"id": "cd206d84-f08a-403a-97fd-effe4f099e31",
+			"lib": "Renforcer la surveillance des effets sanitaires liés aux fumées et aux conditions climatologiques extrêmes, notamment détresse respiratoire, crises d’asthme, irritations, coups de chaleur et aggravation des maladies chroniques.",
+			"pilier_id": "a41f7872-3090-4c5b-acff-a6ad3a2adf37",
+			"code": "E01"
+		},
+		{
+			"id": "49ae6b8e-e7cb-40c4-a491-4c1652258fcf",
+			"lib": "Mettre en place des mécanismes de suivi de la qualité de l’air ou des indicateurs de pollution atmosphérique dans les zones affectées ou exposées aux fumées des feux.",
+			"pilier_id": "a41f7872-3090-4c5b-acff-a6ad3a2adf37",
+			"code": "E02"
+		},
+		{
+			"id": "ea7a164a-c74c-4a2a-810b-092ad3e57a8d",
+			"lib": "Diffuser des messages de santé publique et des conduites à tenir pour les personnes sensibles, notamment enfants, personnes âgées, femmes enceintes et personnes vivant avec des maladies respiratoires ou cardiovasculaires.",
+			"pilier_id": "a41f7872-3090-4c5b-acff-a6ad3a2adf37",
+			"code": "E03"
+		},
+		{
+			"id": "155aba34-941f-4d24-8f30-0cdb95899be8",
+			"lib": "Identifier les populations, habitations, écoles et infrastructures exposées et prévoir des procédures d’évacuation ou de mise à l’abri en cas de menace directe de feu ou de fumées intenses.",
+			"pilier_id": "530731d7-31c5-4c39-9593-457e7af1311a",
+			"code": "E01"
+		},
+		{
+			"id": "60e8fc66-fbc7-4d58-8796-babb0bfb7c7e",
+			"lib": "Définir des itinéraires d’évacuation, des points de rassemblement sûrs et des sites d’accueil temporaires adaptés aux conditions locales.",
+			"pilier_id": "530731d7-31c5-4c39-9593-457e7af1311a",
+			"code": "E02"
+		},
+		{
+			"id": "b0e14a7d-1032-401d-bd70-5df132d663cd",
+			"lib": "Prévoir des mesures spécifiques pour protéger les groupes vulnérables, les personnes à mobilité réduite et les communautés isolées lors des évacuations ou restrictions d’accès.",
+			"pilier_id": "530731d7-31c5-4c39-9593-457e7af1311a",
+			"code": "E03"
+		},
+		{
+			"id": "9f8396e8-b83b-4aaf-8548-ab5e156af73f",
+			"lib": "Identifier les structures de santé exposées aux feux, fumées, chaleur extrême ou coupures d’accès et prévoir des mesures de protection physique et de continuité des soins essentiels.",
+			"pilier_id": "8b3a87f8-a1bc-49f3-85d2-72cef3e4e3a1",
+			"code": "E01"
+		},
+		{
+			"id": "12cdf185-4b1a-4f7b-96a4-cb1df9de838a",
+			"lib": "Prépositionner les intrants médicaux essentiels pour la prise en charge des traumatismes, brûlures, détresses respiratoires, déshydratation et autres complications liées aux feux et à la chaleur.",
+			"pilier_id": "8b3a87f8-a1bc-49f3-85d2-72cef3e4e3a1",
+			"code": "E02"
+		},
+		{
+			"id": "d4ef8901-e790-44c9-adb1-e9e1eea5308a",
+			"lib": "Prévoir des stratégies alternatives de prestation des soins, y compris Equipes mobiles, références adaptées et réorganisation des services en cas d’interruption ou d’évacuation.",
+			"pilier_id": "8b3a87f8-a1bc-49f3-85d2-72cef3e4e3a1",
+			"code": "E03"
+		},
+		{
+			"id": "95f634e2-d7b1-4c5a-8382-cdeb3da974e1",
+			"lib": "Évaluer les risques de perturbation de l’approvisionnement en eau, de contamination, de rareté saisonnière et de dommages aux infrastructures essentielles sous l’effet des feux et de la sécheresse.",
+			"pilier_id": "6fc5321f-8b2b-4852-9b31-c5a5658e5615",
+			"code": "E01"
+		},
+		{
+			"id": "572c7979-c397-4a5b-9aa1-c612b0e92bc2",
+			"lib": "Prévoir des solutions de sécurisation de l’eau potable, de stockage, d’hygiène de base et d’approvisionnement d’urgence pour les structures de santé, sites d’accueil et communautés exposées.",
+			"pilier_id": "6fc5321f-8b2b-4852-9b31-c5a5658e5615",
+			"code": "E02"
+		},
+		{
+			"id": "f2756c40-a4fc-41ac-b1d4-2f3f48c9b59e",
+			"lib": "Protéger les ressources essentielles et les Equipements critiques contre les effets du feu, de la chaleur, de la fumée et des interruptions d’énergie ou d’accès.",
+			"pilier_id": "6fc5321f-8b2b-4852-9b31-c5a5658e5615",
+			"code": "E03"
+		},
+		{
+			"id": "b9919eff-9034-40d7-ba6d-b757b1e025bb",
+			"lib": "Identifier les contraintes d’accès liées aux feux, à la fumée, à l’enclavement saisonnier et à la dégradation des voies de communication, et prévoir des solutions alternatives de déploiement.",
+			"pilier_id": "919b42ff-2d90-4d28-849e-940d81bab642",
+			"code": "E01"
+		},
+		{
+			"id": "2886086c-f3b7-40a0-a7ee-dfab63412a7c",
+			"lib": "Prépositionner les Equipements de lutte, de protection individuelle, de santé, de communication et de transport dans les zones à haut risque avant les périodes critiques.",
+			"pilier_id": "919b42ff-2d90-4d28-849e-940d81bab642",
+			"code": "E02"
+		},
+		{
+			"id": "9d22e0b4-9911-4ee1-aa63-651909f426ce",
+			"lib": "Mettre en place un système de gestion des stocks, de maintenance, de réapprovisionnement rapide et de suivi logistique pour les opérations de prévention et de riposte.",
+			"pilier_id": "919b42ff-2d90-4d28-849e-940d81bab642",
+			"code": "E03"
+		},
+		{
+			"id": "9d6a2c04-ad8f-48a3-9384-fd53c9b9c706",
+			"lib": "Déployer une stratégie de communication sur la prévention des feux de brousse, les comportements à risque, les alertes climatologiques, les consignes de protection et les effets sanitaires des fumées.",
+			"pilier_id": "56b163c3-7343-47de-b45c-820eced6aa97",
+			"code": "E01"
+		},
+		{
+			"id": "6caffeb9-d757-4252-a1dd-b20a2ed7247f",
+			"lib": "Adapter et diffuser des messages dans les langues locales via radios communautaires, écoles, leaders locaux, agents communautaires et autres canaux appropriés.",
+			"pilier_id": "56b163c3-7343-47de-b45c-820eced6aa97",
+			"code": "E02"
+		},
+		{
+			"id": "69956ea0-6f5a-4699-950c-ad80df3c469d",
+			"lib": "Impliquer activement les communautés dans la prévention, la remontée d’alertes, la surveillance locale, la protection des ressources naturelles et le retour d’information sur les risques.",
+			"pilier_id": "56b163c3-7343-47de-b45c-820eced6aa97",
+			"code": "E03"
+		},
+		{
+			"id": "64f4340f-8392-4e92-8ad9-05f1d37b5d47",
+			"lib": "Définir un budget opérationnel pour la prévention et la riposte aux feux de brousse couvrant alerte, surveillance, santé, logistique, communication, protection et relèvement écologique.",
+			"pilier_id": "793ba1f7-6be5-4bbe-ad44-0fa8e895a968",
+			"code": "E01"
+		},
+		{
+			"id": "ac69016a-201e-4375-9f51-6d4baee4114a",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières avant et pendant les périodes critiques de risque climatologique.",
+			"pilier_id": "793ba1f7-6be5-4bbe-ad44-0fa8e895a968",
+			"code": "E02"
+		},
+		{
+			"id": "6afce2b7-9577-41e5-b62c-d6c4c7bf4c34",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses liées à la préparation et à la riposte.",
+			"pilier_id": "793ba1f7-6be5-4bbe-ad44-0fa8e895a968",
+			"code": "E03"
+		},
+		{
+			"id": "0c322709-1286-43a8-afbc-6625e5bdfbf4",
+			"lib": "Prévoir des actions de restauration rapide des zones brûlées, de protection des sols, de réduction de l’érosion et de réhabilitation des écosystèmes dégradés après les feux.",
+			"pilier_id": "f2e28a64-1057-4b03-88f3-523535ee9630",
+			"code": "E01"
+		},
+		{
+			"id": "1bb3b2f3-0601-4269-bded-b421e404efb8",
+			"lib": "Intégrer des mesures de résilience climatique, de gestion durable des terres, de reboisement et d’adaptation communautaire dans les plans locaux et sectoriels.",
+			"pilier_id": "f2e28a64-1057-4b03-88f3-523535ee9630",
+			"code": "E02"
+		},
+		{
+			"id": "4374b8fa-8f11-4992-af92-af92c5365516",
+			"lib": "Organiser des revues après action, documenter les leçons apprises et renforcer durablement les capacités institutionnelles et communautaires face aux risques climatologiques.",
+			"pilier_id": "f2e28a64-1057-4b03-88f3-523535ee9630",
+			"code": "E03"
+		}
+	]
+}

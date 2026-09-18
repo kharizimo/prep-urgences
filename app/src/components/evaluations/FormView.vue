@@ -6,8 +6,9 @@
         <div class="col-md-4">
           <div class="form-group mb-3">
             <label class="form-label">Menace</label>
-            <select class="form-select" v-model="formData.menace">
-              <option v-for="(menace, k) in lists.menaces" :key="k" :value="{ id: menace.id, lib: menace.lib }">
+            <select class="form-select" v-model="formData.menace" :disabled="filteredMenaces.length === 0">
+              <option disabled :value="{ id: '', lib: '' }">{{ filteredMenaces.length ? 'Sélectionner une menace' : 'Aucune menace pour cet axe' }}</option>
+              <option v-for="menace in filteredMenaces" :key="menace.id" :value="{ id: menace.id, lib: menace.lib }">
                 {{ menace.lib }}
               </option>
             </select>
@@ -56,19 +57,22 @@
       </div>
     </div>
     <div class="card-footer text-end">
-      <button class="btn btn-primary" @click="handleSubmit">Enregistrer</button>
+      <button class="btn btn-primary" :disabled="!selectedMenace" @click="handleSubmit">Enregistrer</button>
     </div>
   </div>
 </template>
 
 <script setup>
-import { ref, onMounted, toRaw } from 'vue'
+import { computed, ref, onMounted, toRaw, watch } from 'vue'
 import { useRouter } from 'vue-router'
 import { useStore } from '../../store'
 import { db } from '../../db'
+import { syncNow } from '../../sync'
 
 const store = useStore()
 const router = useRouter()
+
+const sortByCode = (a, b) => (a.code || '').localeCompare(b.code || '', undefined, { numeric: true })
 
 const formData = ref({
   id: '',
@@ -88,14 +92,29 @@ const lists = ref({
   menaces: []
 })
 
+// Le selecteur utilise Hopital, les fixtures utilisent Hopitaux.
+const normalizeAxe = axe => ['Hopital', 'Hopitaux', 'Hôpital préparé'].includes(axe) ? 'Hopital' : axe
+const filteredMenaces = computed(() => lists.value.menaces.filter(menace =>
+  !store.STATES.axe || normalizeAxe(menace.axe) === normalizeAxe(store.STATES.axe)
+))
+const selectedMenace = computed(() => filteredMenaces.value.find(menace => menace.id === formData.value.menace.id))
+
+watch(filteredMenaces, () => {
+  if (!selectedMenace.value) formData.value.menace = { id: '', lib: '' }
+})
+
 const handleSubmit = async () => {
   try {
-    console.log('Form data:', formData.value)
+    const menace = selectedMenace.value
+    if (!menace) return
     
     // 1. Préparation de l'évaluation
     formData.value.id = crypto.randomUUID()
-    formData.value.axe = store.STATES.axe
-    formData.value.create_at = new Date().toISOString()
+    formData.value.axe = store.STATES.axe || menace.axe
+    const timestamp = syncNow()
+    formData.value.create_at = timestamp
+    formData.value.update_at = timestamp
+    formData.value.sync_status = 'pending_insert'
     formData.value.score = 0
     formData.value.etat = 'Brouillon'
     formData.value.menace_id = formData.value.menace.id
@@ -110,12 +129,18 @@ const handleSubmit = async () => {
       .equals(formData.value.menace_id)
       .toArray()
 
+    piliersBruts.sort(sortByCode)
+
     const piliers = piliersBruts.map((v) => ({
       id: crypto.randomUUID(),
       evaluation_id: formData.value.id,
       pilier_id: v.id,
+      code: v.code,
       lib: v.lib,
-      score: 0
+      score: 0,
+      create_at: timestamp,
+      update_at: timestamp,
+      sync_status: 'pending_insert'
     }))
 
     if (piliers.length > 0) {
@@ -131,12 +156,20 @@ const handleSubmit = async () => {
         .equals(v.pilier_id)
         .toArray()
 
+      items.sort(sortByCode)
+
       const MappedItems = items.map((e) => ({
         id: crypto.randomUUID(),
         evaluation_pilier_id: v.id,
         exigence_id: e.id,
+        code: String(e.code ?? '').replace(/^E([0-9])$/, 'E0$1'),
         lib: e.lib,
-        statut: 'NON'
+        statut: formData.value.axe === 'Rapide' ? '' : 'NON',
+        cote: null,
+        argument: '',
+        create_at: timestamp,
+        update_at: timestamp,
+        sync_status: 'pending_insert'
       }))
 
       exigences.push(...MappedItems)

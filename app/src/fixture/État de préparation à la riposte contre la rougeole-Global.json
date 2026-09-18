@@ -1,0 +1,492 @@
+{
+	"menace": {
+		"id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+		"lib": "Rougeole",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"lib": "Gouvernance, coordination et activation du COUSP/PEV",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P01"
+		},
+		{
+			"id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"lib": "Équipe d’intervention rapide",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P02"
+		},
+		{
+			"id": "c8d76a76-45a3-435e-acc7-3145add80639",
+			"lib": "Communication sur les risques et engagement communautaire",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P03"
+		},
+		{
+			"id": "877c0fce-9c19-4f62-922f-cd8cb830de51",
+			"lib": "Prévention et contrôle des infections",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P04"
+		},
+		{
+			"id": "5367687b-6a84-4194-b102-67613417df0b",
+			"lib": "Prise en charge des cas",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P05"
+		},
+		{
+			"id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"lib": "Gestion des décès, audit de mortalité et sécurité communautaire",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P06"
+		},
+		{
+			"id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"lib": "Surveillance épidémiologique",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P07"
+		},
+		{
+			"id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"lib": "Recherche de contacts",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P08"
+		},
+		{
+			"id": "4203252c-5b4d-4385-83eb-7553a6a8c8c1",
+			"lib": "Laboratoire",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P09"
+		},
+		{
+			"id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"lib": "Points d’entrée et mobilité des voyageurs",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P10"
+		},
+		{
+			"id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"lib": "Budget",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P11"
+		},
+		{
+			"id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"lib": "Logistique",
+			"menace_id": "6c23ef34-fcad-4c95-b13e-209b9d2f9a90",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "f69321bf-22a7-479f-85de-67aad67ef5c4",
+			"lib": "Intégrer la rougeole dans la liste des urgences de santé publique prioritaires et définir les seuils d’alerte, d’investigation et de riposte (Niveau concerné : National, Provincial, ZS)",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E01"
+		},
+		{
+			"id": "07f935e4-2d07-4495-a3c8-5c13b3703996",
+			"lib": "Tester la coordination et les aspects opérationnels au moyen d’exercices de simulation et de tests de compétences (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E02"
+		},
+		{
+			"id": "696d880e-6304-447b-a638-93a3f9a74869",
+			"lib": "Disposer d’un mécanisme de coordination rougeole activable aux niveaux national, provincial et zone de santé, articulé au COUSP/IMS et au PEV (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E03"
+		},
+		{
+			"id": "5d7c6583-5b40-42ad-ae6a-069d8e751fbe",
+			"lib": "Désigner un point focal rougeole ou un binôme surveillance–PEV à chaque niveau, avec rôles, responsabilités et circuits de notification clairement définis (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E04"
+		},
+		{
+			"id": "2282fb95-6e21-4170-a664-04310b823192",
+			"lib": "Assurer une coordination fonctionnelle entre surveillance, PEV, nutrition, prise en charge, laboratoire, PCI, communication, logistique, écoles, autorités locales et partenaires (Niveau concerné : National, Provincial, ZS, PoE)",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E05"
+		},
+		{
+			"id": "e9eba9f7-6efa-4a56-9e1b-47c0f953d700",
+			"lib": "Disposer d’un plan d’activation veille–alerte–investigation–riposte, incluant les modalités de réunion, de rapportage, de SitRep et de prise de décision (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c2c7e426-61d7-4863-ae4a-85b2258c3f35",
+			"code": "E06"
+		},
+		{
+			"id": "c0548d22-d861-4ef1-a543-4ba4d6b36563",
+			"lib": "Désigner une équipe multidisciplinaire de riposte rougeole, incluant surveillance, PEV, prise en charge, laboratoire, communication, données et logistique, avec matériel de terrain, moyens de communication et mécanisme de déplacement rapide adaptés au contexte (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E01"
+		},
+		{
+			"id": "64cae526-a3e8-4b53-b422-c682ff3c0984",
+			"lib": "Définir clairement les responsabilités pour l’activation et la coordination de l’EIR face aux cas suspects ou flambées de rougeole (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E02"
+		},
+		{
+			"id": "498f22a9-c1f8-431d-99df-94118da4230a",
+			"lib": "Former comme il convient les EIR, y compris pour la prise en charge des cas, le prélèvement et le transport des échantillons, la recherche des contacts, les investigations sur les flambées et la mobilisation sociale (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E03"
+		},
+		{
+			"id": "5505124c-8e11-46f3-b8aa-116f0f5203ea",
+			"lib": "Former l’EIR infranationale à la surveillance et à la recherche des contacts (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E04"
+		},
+		{
+			"id": "6af7076a-703f-4503-a6a1-ff9192bacbf3",
+			"lib": "Recenser les établissements de santé prêts à détecter, isoler temporairement, notifier, prendre en charge et référer les cas suspects ou compliqués de rougeole (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E05"
+		},
+		{
+			"id": "c54ddaf8-8a6f-4ffc-81f7-f53e1713203b",
+			"lib": "Mener au moins un exercice de simulation ou une revue fonctionnelle périodique pour maintenir la capacité des EIR à détecter, investiguer et répondre rapidement à une flambée de rougeole (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "0a329e38-1c4c-4fa6-afc2-3ef2936fd31f",
+			"code": "E06"
+		},
+		{
+			"id": "21bb189e-2d41-4a40-adc1-61cca9d792a8",
+			"lib": "Élaborer une stratégie, un plan et un budget complets pour la collaboration avec les médias et le public, recenser les principaux canaux de communication et les principales rumeurs et en assurer un suivi (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c8d76a76-45a3-435e-acc7-3145add80639",
+			"code": "E01"
+		},
+		{
+			"id": "918f73b4-9ee0-4472-ae5f-ed0ab4e1d119",
+			"lib": "Mettre en place un mécanisme opérationnel de coordination de la communication en vue de mobiliser les parties prenantes, y compris la société civile, les ONG, les médias, les leaders communautaires, religieux, traditionnels, scolaires et les acteurs locaux (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c8d76a76-45a3-435e-acc7-3145add80639",
+			"code": "E02"
+		},
+		{
+			"id": "3bf3eed7-01e3-4dc8-9137-7344a3621c51",
+			"lib": "Élaborer une stratégie et un plan de communication sur les risques et recenser les capacités de communication dans le secteur de la santé publique et les autres secteurs (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "c8d76a76-45a3-435e-acc7-3145add80639",
+			"code": "E03"
+		},
+		{
+			"id": "5fb882b8-fc59-4bdf-8c41-dfbffca6e3f4",
+			"lib": "Mettre au point, adapter, revoir, traduire dans les langues locales et diffuser des messages ciblés aux médias, soignants, leaders locaux, écoles, églises, tradipraticiens et autres parties prenantes communautaires (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "c8d76a76-45a3-435e-acc7-3145add80639",
+			"code": "E04"
+		},
+		{
+			"id": "c1caaaa3-30be-46bf-adb7-2a9a7537c114",
+			"lib": "Renforcer la présence de lignes directrices et modes opératoires normalisés sur la prévention et la lutte contre l’infection dans tous les établissements de santé (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "877c0fce-9c19-4f62-922f-cd8cb830de51",
+			"code": "E01"
+		},
+		{
+			"id": "d6921e1d-57b9-4fd0-bea9-4c9c1aa18155",
+			"lib": "Fournir aux établissements de santé les moyens nécessaires pour l’hygiène de base, l’assainissement, le nettoyage/désinfection, l’hygiène respiratoire, les masques, l’eau courante et l’électricité, en priorisant les hôpitaux, centres de santé, structures de référence et points d’entrée concernés (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "877c0fce-9c19-4f62-922f-cd8cb830de51",
+			"code": "E02"
+		},
+		{
+			"id": "cec56b40-ccc3-4b31-b6b3-d5707ac62783",
+			"lib": "Équiper et former convenablement le personnel soignant, y compris le personnel chargé de la santé environnementale, les hygiénistes et le personnel de nettoyage, en leur présentant les mesures de PCI et procédures de gestion des déchets, priorité étant donnée à ceux qui entrent les premiers en contact avec les malades (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "877c0fce-9c19-4f62-922f-cd8cb830de51",
+			"code": "E03"
+		},
+		{
+			"id": "15845b6c-210f-4551-82e4-644f4472740a",
+			"lib": "Identifier et équiper des espaces de triage respiratoire, d’attente séparée et d’isolement temporaire pour les cas suspects de rougeole dans les formations sanitaires et, si nécessaire, aux points d’entrée (Niveau concerné : ZS, PoE).",
+			"pilier_id": "877c0fce-9c19-4f62-922f-cd8cb830de51",
+			"code": "E04"
+		},
+		{
+			"id": "5ec9624c-263a-4bc8-a543-3362bc96ce49",
+			"lib": "Désigner au moins une structure de référence par zone de santé pour la prise en charge des cas suspects ou compliqués de rougeole, avec espace d’isolement temporaire, protocole clinique, vitamine A, médicaments essentiels et mécanisme de référence (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E01"
+		},
+		{
+			"id": "7c6272b5-9ada-4fe6-8e7b-7585a6f571fc",
+			"lib": "Recenser et appliquer les modes opératoires normalisés directement liés à la prise en charge rougeole : triage respiratoire, isolement temporaire, administration de vitamine A, prise en charge des complications, référence des cas graves, notification et coordination avec la surveillance et le PEV (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E02"
+		},
+		{
+			"id": "1516aa72-a4c6-44a0-a114-6f290f5ae752",
+			"lib": "Recenser le personnel clinique et le former à la prise en charge de la rougeole, y compris l’administration de vitamine A, la détection des complications, la référence des cas graves et les mesures de PCI respiratoire (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E03"
+		},
+		{
+			"id": "357072c3-b949-43be-8d33-9ab89fb1d6a4",
+			"lib": "Équiper et former les équipes de référence pour le transport sécurisé des cas compliqués de rougeole, avec mesures d’hygiène respiratoire, information préalable de la structure d’accueil et continuité des soins pendant le transfert (Niveau concerné : ZS, PoE).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E04"
+		},
+		{
+			"id": "24cb735e-fb0b-45de-95c1-b11ce7bf4afe",
+			"lib": "Recenser les établissements de soins pouvant assurer rapidement l’isolement temporaire, la prise en charge des complications et la référence des cas graves de rougeole (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E05"
+		},
+		{
+			"id": "b8114e09-0e3f-4ad6-a5eb-e8aa43368440",
+			"lib": "Recenser les formations sanitaires périphériques capables d’identifier les signes de gravité, administrer les soins initiaux et orienter les cas compliqués de rougeole (Niveau concerné : ZS).",
+			"pilier_id": "5367687b-6a84-4194-b102-67613417df0b",
+			"code": "E06"
+		},
+		{
+			"id": "79d2c7ef-343e-4410-a209-cd8c4a689787",
+			"lib": "Mettre au point des procédures pour la notification, l’investigation et l’audit des décès attribués ou suspects de rougeole, en lien avec la surveillance, la prise en charge clinique et la communauté (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"code": "E01"
+		},
+		{
+			"id": "87f95f77-3072-4e0c-9ab3-d627a56e14b0",
+			"lib": "Former les équipes de santé et relais communautaires à la documentation des décès, à l’identification des contacts à risque, à la recherche de cas additionnels et à l’orientation des familles vers la vaccination et les soins (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"code": "E02"
+		},
+		{
+			"id": "dba1669d-9463-4855-9b6a-93d7dad3d20f",
+			"lib": "S’assurer que tout décès suspect de rougeole fait l’objet d’une notification rapide, d’une vérification clinique et épidémiologique, et d’un rapport d’audit permettant d’identifier les retards de recours aux soins, de référence ou de prise en charge (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"code": "E03"
+		},
+		{
+			"id": "8b99238d-0e5c-4b56-a485-c7804f884779",
+			"lib": "Assurer un appui communautaire respectueux pour réduire les rumeurs, favoriser la déclaration des décès et renforcer l’acceptation de la vaccination de riposte autour des ménages et communautés affectés (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"code": "E04"
+		},
+		{
+			"id": "478bba12-8742-4d87-9460-54f1efe37eef",
+			"lib": "Documenter les facteurs contributifs des décès de rougeole et intégrer les actions correctrices dans le plan de riposte : vaccination de rattrapage, amélioration de la prise en charge, référence, nutrition et communication communautaire (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "7237431c-b26f-4745-9d55-f4ea0e6829c6",
+			"code": "E05"
+		},
+		{
+			"id": "aa496969-a7d2-496c-a304-3f0ffbe35409",
+			"lib": "Mettre en place une ligne 24h/24, 7j/7 ou des numéros d’alerte capables de recevoir les notifications de cas suspects de rougeole, avec personnel formé aux procédures d’alerte, de vérification et d’orientation rapide (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E01"
+		},
+		{
+			"id": "059f36f2-0f00-4067-a499-d2170c4e20b5",
+			"lib": "Fournir des orientations (lignes directrices, définitions de cas et formulaires d’investigation) à tous les niveaux du système de soins, en les adaptant aux besoins (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E02"
+		},
+		{
+			"id": "3628d969-44a5-48ef-a2d4-7c69cdc85108",
+			"lib": "Dispenser une formation spéciale sur les définitions de cas de rougeole, les formulaires d’investigation, la ligne de cas, la notification immédiate et les critères de prélèvement pour confirmation biologique (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E03"
+		},
+		{
+			"id": "1650cfcf-8ef1-4f16-9516-ee7c30475bb8",
+			"lib": "Veiller à ce qu’un système de surveillance fondé sur les événements soit en place et permette de suivre en temps opportun les informations/rumeurs de toutes origines : communauté, médias, écoles, leaders locaux et points d’entrée (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E04"
+		},
+		{
+			"id": "34ffd46f-9374-4f96-9a17-04483f2a083e",
+			"lib": "Mettre en place des lignes de notification immédiate pour les cas suspects de rougeole et les décès suspects, avec responsabilités clairement définies entre communauté, formation sanitaire, zone de santé, DPS, PEV, laboratoire et COUSP (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E05"
+		},
+		{
+			"id": "234d2ea4-e918-44b6-a518-f1526d9c0c7e",
+			"lib": "Tester les systèmes de surveillance rougeole existants, vérifier la complétude et la promptitude des données, recenser les lacunes et appliquer les mesures correctrices (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E06"
+		},
+		{
+			"id": "5fb6caf0-e741-41ad-b96f-44d429530703",
+			"lib": "Identifier les ressources humaines pour la surveillance communautaire : agents de santé communautaires, bénévoles, ONG, tradipraticiens, chefs communautaires, écoles et relais locaux (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E07"
+		},
+		{
+			"id": "7a3cbe12-157f-40b6-8c5a-76479d55b816",
+			"lib": "Diffuser des définitions de cas simplifiées à l’usage des communautés, écoles, relais communautaires et points d’entrée (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "2e42dec2-f60a-44a8-b816-03fa63a4a253",
+			"code": "E08"
+		},
+		{
+			"id": "5032e9a3-0462-4c5a-a3bf-96ef483c7292",
+			"lib": "Diffuser les lignes directrices et les MON sur la recherche des contacts aux niveaux national et infranational (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"code": "E01"
+		},
+		{
+			"id": "4da6a2b8-5bb9-4759-9791-19c397810433",
+			"lib": "Former au moins une équipe nationale à la recherche des contacts et à la gestion des données (Niveau concerné : National).",
+			"pilier_id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"code": "E02"
+		},
+		{
+			"id": "dd714b17-2c49-49fa-a083-bc0d95681d21",
+			"lib": "Mettre en place ou renforcer le système de gestion des données pour les contacts, les ménages affectés, les cas secondaires, le statut vaccinal et les actions de vaccination de rattrapage autour des cas de rougeole (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"code": "E03"
+		},
+		{
+			"id": "29ac0dde-a7c0-4845-a2d1-9e8be0f3ceef",
+			"lib": "Former le personnel de district/zone de santé à la recherche des contacts, à l’identification des ménages affectés, au suivi du statut vaccinal et à la recherche active des cas secondaires (Niveau concerné : Provincial, ZS).",
+			"pilier_id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"code": "E04"
+		},
+		{
+			"id": "0fb76bc8-eb36-4675-b926-2009ed865483",
+			"lib": "Former le personnel des aires de santé, relais communautaires, écoles et acteurs locaux à la recherche des contacts, à la recherche active des cas et à l’orientation des enfants non ou sous-vaccinés vers la vaccination (Niveau concerné : ZS).",
+			"pilier_id": "1dbcc356-8429-48e4-b24f-f5066263682c",
+			"code": "E05"
+		},
+		{
+			"id": "d533c944-d618-46e4-bdd8-113317847056",
+			"lib": "Mettre en place un laboratoire de référence national pour l’analyse des échantillons rougeole et s’assurer que les procédures de prélèvement, conservation, transport et transfert vers ces structures sont connues au niveau infranational (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "4203252c-5b4d-4385-83eb-7553a6a8c8c1",
+			"code": "E01"
+		},
+		{
+			"id": "0eb03848-b633-40fa-94fc-63a175a7cad8",
+			"lib": "Élaborer des protocoles pour le prélèvement, le conditionnement, l’étiquetage, le transport et l’expédition des échantillons de cas suspects de rougeole vers le laboratoire de référence, avec suivi des résultats et rétro-information rapide (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "4203252c-5b4d-4385-83eb-7553a6a8c8c1",
+			"code": "E02"
+		},
+		{
+			"id": "944b9173-3318-4d53-9437-f240885ff456",
+			"lib": "Veiller à ce que le personnel de laboratoire, les équipes de prélèvement et les agents impliqués dans le transport des échantillons soient formés aux procédures de sécurité, de PCI, d’emballage, d’étiquetage, de transfert et d’expédition (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "4203252c-5b4d-4385-83eb-7553a6a8c8c1",
+			"code": "E03"
+		},
+		{
+			"id": "4c85502a-8c56-4848-8de5-8fdb099f4748",
+			"lib": "Mettre en place des arrangements prévisionnels avec les laboratoires de référence, centres collaborateurs ou réseaux appuyés par l’OMS pour les tests de confirmation et, si nécessaire, pour l’expédition nationale ou internationale des échantillons (Niveau concerné : National, Provincial).",
+			"pilier_id": "4203252c-5b4d-4385-83eb-7553a6a8c8c1",
+			"code": "E04"
+		},
+		{
+			"id": "51ed307a-e897-458a-a2b0-170322862d73",
+			"lib": "S’assurer qu’un plan d’urgence soit en place au point d’entrée désigné : aéroports, ports et postes-frontières (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E01"
+		},
+		{
+			"id": "07263b6b-8e63-4047-bac3-9b2af00b58fb",
+			"lib": "Recenser des établissements de référence pour chaque point d’entrée et élaborer un MON pour identifier, notifier, isoler temporairement, orienter et référer en sécurité les cas suspects de rougeole vers la zone de santé ou la structure désignée (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E02"
+		},
+		{
+			"id": "4f3ce607-375b-4019-84d2-32a5c0ddd486",
+			"lib": "Désigner des équipes qualifiées aux points d’entrée, proportionnelles au volume des voyageurs, chargées de détecter les signes évocateurs de rougeole, appliquer l’hygiène respiratoire, notifier rapidement et orienter les cas suspects (Niveau concerné : ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E03"
+		},
+		{
+			"id": "9cdf9e01-2723-470e-aefe-e436f6d928c4",
+			"lib": "Élaborer un MON pour la gestion d’un cas suspect ou confirmé de rougeole détecté à un point d’entrée, incluant notification immédiate, séparation respiratoire, orientation, investigation et coordination avec la DPS/ZS/COUSP (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E04"
+		},
+		{
+			"id": "303337aa-8084-40d9-b3b8-6e95eec8dbf2",
+			"lib": "Veiller à ce que chaque point d’entrée ait immédiatement accès au matériel et aux fournitures nécessaires : masques, produits d’hygiène respiratoire, produits de nettoyage/désinfection, espace d’attente séparée, outils de notification, moyens de communication et mécanisme de référence selon la localisation (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E05"
+		},
+		{
+			"id": "694666c5-726e-4184-8259-ea53cbe7671f",
+			"lib": "Examiner et tester les systèmes de communication actuels entre les autorités sanitaires au point d’entrée, les opérateurs de transport, la zone de santé, la DPS et les systèmes nationaux de surveillance sanitaire (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E06"
+		},
+		{
+			"id": "69f0bb7b-b52e-404e-82b8-018f0d1abbbb",
+			"lib": "Sensibiliser les autorités de santé publique, les opérateurs de transport et les parties prenantes des points d’entrée aux signes de rougeole, à la notification immédiate, aux mesures d’hygiène respiratoire et à la coordination avec la surveillance nationale (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "603d2631-f511-4b72-a5e3-d34d7b14a61d",
+			"code": "E07"
+		},
+		{
+			"id": "b56f737f-b2a5-4562-b8a0-a6b2bbaf7865",
+			"lib": "Définir un budget opérationnel pour les activités de préparation et de riposte rougeole : coordination, communication, surveillance renforcée, investigation, laboratoire, vaccination, vitamine A, prise en charge, PCI, logistique, supervision et suivi des données (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E01"
+		},
+		{
+			"id": "ad7cab3c-68fc-4cf1-9ddc-893cdd6fbf89",
+			"lib": "Mettre en place ou rendre facilement accessible un fonds de réserve pour la riposte immédiate aux flambées de rougeole, avec modalités de décaissement rapide vers les provinces, zones de santé et points d’entrée concernés (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E02"
+		},
+		{
+			"id": "ce7c3401-215e-4ded-8490-b6c419f790d9",
+			"lib": "Déterminer le cadre juridique et administratif permettant de mobiliser, dépenser et transférer les fonds d’urgence du niveau central vers les provinces, zones de santé, formations sanitaires et points d’entrée en situation de flambée de rougeole (Niveau concerné : National, Provincial).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E03"
+		},
+		{
+			"id": "6a7845af-d033-4c5b-a515-b3213746a84c",
+			"lib": "Prévoir un régime de rémunération, motivation, assurance ou compensation pour les équipes engagées dans les activités à risque ou à forte charge de travail : vaccination, investigation, prélèvement, prise en charge, transport/référence, mobilisation communautaire, supervision et données (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E04"
+		},
+		{
+			"id": "c31a4186-a23e-4f72-86bc-1ccf91e0ca68",
+			"lib": "Identifier les sources de financement internes et externes, y compris l’allocation de ressources nationales, provinciales et locales, les appuis des partenaires, et les mécanismes de mobilisation rapide de ressources supplémentaires pour la riposte rougeole (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E05"
+		},
+		{
+			"id": "8f2c4fb4-c1dc-4409-a4d9-1fd783057f88",
+			"lib": "Élaborer des modèles pour la mobilisation des ressources, le suivi budgétaire, le rapportage financier, les rapports aux autorités et aux donateurs, ainsi que le suivi de l’utilisation des fonds de riposte rougeole (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "6a4e04db-d7ca-465f-95c7-d99d50b60348",
+			"code": "E06"
+		},
+		{
+			"id": "f119a570-4a36-426e-ade9-25db619e1df9",
+			"lib": "Planifier et coordonner la composante logistique de la riposte rougeole, y compris l’application des MON relatifs aux achats, stocks, distribution, transport, sécurité, communication opérationnelle, maintenance et reconstitution rapide des intrants (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E01"
+		},
+		{
+			"id": "ea957c5b-7d20-4015-8867-cd1897f2c36e",
+			"lib": "Évaluer les capacités de stockage, de chaîne du froid et de gestion des stocks ; déterminer les besoins en vaccins, diluants, seringues, boîtes de sécurité, vitamine A, médicaments essentiels, outils de collecte et intrants de laboratoire ; et prévenir les ruptures (Niveau concerné : National, Provincial, ZS).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E02"
+		},
+		{
+			"id": "3f1726d5-d007-4571-a992-4d1032c53122",
+			"lib": "Recenser les ressources disponibles et les fournisseurs essentiels : dépôts PEV, équipements de chaîne du froid, moyens de transport, sites de vaccination, équipes mobiles, stocks d’urgence, supports IEC, capacités PoE et accords préalables d’approvisionnement (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E03"
+		},
+		{
+			"id": "a7d07d6d-2121-4857-9c0c-886a2f5bea3c",
+			"lib": "Organiser les moyens de transport pour les vaccins, intrants, équipes, superviseurs, prélèvements et cas compliqués, en respectant la chaîne du froid, la sécurité, l’accessibilité et la coordination avec les points d’entrée si nécessaire (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E04"
+		},
+		{
+			"id": "9b5b852e-ee87-4f5f-9580-c48790c6f79d",
+			"lib": "Assurer un circuit fiable de transport des échantillons rougeole depuis la formation sanitaire ou le point d’entrée jusqu’au laboratoire de référence, avec suivi des résultats et rétro-information rapide (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E05"
+		},
+		{
+			"id": "87936d32-7aa9-4b39-9040-f38313c413f7",
+			"lib": "Vérifier que les structures désignées disposent d’espaces de triage respiratoire, d’attente séparée ou d’isolement temporaire, d’eau, d’électricité, de gestion des déchets, de stocks essentiels et d’un mécanisme de maintenance fonctionnel (Niveau concerné : Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E06"
+		},
+		{
+			"id": "0658a231-349e-4c94-8694-604e90e999ff",
+			"lib": "Identifier et former les ressources humaines nécessaires à la logistique de riposte : logisticiens, gestionnaires de stock, vaccinateurs, superviseurs, conducteurs, agents de données, communicateurs, relais communautaires, équipes de prélèvement et équipes sanitaires PoE (Niveau concerné : National, Provincial, ZS, PoE).",
+			"pilier_id": "411b7735-c59d-495f-9942-6b2421463e1d",
+			"code": "E07"
+		}
+	]
+}

@@ -1,0 +1,276 @@
+{
+	"menace": {
+		"id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+		"lib": "Risques environnementaux liés à la dégradation de l'environnement",
+		"groupe": "Dégradation de l’environnement",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "97f6b429-c92b-4158-a797-5703c4a38d54",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P01"
+		},
+		{
+			"id": "ece22f2b-7b95-47e6-b3e5-f5a2cd503345",
+			"lib": "Identification des pressions environnementales et cartographie des zones à risque",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P02"
+		},
+		{
+			"id": "20e643fa-9f7d-444c-845b-b497181d9a63",
+			"lib": "Surveillance environnementale et alerte précoce",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P03"
+		},
+		{
+			"id": "f7c03d13-1fdf-4657-81c6-7eb1fb95f503",
+			"lib": "Eau - Sols - Forets - Biodiversité",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P04"
+		},
+		{
+			"id": "dd394259-ba7d-4cbd-8dc7-9f22eb76c40a",
+			"lib": "Impacts sanitaires et surveillance épidémiologique",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P05"
+		},
+		{
+			"id": "286aa75d-7fc8-4195-bfea-81bf37386a6d",
+			"lib": "Moyens de subsistance et sécurité alimentaire",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P06"
+		},
+		{
+			"id": "739edaab-8666-4e04-bbe8-9186ee987bab",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P07"
+		},
+		{
+			"id": "66006c68-2b0f-4392-83fc-6d0d7a14620d",
+			"lib": "Protection des populations vulnérables",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P08"
+		},
+		{
+			"id": "5a782059-b280-461d-aabf-cc22821653f1",
+			"lib": "Logistique et capacités opérationnelles",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P09"
+		},
+		{
+			"id": "b53c2192-a13a-4c26-9538-03643b21ea4a",
+			"lib": "Budget",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P10"
+		},
+		{
+			"id": "07405195-7277-41ed-8ddd-6371c786ee76",
+			"lib": "Restauration écologique / relèvement / résilience",
+			"menace_id": "e1486345-b3d8-4a77-ba48-8f82a094290d",
+			"code": "P11"
+		}
+	],
+	"exigences": [
+		{
+			"id": "578ba1c1-ecc2-48e9-86d8-bf0ef3c9c18f",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la gestion des risques environnementaux associant santé, environnement, eau, agriculture, forêts, mines, énergie, autorités territoriales, recherche et communautés locales.",
+			"pilier_id": "97f6b429-c92b-4158-a797-5703c4a38d54",
+			"code": "E01"
+		},
+		{
+			"id": "df45c9f8-cb02-4cc2-8eff-bf8c52c7a5ef",
+			"lib": "Disposer d’un plan de préparation et de riposte aux risques environnementaux actualisé, budgétisé et adapté aux réalités écologiques et territoriales de la RDC.",
+			"pilier_id": "97f6b429-c92b-4158-a797-5703c4a38d54",
+			"code": "E02"
+		},
+		{
+			"id": "aca90303-44a9-430f-9db6-a5a2db7e074e",
+			"lib": "Définir les rôles, responsabilités, circuits d’information, modalités d’activation et mécanismes de coordination entre niveaux national, provincial, local et communautaire.",
+			"pilier_id": "97f6b429-c92b-4158-a797-5703c4a38d54",
+			"code": "E03"
+		},
+		{
+			"id": "4b3ef921-78d7-4244-ba82-dadff8060142",
+			"lib": "Identifier et cartographier les principales pressions environnementales, notamment déforestation, érosion, pollution, exploitation minière, dégradation des sols, perte de biodiversité, ensablement et surexploitation des ressources naturelles.",
+			"pilier_id": "ece22f2b-7b95-47e6-b3e5-f5a2cd503345",
+			"code": "E01"
+		},
+		{
+			"id": "6c6f4922-350a-4978-9c8f-ead18ee9c468",
+			"lib": "Déterminer les zones de santé, bassins versants, forêts, zones agricoles, sites miniers et communautés les plus exposés aux effets de la dégradation de l’environnement.",
+			"pilier_id": "ece22f2b-7b95-47e6-b3e5-f5a2cd503345",
+			"code": "E02"
+		},
+		{
+			"id": "4a919254-d58d-4e7e-a9e9-56e76cb514cc",
+			"lib": "Actualiser régulièrement la cartographie des zones à risque et intégrer les données environnementales dans les plans locaux de préparation et de développement.",
+			"pilier_id": "ece22f2b-7b95-47e6-b3e5-f5a2cd503345",
+			"code": "E03"
+		},
+		{
+			"id": "2fd2235f-2bd6-4263-9838-87036b3cb563",
+			"lib": "Mettre en place ou renforcer un système de surveillance environnementale permettant de suivre la qualité de l’eau, de l’air, des sols, l’évolution de la couverture végétale et les signaux précoces de dégradation écologique.",
+			"pilier_id": "20e643fa-9f7d-444c-845b-b497181d9a63",
+			"code": "E01"
+		},
+		{
+			"id": "f672a0c9-1d70-4db1-b27d-0c006db77cda",
+			"lib": "Définir des indicateurs d’alerte précoce et des seuils d’action pour les phénomènes critiques liés à la dégradation de l’environnement.",
+			"pilier_id": "20e643fa-9f7d-444c-845b-b497181d9a63",
+			"code": "E02"
+		},
+		{
+			"id": "cf4134c1-67f6-42b6-8f18-a6324b83373c",
+			"lib": "Assurer le partage régulier des données entre services techniques, autorités locales, structures de santé, chercheurs et communautés afin d’orienter la prévention et la riposte.",
+			"pilier_id": "20e643fa-9f7d-444c-845b-b497181d9a63",
+			"code": "E03"
+		},
+		{
+			"id": "81923221-c102-4edf-97fd-b5fe514829e7",
+			"lib": "Prévoir des mesures de protection et de restauration des sources d’eau, des bassins versants, des sols agricoles, des forêts et des habitats naturels dans les zones fortement dégradées.",
+			"pilier_id": "f7c03d13-1fdf-4657-81c6-7eb1fb95f503",
+			"code": "E01"
+		},
+		{
+			"id": "9b0c58dc-4ec2-4638-ab6a-99e3492547e5",
+			"lib": "Identifier les pratiques à risque et mettre en œuvre des actions de réduction de la déforestation, de l’érosion, de l’ensablement, de la pollution et de la perte de biodiversité.",
+			"pilier_id": "f7c03d13-1fdf-4657-81c6-7eb1fb95f503",
+			"code": "E02"
+		},
+		{
+			"id": "7c6f9536-f1d8-4c28-a7ac-c55693d4a38e",
+			"lib": "Intégrer la gestion durable des ressources naturelles, le reboisement, la conservation communautaire et les solutions fondées sur les écosystèmes dans la préparation.",
+			"pilier_id": "f7c03d13-1fdf-4657-81c6-7eb1fb95f503",
+			"code": "E03"
+		},
+		{
+			"id": "ab9c500b-effb-4f4d-a4fb-522feda9d437",
+			"lib": "Identifier et surveiller les effets sanitaires liés à la dégradation de l’environnement, notamment maladies hydriques, maladies respiratoires, intoxications, maladies à transmission vectorielle, malnutrition et traumatismes indirects.",
+			"pilier_id": "dd394259-ba7d-4cbd-8dc7-9f22eb76c40a",
+			"code": "E01"
+		},
+		{
+			"id": "19113eef-ed06-4642-8e65-c5ac7d1f9229",
+			"lib": "Renforcer la surveillance épidémiologique dans les zones exposées à la pollution, à la déforestation, à la dégradation hydrique ou à l’exploitation non contrôlée des ressources naturelles.",
+			"pilier_id": "dd394259-ba7d-4cbd-8dc7-9f22eb76c40a",
+			"code": "E02"
+		},
+		{
+			"id": "6c546972-8667-441a-a49f-1207ee95955b",
+			"lib": "Mettre en place des mécanismes d’analyse conjointe entre environnement et santé publique pour détecter précocement les risques sanitaires émergents.",
+			"pilier_id": "dd394259-ba7d-4cbd-8dc7-9f22eb76c40a",
+			"code": "E03"
+		},
+		{
+			"id": "4fa8f2ff-3c5e-46ad-be74-00b2aac499f0",
+			"lib": "Évaluer les impacts de la dégradation environnementale sur l’agriculture, la pêche, l’élevage, les ressources forestières et les autres moyens de subsistance des communautés exposées.",
+			"pilier_id": "286aa75d-7fc8-4195-bfea-81bf37386a6d",
+			"code": "E01"
+		},
+		{
+			"id": "317936fa-6087-49b2-a138-bf564047b42e",
+			"lib": "Prévoir des mesures de réduction des pertes de production, de diversification des revenus et d’appui aux ménages vulnérables face à la baisse de productivité des écosystèmes.",
+			"pilier_id": "286aa75d-7fc8-4195-bfea-81bf37386a6d",
+			"code": "E02"
+		},
+		{
+			"id": "61e59d8e-3a6d-4b8d-bda1-4a6bd3ac6f1c",
+			"lib": "Intégrer la sécurité alimentaire, la nutrition et la résilience des ménages dans les plans de préparation aux risques environnementaux.",
+			"pilier_id": "286aa75d-7fc8-4195-bfea-81bf37386a6d",
+			"code": "E03"
+		},
+		{
+			"id": "426c4681-6267-45c1-867a-67a18e783661",
+			"lib": "Déployer une stratégie de communication sur les risques environnementaux, les comportements nuisibles, les bonnes pratiques de gestion des ressources naturelles et les mesures de prévention adaptées.",
+			"pilier_id": "739edaab-8666-4e04-bbe8-9186ee987bab",
+			"code": "E01"
+		},
+		{
+			"id": "b4adf529-61ed-42bf-a138-f4be6d2d1141",
+			"lib": "Adapter et diffuser des messages dans les langues locales via radios communautaires, écoles, leaders locaux, organisations de base et autres canaux appropriés.",
+			"pilier_id": "739edaab-8666-4e04-bbe8-9186ee987bab",
+			"code": "E02"
+		},
+		{
+			"id": "ccaf2c8f-fdf1-4cc7-bf81-a74acb76b6ad",
+			"lib": "Impliquer les communautés dans l’identification des risques, la surveillance locale, la gestion durable des ressources et le suivi des engagements de restauration environnementale.",
+			"pilier_id": "739edaab-8666-4e04-bbe8-9186ee987bab",
+			"code": "E03"
+		},
+		{
+			"id": "cc828be3-bb81-48c8-999b-ba63495bafef",
+			"lib": "Identifier les groupes les plus affectés par la dégradation de l’environnement, notamment enfants, femmes, personnes âgées, peuples autochtones, communautés riveraines, agriculteurs et ménages très pauvres.",
+			"pilier_id": "66006c68-2b0f-4392-83fc-6d0d7a14620d",
+			"code": "E01"
+		},
+		{
+			"id": "4e9682d1-38ac-4be0-83c1-411340728a0a",
+			"lib": "Prévoir des mesures spécifiques de protection, d’accès aux services essentiels, d’assistance ciblée et de réduction des inégalités d’exposition aux risques environnementaux.",
+			"pilier_id": "66006c68-2b0f-4392-83fc-6d0d7a14620d",
+			"code": "E02"
+		},
+		{
+			"id": "cd782661-5775-4ed3-b720-7aff56cbf675",
+			"lib": "Intégrer les considérations sociales, foncières et de justice environnementale dans les dispositifs de préparation et de relèvement.",
+			"pilier_id": "66006c68-2b0f-4392-83fc-6d0d7a14620d",
+			"code": "E03"
+		},
+		{
+			"id": "1d7b11d6-90a9-4d08-ba16-ba40c180181b",
+			"lib": "Identifier les besoins en Equipements, moyens de transport, capacités de suivi environnemental, ressources humaines et outils de terrain nécessaires à la prévention et à la riposte.",
+			"pilier_id": "5a782059-b280-461d-aabf-cc22821653f1",
+			"code": "E01"
+		},
+		{
+			"id": "c4bdffab-463c-4fc9-b47a-1c4aa526b253",
+			"lib": "Prépositionner les intrants, matériels de surveillance, Equipements de protection et moyens opérationnels dans les zones prioritaires ou difficiles d’accès.",
+			"pilier_id": "5a782059-b280-461d-aabf-cc22821653f1",
+			"code": "E02"
+		},
+		{
+			"id": "febe9cf7-a3df-4765-9755-0cabdc75d3af",
+			"lib": "Mettre en place un système de gestion des stocks, de maintenance, de réapprovisionnement rapide et de coordination logistique avec les secteurs concernés.",
+			"pilier_id": "5a782059-b280-461d-aabf-cc22821653f1",
+			"code": "E03"
+		},
+		{
+			"id": "6f53f74e-1ab4-42b1-abf4-f7b00bc18688",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte aux risques environnementaux couvrant surveillance, protection des ressources, santé, communication, logistique et restauration écologique.",
+			"pilier_id": "b53c2192-a13a-4c26-9538-03643b21ea4a",
+			"code": "E01"
+		},
+		{
+			"id": "b8c03651-9d23-44f7-82ca-6f3b9d99aaca",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour les actions prioritaires de prévention, de mitigation et de relèvement.",
+			"pilier_id": "b53c2192-a13a-4c26-9538-03643b21ea4a",
+			"code": "E02"
+		},
+		{
+			"id": "970dea00-bd16-4850-9b02-074a1585d702",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses liées à la gestion des risques environnementaux.",
+			"pilier_id": "b53c2192-a13a-4c26-9538-03643b21ea4a",
+			"code": "E03"
+		},
+		{
+			"id": "acb75924-600e-43bc-a168-bd5b097dea65",
+			"lib": "Prévoir des actions de restauration écologique, de réhabilitation des terres dégradées, de reboisement, de dépollution et de remise en Etat des milieux affectés.",
+			"pilier_id": "07405195-7277-41ed-8ddd-6371c786ee76",
+			"code": "E01"
+		},
+		{
+			"id": "b5cb122a-23ad-4455-ad99-2525dd815959",
+			"lib": "Intégrer la résilience écologique et communautaire dans les plans de relèvement, y compris la gestion durable des ressources, l’adaptation locale et la prévention des dégradations futures.",
+			"pilier_id": "07405195-7277-41ed-8ddd-6371c786ee76",
+			"code": "E02"
+		},
+		{
+			"id": "0ad12a7e-7276-4e27-98bc-1860ec6c5b03",
+			"lib": "Organiser des revues après action, documenter les leçons apprises et renforcer durablement les capacités institutionnelles et communautaires face aux risques environnementaux.",
+			"pilier_id": "07405195-7277-41ed-8ddd-6371c786ee76",
+			"code": "E03"
+		}
+	]
+}

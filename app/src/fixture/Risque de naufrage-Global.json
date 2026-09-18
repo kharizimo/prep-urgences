@@ -1,0 +1,294 @@
+{
+	"menace": {
+		"id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+		"lib": "Risque de naufrage",
+		"groupe": "Géophysiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "bd21aa67-ecfa-4ada-af66-926bd5f1cfee",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P01"
+		},
+		{
+			"id": "5c4398d0-2be5-4ebb-be43-7570a04d1332",
+			"lib": "Prévention et sécurité de la navigation",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P02"
+		},
+		{
+			"id": "135c8273-780f-4a3e-a596-232513427a97",
+			"lib": "Alerte et recherche-sauvetage",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P03"
+		},
+		{
+			"id": "03f273c7-46d2-40fa-9587-1bd927387790",
+			"lib": "Evacuation et survie en milieu aquatique",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P04"
+		},
+		{
+			"id": "1a387725-9c6f-4144-a49d-a3e1a23b2006",
+			"lib": "Prise en charge des victimes et triage",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P05"
+		},
+		{
+			"id": "e899fdb9-236b-46c0-9e82-061cf82ae238",
+			"lib": "Gestion des décès et des disparus",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P06"
+		},
+		{
+			"id": "be53fc80-5955-4d39-9cf5-7d1087f3969e",
+			"lib": "Surveillance sanitaire post-incident",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P07"
+		},
+		{
+			"id": "042915e8-3476-48ab-8142-f067f46e50b6",
+			"lib": "Logistique et moyens de sauvetage",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P08"
+		},
+		{
+			"id": "371e4bd1-179b-454a-86b3-1414a5a57d8f",
+			"lib": "Communication des risques et engagement communautaire",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P09"
+		},
+		{
+			"id": "c542a9bd-5de7-4b75-a028-0223dae4ee49",
+			"lib": "Protection des groupes vulnérables et voyageurs",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P10"
+		},
+		{
+			"id": "a0a227ea-5756-4fb0-993c-876a467cf2af",
+			"lib": "Budget",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P11"
+		},
+		{
+			"id": "0087cafb-d888-439f-ae7a-61a7f86f9d21",
+			"lib": "Relèvement / sécurité maritime renforcée",
+			"menace_id": "2061b5ce-32cb-4f5d-8170-696e74579603",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "d3b692f2-d270-4e37-b9a7-e3243f5f63c2",
+			"lib": "Disposer d’un plan de préparation et de riposte aux naufrages actualisé, budgétisé et adapté aux réalités des lacs, fleuves, rivières et voies navigables de la RDC.",
+			"pilier_id": "bd21aa67-ecfa-4ada-af66-926bd5f1cfee",
+			"code": "E01"
+		},
+		{
+			"id": "881d4b76-2b25-432f-8df3-8d95106a6a90",
+			"lib": "Définir les rôles, responsabilités, chaînes de commandement, modalités d’activation et mécanismes de coordination entre niveaux national, provincial, local et communautaire.",
+			"pilier_id": "bd21aa67-ecfa-4ada-af66-926bd5f1cfee",
+			"code": "E02"
+		},
+		{
+			"id": "c77a8e43-0627-4233-9142-70ab908af2a7",
+			"lib": "Renforcer l’application des mesures de sécurité de navigation, notamment contrôle de surcharge, Etat des embarcations, Equipements obligatoires, qualifications des conducteurs et respect des itinéraires autorisés.",
+			"pilier_id": "5c4398d0-2be5-4ebb-be43-7570a04d1332",
+			"code": "E01"
+		},
+		{
+			"id": "2beaa898-4a27-4f50-baad-bd4d9768b546",
+			"lib": "Mettre en place des contrôles réguliers dans les ports, débarcadères et points d’embarquement afin de vérifier la sécurité des passagers, des marchandises et des embarcations.",
+			"pilier_id": "5c4398d0-2be5-4ebb-be43-7570a04d1332",
+			"code": "E02"
+		},
+		{
+			"id": "f104d8b7-bc11-4b42-b3b2-93669b90eb2c",
+			"lib": "Prévoir des mesures de prévention liées aux conditions météorologiques défavorables, à la navigation nocturne, aux courants dangereux et aux défaillances techniques des embarcations.",
+			"pilier_id": "5c4398d0-2be5-4ebb-be43-7570a04d1332",
+			"code": "E03"
+		},
+		{
+			"id": "1899f992-fc3e-48ae-aa46-dc70dacaef06",
+			"lib": "Mettre en place des mécanismes d’alerte rapide et de notification immédiate des naufrages ou incidents majeurs sur les voies navigables.",
+			"pilier_id": "135c8273-780f-4a3e-a596-232513427a97",
+			"code": "E01"
+		},
+		{
+			"id": "6004e74a-ca93-4cb3-a4c0-e8cf008d45f2",
+			"lib": "Identifier, former et Equiper des Equipes de recherche-sauvetage capables d’intervenir rapidement sur les lacs, fleuves et rivières prioritaires.",
+			"pilier_id": "135c8273-780f-4a3e-a596-232513427a97",
+			"code": "E02"
+		},
+		{
+			"id": "1d5fc185-db88-4393-9478-beeff7075637",
+			"lib": "Définir des procédures opérationnelles pour la localisation des embarcations en détresse, la coordination des secours et le sauvetage des survivants en milieu aquatique.",
+			"pilier_id": "135c8273-780f-4a3e-a596-232513427a97",
+			"code": "E03"
+		},
+		{
+			"id": "f919f2b7-f700-4789-9124-10e475342f6b",
+			"lib": "Veiller à la disponibilité et à l’usage effectif des gilets de sauvetage, bouées, cordages et autres moyens de flottaison sur les embarcations transportant des passagers.",
+			"pilier_id": "03f273c7-46d2-40fa-9587-1bd927387790",
+			"code": "E01"
+		},
+		{
+			"id": "2afde0d7-214d-4841-a7b7-c92f8b636899",
+			"lib": "Former les équipages et acteurs locaux aux gestes de sauvetage, à l’évacuation d’urgence, à la récupération de personnes tombées à l’eau et à la survie en milieu aquatique.",
+			"pilier_id": "03f273c7-46d2-40fa-9587-1bd927387790",
+			"code": "E02"
+		},
+		{
+			"id": "8acf9bcd-7a10-446b-9017-24135bdc3264",
+			"lib": "Prévoir des procédures simples d’évacuation et de survie adaptées aux types d’embarcations, aux traversées de nuit et aux contextes de navigation surchargée.",
+			"pilier_id": "03f273c7-46d2-40fa-9587-1bd927387790",
+			"code": "E03"
+		},
+		{
+			"id": "88a89ca7-035a-45d7-a777-a301e15b9074",
+			"lib": "Identifier les structures de santé de référence capables d’assurer le triage, la réanimation initiale, la prise en charge de noyade, d’hypothermie, de traumatismes et la référence des cas graves.",
+			"pilier_id": "1a387725-9c6f-4144-a49d-a3e1a23b2006",
+			"code": "E01"
+		},
+		{
+			"id": "7ee41e18-a350-49b8-a76a-5dfac766068c",
+			"lib": "Former les Equipes de santé et de première réponse à la prise en charge des victimes de noyade, au soutien ventilatoire, à la réanimation et à la gestion des incidents à victimes multiples.",
+			"pilier_id": "1a387725-9c6f-4144-a49d-a3e1a23b2006",
+			"code": "E02"
+		},
+		{
+			"id": "fcb5c6b0-1f67-4ae1-b9fc-cb25122c7595",
+			"lib": "Prépositionner les intrants médicaux, matériels de premiers secours et moyens de transport sanitaire nécessaires à une réponse rapide après naufrage.",
+			"pilier_id": "1a387725-9c6f-4144-a49d-a3e1a23b2006",
+			"code": "E03"
+		},
+		{
+			"id": "835d51a3-db27-4d20-9a1d-ab9cafb40e24",
+			"lib": "Prévoir des procédures pour la récupération, l’identification, la gestion digne des corps et la documentation des personnes décédées lors d’un naufrage.",
+			"pilier_id": "e899fdb9-236b-46c0-9e82-061cf82ae238",
+			"code": "E01"
+		},
+		{
+			"id": "2c7f1127-4162-459e-9a23-ee5e99491d82",
+			"lib": "Mettre en place des mécanismes de recherche des disparus, de collecte d’informations auprès des familles et de coordination avec les autorités compétentes.",
+			"pilier_id": "e899fdb9-236b-46c0-9e82-061cf82ae238",
+			"code": "E02"
+		},
+		{
+			"id": "907ad51f-a799-4387-9264-98602be727e3",
+			"lib": "Prévoir un dispositif de communication avec les familles pour la notification, l’accompagnement et la réduction des tensions liées à la gestion des décès et disparitions.",
+			"pilier_id": "e899fdb9-236b-46c0-9e82-061cf82ae238",
+			"code": "E03"
+		},
+		{
+			"id": "be213245-5105-4562-9303-32cf18b02695",
+			"lib": "Mettre en place une surveillance rapide des blessures, traumatismes, complications respiratoires, infections secondaires et autres événements de santé publique après un naufrage majeur.",
+			"pilier_id": "be53fc80-5955-4d39-9cf5-7d1087f3969e",
+			"code": "E01"
+		},
+		{
+			"id": "7e5a31ac-ff70-4014-9cf2-a964959fd27b",
+			"lib": "Assurer la disponibilité des outils de notification, d’enregistrement des victimes et de suivi des besoins sanitaires dans les zones touchées.",
+			"pilier_id": "be53fc80-5955-4d39-9cf5-7d1087f3969e",
+			"code": "E02"
+		},
+		{
+			"id": "acbd7e29-5d5a-433c-af36-18f9e6ef5b2e",
+			"lib": "Prévoir des évaluations sanitaires rapides pour orienter la réponse dans les communautés riveraines, points de débarquement et structures d’accueil des survivants.",
+			"pilier_id": "be53fc80-5955-4d39-9cf5-7d1087f3969e",
+			"code": "E03"
+		},
+		{
+			"id": "3b05aca3-1642-468e-8f3e-96d24f1f251c",
+			"lib": "Identifier, prépositionner et entretenir les moyens de sauvetage nécessaires : embarcations de secours, gilets de sauvetage, bouées, cordages, lampes, moyens de repêchage et Equipements de communication.",
+			"pilier_id": "042915e8-3476-48ab-8142-f067f46e50b6",
+			"code": "E01"
+		},
+		{
+			"id": "cc0d4d57-102f-40a8-a17a-5979d232de3b",
+			"lib": "Prévoir des moyens de transport, de carburant, de stockage et de maintenance adaptés aux opérations sur les lacs, fleuves et rivières.",
+			"pilier_id": "042915e8-3476-48ab-8142-f067f46e50b6",
+			"code": "E02"
+		},
+		{
+			"id": "feaa2019-d015-4f8f-9025-82ac407d1d4d",
+			"lib": "Mettre en place un système de gestion des stocks, de réapprovisionnement rapide et de coordination logistique pour les interventions nautiques d’urgence.",
+			"pilier_id": "042915e8-3476-48ab-8142-f067f46e50b6",
+			"code": "E03"
+		},
+		{
+			"id": "bd38c991-871d-4016-9d19-94a80581c181",
+			"lib": "Déployer une stratégie de communication sur les risques de naufrage, la sécurité des traversées, les consignes d’urgence et les comportements de prévention à adopter avant l’embarquement.",
+			"pilier_id": "371e4bd1-179b-454a-86b3-1414a5a57d8f",
+			"code": "E01"
+		},
+		{
+			"id": "b42c5590-b3c0-4d73-aa31-64299b6a3070",
+			"lib": "Adapter et diffuser des messages dans les langues locales via radios communautaires, chefs locaux, exploitants nautiques, ports et autres canaux appropriés.",
+			"pilier_id": "371e4bd1-179b-454a-86b3-1414a5a57d8f",
+			"code": "E02"
+		},
+		{
+			"id": "21e6bd2b-94cc-444b-a059-7869fc6de831",
+			"lib": "Impliquer les communautés riveraines, opérateurs de transport fluvial et associations locales dans la prévention, l’alerte et la remontée rapide d’informations lors d’incidents.",
+			"pilier_id": "371e4bd1-179b-454a-86b3-1414a5a57d8f",
+			"code": "E03"
+		},
+		{
+			"id": "3dbd3c39-b522-4ed7-8b75-f7dba3ee92e1",
+			"lib": "Identifier les groupes les plus vulnérables lors des traversées, notamment enfants, femmes enceintes, personnes âgées, personnes vivant avec handicap, personnes non-nageuses et voyageurs en situation précaire.",
+			"pilier_id": "c542a9bd-5de7-4b75-a028-0223dae4ee49",
+			"code": "E01"
+		},
+		{
+			"id": "c375349d-354f-42bf-9b87-2e5cd00b75ea",
+			"lib": "Prévoir des mesures spécifiques de protection, d’assistance, de priorité au sauvetage et de prise en charge pour ces groupes lors d’un naufrage.",
+			"pilier_id": "c542a9bd-5de7-4b75-a028-0223dae4ee49",
+			"code": "E02"
+		},
+		{
+			"id": "fb665136-c6fa-4ad6-bae1-74a5c789df41",
+			"lib": "Mettre en place des mécanismes d’information et d’orientation des voyageurs sur les mesures de sécurité avant le départ et dans les points d’embarquement.",
+			"pilier_id": "c542a9bd-5de7-4b75-a028-0223dae4ee49",
+			"code": "E03"
+		},
+		{
+			"id": "ab73e735-13f8-4037-a1cb-be56678f7361",
+			"lib": "Définir un budget opérationnel couvrant prévention, contrôle de la navigation, recherche-sauvetage, santé, communication, logistique et relèvement après naufrage.",
+			"pilier_id": "a0a227ea-5756-4fb0-993c-876a467cf2af",
+			"code": "E01"
+		},
+		{
+			"id": "a00ee5a5-3cf2-4569-90d4-30a79ea3db6d",
+			"lib": "Prévoir des mécanismes de mobilisation rapide des ressources financières pour les premières heures de réponse après un naufrage majeur.",
+			"pilier_id": "a0a227ea-5756-4fb0-993c-876a467cf2af",
+			"code": "E02"
+		},
+		{
+			"id": "5fbcc88c-8068-43e2-a992-64134708570f",
+			"lib": "Mettre en place des outils de suivi budgétaire, de traçabilité et de redevabilité pour les dépenses engagées dans la gestion des incidents nautiques.",
+			"pilier_id": "a0a227ea-5756-4fb0-993c-876a467cf2af",
+			"code": "E03"
+		},
+		{
+			"id": "1a95247d-2035-4782-b218-7c7a4f99754c",
+			"lib": "Prévoir des actions de relèvement rapide pour restaurer la sécurité des traversées, la fonctionnalité des ports/débarcadères et la confiance des usagers après un naufrage.",
+			"pilier_id": "0087cafb-d888-439f-ae7a-61a7f86f9d21",
+			"code": "E01"
+		},
+		{
+			"id": "7816231d-0856-48f7-ad81-408a8726fc92",
+			"lib": "Organiser des évaluations post-incident, documenter les causes et les leçons apprises, et mettre à jour les règles, procédures et dispositifs de prévention des naufrages.",
+			"pilier_id": "0087cafb-d888-439f-ae7a-61a7f86f9d21",
+			"code": "E02"
+		},
+		{
+			"id": "7b4ef07e-defb-445f-ad15-bfd7a029010c",
+			"lib": "Renforcer durablement la sécurité de la navigation, la régulation des embarcations, la formation des équipages et les capacités locales de sauvetage sur les voies navigables.",
+			"pilier_id": "0087cafb-d888-439f-ae7a-61a7f86f9d21",
+			"code": "E03"
+		}
+	]
+}

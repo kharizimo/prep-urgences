@@ -1,0 +1,294 @@
+{
+	"menace": {
+		"id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+		"lib": "Fièvre Jaune",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "6ef0a94f-d171-48ff-bd80-8f733b9c87eb",
+			"lib": "Coordination",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P01"
+		},
+		{
+			"id": "e980ea5c-bad2-490f-ad7f-f8984faa8d75",
+			"lib": "Surveillance épidémiologique",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P02"
+		},
+		{
+			"id": "db9d3544-f229-4725-a6c3-62bad8537593",
+			"lib": "Vaccination et campagnes préventives / réactives",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P03"
+		},
+		{
+			"id": "3a422ca8-785b-4875-ab7d-683bc5f857b2",
+			"lib": "Equipe d'intervention rapide",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P04"
+		},
+		{
+			"id": "d42c4d99-9e39-4738-8f88-661105833c64",
+			"lib": "Laboratoire",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P05"
+		},
+		{
+			"id": "0de59755-0787-4f25-9a48-309f4cd0b2bf",
+			"lib": "Prise en charge des cas",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P06"
+		},
+		{
+			"id": "06531e50-475b-41ec-86e1-2d4fdb95ed81",
+			"lib": "Lutte antivectorielle",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P07"
+		},
+		{
+			"id": "8c8b07a2-5b4d-4992-a6b1-a7442fab825c",
+			"lib": "Communication et engagement communautaire",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P08"
+		},
+		{
+			"id": "5d8d038c-6d94-4eab-ada0-7a8e0d289c13",
+			"lib": "Points d'entrée et voyageurs",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P09"
+		},
+		{
+			"id": "b7901f68-9f3c-449a-b138-a7244d558fba",
+			"lib": "Budget",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P10"
+		},
+		{
+			"id": "23f6232c-82fc-46b2-acac-ca7a9d2735f1",
+			"lib": "Logistique",
+			"menace_id": "6f79dbc7-82c6-405b-9707-40280eaeeeb8",
+			"code": "P11"
+		}
+	],
+	"exigences": [
+		{
+			"id": "84d3eb6f-af80-4fd9-9ae8-e20908a0525e",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la fièvre jaune aux niveaux national, provincial et zone de santé, impliquant vaccination, surveillance, laboratoire, communication, logistique et lutte antivectorielle.",
+			"pilier_id": "6ef0a94f-d171-48ff-bd80-8f733b9c87eb",
+			"code": "E01"
+		},
+		{
+			"id": "83d6659c-dadc-49ad-9c57-39ff9ba00837",
+			"lib": "Disposer d’un plan de préparation et de riposte fièvre jaune actualisé, budgétisé et aligné sur la stratégie d’élimination des épidémies de fièvre jaune.",
+			"pilier_id": "6ef0a94f-d171-48ff-bd80-8f733b9c87eb",
+			"code": "E02"
+		},
+		{
+			"id": "31befe0b-d270-4530-ab06-bd839864cb49",
+			"lib": "Définir clairement les rôles, responsabilités, circuits d’information et mécanismes de décision pour la réponse rapide aux alertes et flambées.",
+			"pilier_id": "6ef0a94f-d171-48ff-bd80-8f733b9c87eb",
+			"code": "E03"
+		},
+		{
+			"id": "32f578a6-1a11-43da-8df8-c27aa06266d4",
+			"lib": "Mettre en place une surveillance renforcée permettant la détection précoce de tout cas suspect de fièvre jaune, notamment toute personne avec fièvre aiguë et apparition d’ictère dans les 14 jours suivant le début des symptômes.",
+			"pilier_id": "e980ea5c-bad2-490f-ad7f-f8984faa8d75",
+			"code": "E01"
+		},
+		{
+			"id": "784b6d1e-90f2-4e0d-9f76-fdc5dafe2c7d",
+			"lib": "Diffuser les définitions de cas, formulaires d’investigation, procédures d’alerte et outils de notification à tous les niveaux du système de santé.",
+			"pilier_id": "e980ea5c-bad2-490f-ad7f-f8984faa8d75",
+			"code": "E02"
+		},
+		{
+			"id": "7c41e64c-2792-4a44-91f6-5f871622e8f0",
+			"lib": "Former les prestataires à la notification immédiate, à l’investigation des cas, au suivi des décès suspects et à l’analyse des données de surveillance.",
+			"pilier_id": "e980ea5c-bad2-490f-ad7f-f8984faa8d75",
+			"code": "E03"
+		},
+		{
+			"id": "1ba930e5-f366-4e5e-be2f-593bcac8c766",
+			"lib": "Renforcer la surveillance dans les zones à risque, zones urbaines densément peuplées, zones forestières, zones minières et zones de forte mobilité de population.",
+			"pilier_id": "e980ea5c-bad2-490f-ad7f-f8984faa8d75",
+			"code": "E04"
+		},
+		{
+			"id": "e45a9b30-4e5f-44e9-a3bf-9a92658cf22b",
+			"lib": "Assurer l’intégration et la disponibilité du vaccin antiamaril dans le programme de vaccination de routine et suivre la couverture vaccinale dans les zones à risque.",
+			"pilier_id": "db9d3544-f229-4725-a6c3-62bad8537593",
+			"code": "E01"
+		},
+		{
+			"id": "44310539-4ecd-4a76-abbd-98800b514d68",
+			"lib": "Planifier et préparer des campagnes préventives ou réactives de vaccination de masse dans les provinces et zones de santé prioritaires selon le risque épidémique.",
+			"pilier_id": "db9d3544-f229-4725-a6c3-62bad8537593",
+			"code": "E02"
+		},
+		{
+			"id": "626de270-bad2-4e89-ba07-dc4e25fb684a",
+			"lib": "Évaluer et renforcer la microplanification, la chaîne de froid, la disponibilité des intrants, la formation des vaccinateurs et la stratégie avancée/mobile.",
+			"pilier_id": "db9d3544-f229-4725-a6c3-62bad8537593",
+			"code": "E03"
+		},
+		{
+			"id": "1c41fe4c-3542-404a-bb37-82840006d8fc",
+			"lib": "Prévoir des stratégies spécifiques pour atteindre les populations difficiles d’accès, les sites miniers, les zones frontalières et les zones de forte mobilité.",
+			"pilier_id": "db9d3544-f229-4725-a6c3-62bad8537593",
+			"code": "E04"
+		},
+		{
+			"id": "32ee7d16-608f-4561-a16d-a885b09aa8d7",
+			"lib": "Former et prépositionner des Equipes d’intervention rapide capables de conduire l’investigation des cas, la réponse de terrain, l’appui à la vaccination réactive et la lutte antivectorielle.",
+			"pilier_id": "3a422ca8-785b-4875-ab7d-683bc5f857b2",
+			"code": "E01"
+		},
+		{
+			"id": "5d5bdd98-ee71-4f41-9ac1-425234da473c",
+			"lib": "Définir les procédures d’activation, de déploiement et de coordination des Equipes lors de toute alerte ou confirmation de cas de fièvre jaune.",
+			"pilier_id": "3a422ca8-785b-4875-ab7d-683bc5f857b2",
+			"code": "E02"
+		},
+		{
+			"id": "46409bd0-e7fb-448d-af6d-68df056c7067",
+			"lib": "Assurer la disponibilité des moyens de transport, de communication, des outils d’investigation et des intrants de terrain nécessaires aux Equipes.",
+			"pilier_id": "3a422ca8-785b-4875-ab7d-683bc5f857b2",
+			"code": "E03"
+		},
+		{
+			"id": "149bb1a8-239b-4738-8865-fad723b71967",
+			"lib": "Renforcer les capacités de laboratoire pour le prélèvement, la conservation, l’acheminement et la confirmation des cas suspects de fièvre jaune selon les procédures nationales.",
+			"pilier_id": "d42c4d99-9e39-4738-8f88-661105833c64",
+			"code": "E01"
+		},
+		{
+			"id": "4ada9678-b94c-420a-9de6-4321f01b3882",
+			"lib": "Assurer la disponibilité des consommables, du triple emballage, des intrants de prélèvement et des Equipements nécessaires à la biosécurité et à l’assurance qualité.",
+			"pilier_id": "d42c4d99-9e39-4738-8f88-661105833c64",
+			"code": "E02"
+		},
+		{
+			"id": "a8dd2e6d-ff91-474d-8fae-fe1bde3a6bad",
+			"lib": "Prévoir des capacités de diagnostic différentiel avec d’autres arboviroses ou pathologies fébriles/ictériques pertinentes dans le contexte national.",
+			"pilier_id": "d42c4d99-9e39-4738-8f88-661105833c64",
+			"code": "E03"
+		},
+		{
+			"id": "4d00763f-0619-485a-b3e9-9b971b2d4e91",
+			"lib": "Mettre en place un système rapide de transmission des résultats entre laboratoire, surveillance et Equipes de riposte pour accélérer la prise de décision.",
+			"pilier_id": "d42c4d99-9e39-4738-8f88-661105833c64",
+			"code": "E04"
+		},
+		{
+			"id": "f70eea3d-ba7f-4b2d-b682-8e217926c381",
+			"lib": "Identifier les structures de santé capables d’assurer le triage, la prise en charge initiale et la référence des cas suspects ou confirmés de fièvre jaune.",
+			"pilier_id": "0de59755-0787-4f25-9a48-309f4cd0b2bf",
+			"code": "E01"
+		},
+		{
+			"id": "95177273-afe8-4e9d-9b88-66369509b652",
+			"lib": "Former le personnel clinique à la reconnaissance des formes graves, aux soins de soutien, à la gestion des complications hépatiques, rénales et hémorragiques, et à la référence rapide.",
+			"pilier_id": "0de59755-0787-4f25-9a48-309f4cd0b2bf",
+			"code": "E02"
+		},
+		{
+			"id": "7162a85c-a5fb-4018-95fb-c69368131218",
+			"lib": "Prépositionner les intrants essentiels pour les soins de soutien et organiser les circuits de référence et contre-référence pour les cas graves.",
+			"pilier_id": "0de59755-0787-4f25-9a48-309f4cd0b2bf",
+			"code": "E03"
+		},
+		{
+			"id": "3466e566-5a81-44f6-b76f-88e4a870d3b2",
+			"lib": "Mettre en place des interventions de lutte antivectorielle ciblant les moustiques Aedes dans les zones urbaines, périurbaines et autres zones à risque.",
+			"pilier_id": "06531e50-475b-41ec-86e1-2d4fdb95ed81",
+			"code": "E01"
+		},
+		{
+			"id": "4311b438-9c60-462d-9612-82428ddd6e06",
+			"lib": "Identifier les gîtes larvaires prioritaires et organiser des actions régulières d’assainissement, d’élimination des eaux stagnantes, de larvicidation ou d’adulticidation selon le contexte.",
+			"pilier_id": "06531e50-475b-41ec-86e1-2d4fdb95ed81",
+			"code": "E02"
+		},
+		{
+			"id": "cd8ab115-c28f-468e-8175-06f82957b68e",
+			"lib": "Former les Equipes techniques et communautaires aux méthodes de surveillance entomologique et de lutte antivectorielle adaptées à la fièvre jaune.",
+			"pilier_id": "06531e50-475b-41ec-86e1-2d4fdb95ed81",
+			"code": "E03"
+		},
+		{
+			"id": "c7d547c0-ddfe-4c82-a620-eeed65b49aec",
+			"lib": "Déployer une stratégie de communication des risques et d’engagement communautaire sur la fièvre jaune, la vaccination, les signes d’alerte et les mesures de prévention contre les piqûres de moustiques.",
+			"pilier_id": "8c8b07a2-5b4d-4992-a6b1-a7442fab825c",
+			"code": "E01"
+		},
+		{
+			"id": "c227478f-7383-4dc2-8a24-7778c6ad850a",
+			"lib": "Adapter et diffuser des messages dans les langues locales pour promouvoir l’acceptation vaccinale, le recours précoce aux soins et la participation communautaire à la lutte antivectorielle.",
+			"pilier_id": "8c8b07a2-5b4d-4992-a6b1-a7442fab825c",
+			"code": "E02"
+		},
+		{
+			"id": "c71c7cfc-2bc3-434f-8fbd-a4a250ed96e0",
+			"lib": "Impliquer les relais communautaires, leaders locaux, médias et structures communautaires dans la prévention, la détection précoce et la mobilisation sociale.",
+			"pilier_id": "8c8b07a2-5b4d-4992-a6b1-a7442fab825c",
+			"code": "E03"
+		},
+		{
+			"id": "9ebea151-6663-4e59-99ab-27d333147f92",
+			"lib": "Identifier les points d’entrée prioritaires et mettre en place des procédures de notification, d’information sanitaire et de gestion des alertes liées à la fièvre jaune.",
+			"pilier_id": "5d8d038c-6d94-4eab-ada0-7a8e0d289c13",
+			"code": "E01"
+		},
+		{
+			"id": "65021ff4-41ce-4ad2-89fa-568c046e524d",
+			"lib": "Vérifier l’application des exigences du Règlement sanitaire international relatives à la vaccination antiamarile pour les voyageurs concernés.",
+			"pilier_id": "5d8d038c-6d94-4eab-ada0-7a8e0d289c13",
+			"code": "E02"
+		},
+		{
+			"id": "4539c397-67e6-4e85-8182-1cd2f990a55b",
+			"lib": "Renforcer la coordination entre autorités sanitaires, transporteurs et services frontaliers pour la détection et la notification des événements suspects.",
+			"pilier_id": "5d8d038c-6d94-4eab-ada0-7a8e0d289c13",
+			"code": "E03"
+		},
+		{
+			"id": "fb6bb298-d156-4384-a703-ba05e33a8dfb",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte fièvre jaune incluant surveillance, vaccination, laboratoire, lutte antivectorielle, communication et logistique.",
+			"pilier_id": "b7901f68-9f3c-449a-b138-a7244d558fba",
+			"code": "E01"
+		},
+		{
+			"id": "2eb4fadc-5baa-4cb1-8ba2-1e351f06ed58",
+			"lib": "Prévoir un mécanisme de mobilisation rapide des ressources financières pour le déclenchement de la riposte et des campagnes vaccinales réactives.",
+			"pilier_id": "b7901f68-9f3c-449a-b138-a7244d558fba",
+			"code": "E02"
+		},
+		{
+			"id": "6add9a53-eff6-4c6a-9600-320cc21068b1",
+			"lib": "Mettre en place des outils de suivi budgétaire et de redevabilité pour les dépenses liées à la préparation et à la réponse.",
+			"pilier_id": "b7901f68-9f3c-449a-b138-a7244d558fba",
+			"code": "E03"
+		},
+		{
+			"id": "cd54d3ee-df08-4870-a9b1-d2d9c0f03838",
+			"lib": "Prévoir la logistique nécessaire pour le transport des Equipes, des vaccins, des échantillons, des intrants de lutte antivectorielle et des médicaments vers les zones à risque ou affectées.",
+			"pilier_id": "23f6232c-82fc-46b2-acac-ca7a9d2735f1",
+			"code": "E01"
+		},
+		{
+			"id": "3614c561-cc52-4e76-961a-7034cb9b4ce5",
+			"lib": "Évaluer les capacités de stockage, de chaîne de froid, de gestion des stocks et de distribution des intrants essentiels à tous les niveaux.",
+			"pilier_id": "23f6232c-82fc-46b2-acac-ca7a9d2735f1",
+			"code": "E02"
+		},
+		{
+			"id": "dbf63635-cefd-4cee-a2b6-c6c529ee34f0",
+			"lib": "Identifier les entrepôts, fournisseurs, moyens de transport, ressources humaines et capacités logistiques mobilisables en cas d’alerte ou de flambée.",
+			"pilier_id": "23f6232c-82fc-46b2-acac-ca7a9d2735f1",
+			"code": "E03"
+		}
+	]
+}

@@ -64,11 +64,12 @@
 import { computed, onMounted, ref } from 'vue'
 import { db } from '../../db'
 import { useStore } from '../../store'
+import { latestValidEvaluations } from '../../consolidation'
 
 const store = useStore()
 const evaluations = ref([])
 
-const filteredEvaluations = computed(() => evaluations.value.filter(evaluation => {
+const filteredEvaluations = computed(() => latestValidEvaluations(evaluations.value).filter(evaluation => {
   const matchesProvince = !store.STATES.province || evaluation.province === store.STATES.province
   const matchesAxe = !store.STATES.axe || evaluation.axe === store.STATES.axe
   const matchesThreat = !store.STATES.menace_id ||

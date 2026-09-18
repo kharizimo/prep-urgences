@@ -1,0 +1,372 @@
+{
+	"menace": {
+		"id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+		"lib": "Choléra",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"lib": "Check-list cholera : préparation générale",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P01"
+		},
+		{
+			"id": "8c9b2f53-b67d-4bca-bb98-4a8b4e6a88bd",
+			"lib": "Coordination",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P02"
+		},
+		{
+			"id": "e3a8f9e6-8da2-4e24-9d2e-13ebe3b643e3",
+			"lib": "Surveillance épidémiologique",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P03"
+		},
+		{
+			"id": "8cb8f8c2-7b70-4caf-a513-033c30f7a158",
+			"lib": "Equipe d'intervention rapide",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P04"
+		},
+		{
+			"id": "f4928cdf-7706-4ff2-ad51-f1925591e5dc",
+			"lib": "Prise en charge des cas",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P05"
+		},
+		{
+			"id": "6c7148c0-0e7d-46d1-a8a8-779292e48d33",
+			"lib": "Laboratoire",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P06"
+		},
+		{
+			"id": "c4a8e704-3a7c-4898-a74b-0ae8488356cf",
+			"lib": "EAH / WASH",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P07"
+		},
+		{
+			"id": "a68b0e6e-2d58-4f68-84cd-40fa80c0ae99",
+			"lib": "Communication et Engagement communautaire",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P08"
+		},
+		{
+			"id": "2c92ed34-40cf-43ef-ab85-aa91562aa129",
+			"lib": "Points d'entrée et zones à risque",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P09"
+		},
+		{
+			"id": "3cfa02f7-1ea4-4e51-89ab-5da0749798ce",
+			"lib": "Budget",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P10"
+		},
+		{
+			"id": "5cad61d5-86e2-40dd-a14f-88e49736f873",
+			"lib": "Logistique",
+			"menace_id": "5fc19742-fa49-4e78-a0b0-a23a9b3724f6",
+			"code": "P11"
+		}
+	],
+	"exigences": [
+		{
+			"id": "7af09263-ec92-4c56-97c3-1d97dbe63a1f",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle choléra aux niveaux national, provincial et zone de santé, incluant santé, eau-hygiène-assainissement, communication, logistique et autorités locales.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E01"
+		},
+		{
+			"id": "b49a9957-4392-4cb8-b479-ae6e12ee2f0e",
+			"lib": "Disposer d’un plan de préparation et de riposte au choléra actualisé, budgétisé et adapté au contexte des provinces endémiques et non endémiques de la RDC.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E02"
+		},
+		{
+			"id": "884fa3c1-97f9-47a3-9f0d-0326ea72554a",
+			"lib": "Mettre en place un système de surveillance renforcée permettant la détection précoce des cas de diarrhée aqueuse aiguë, des décès communautaires et des foyers de transmission.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E03"
+		},
+		{
+			"id": "dc1b2f8d-3e51-468a-a004-2c798e15c7f0",
+			"lib": "Assurer la disponibilité et la diffusion des définitions de cas, des outils de notification, des registres et des procédures d’alerte à tous les niveaux du système de santé.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E04"
+		},
+		{
+			"id": "fe1ef4f2-5a98-4c60-a5f4-6ec6de2f4ae9",
+			"lib": "Former et prépositionner des Equipes d’intervention rapide capables de conduire l’investigation, la réponse communautaire, le quadrillage/CATI, la désinfection ciblée et la sensibilisation.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E05"
+		},
+		{
+			"id": "40046e3e-aaad-43c2-bb7b-c94136ba3c28",
+			"lib": "Identifier et rendre fonctionnels des points de réhydratation orale, unités de traitement du choléra et centres de traitement du choléra selon l’ampleur de la flambée.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E06"
+		},
+		{
+			"id": "b4471b4e-a4a7-4585-9777-95d26496b8e4",
+			"lib": "Prépositionner les intrants essentiels de prise en charge, notamment SRO, fluides IV, antibiotiques selon protocole, consommables, Equipements de triage et matériels de PCI.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E07"
+		},
+		{
+			"id": "ce576f7a-4214-4b9a-b9b1-113d1108838c",
+			"lib": "Renforcer les capacités de laboratoire pour le prélèvement, le transport, l’analyse et la confirmation des échantillons de choléra conformément aux procédures nationales.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E08"
+		},
+		{
+			"id": "3b5b64d3-2281-4621-bcd1-4506d0658f59",
+			"lib": "Mettre en place des interventions EAH/WASH ciblées autour des cas et dans les zones à risque, incluant traitement de l’eau, chloration, hygiène, assainissement et gestion sécurisée des excreta.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E09"
+		},
+		{
+			"id": "c6de2fbc-c4dd-4b9a-bf62-f84b5e31c844",
+			"lib": "Déployer une stratégie de communication des risques et d’engagement communautaire pour promouvoir le recours précoce aux soins, l’utilisation de l’eau sûre, l’hygiène des mains et la notification rapide des cas.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E10"
+		},
+		{
+			"id": "632f73c7-ab19-4558-8ec8-08d0a80b0be9",
+			"lib": "Identifier les zones de santé, sites à haut risque, axes de propagation et points d’entrée prioritaires pour orienter la prévention, la surveillance et la riposte rapide.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E11"
+		},
+		{
+			"id": "1fb1211f-95c6-432f-a43e-be401f3095b8",
+			"lib": "Prévoir la logistique nécessaire pour le transport des Equipes, des échantillons, des patients, des intrants WASH et des médicaments vers les zones affectées ou enclavées.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E12"
+		},
+		{
+			"id": "9244b72b-d015-48bd-8256-7515f58e2dcb",
+			"lib": "Prévoir un mécanisme de suivi des stocks, de reconstitution rapide et de mobilisation des ressources financières pour éviter les ruptures pendant la flambée.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E13"
+		},
+		{
+			"id": "800f6ff9-1fbe-4905-b714-4f7af9a3fa12",
+			"lib": "Évaluer périodiquement la préparation au choléra au moyen de supervisions, exercices de simulation et revues des performances afin de corriger rapidement les insuffisances.",
+			"pilier_id": "b0fbd55f-5042-42d1-90ed-323763adae13",
+			"code": "E14"
+		},
+		{
+			"id": "f523009c-a4eb-4f9c-9a60-8ede126a121e",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle choléra aux niveaux national, provincial et zone de santé, avec des rôles et responsabilités clairement définis.",
+			"pilier_id": "8c9b2f53-b67d-4bca-bb98-4a8b4e6a88bd",
+			"code": "E01"
+		},
+		{
+			"id": "b5e20ca8-baca-40bf-8453-28a162252f2b",
+			"lib": "Disposer d’un plan de préparation et de riposte choléra actualisé, budgétisé et validé pour les zones à risque et les zones de flambée.",
+			"pilier_id": "8c9b2f53-b67d-4bca-bb98-4a8b4e6a88bd",
+			"code": "E02"
+		},
+		{
+			"id": "49f246c7-45a3-42b9-8dc2-6101e5965344",
+			"lib": "Organiser régulièrement des réunions de coordination avec les secteurs santé, EAH/WASH, communication, laboratoire, logistique et autorités administratives.",
+			"pilier_id": "8c9b2f53-b67d-4bca-bb98-4a8b4e6a88bd",
+			"code": "E03"
+		},
+		{
+			"id": "0ae39678-44ff-4c3a-ab42-12312bae4d10",
+			"lib": "Prévoir un dispositif de coordination opérationnelle pour l’analyse de la situation, la prise de décision et le suivi des actions de riposte.",
+			"pilier_id": "8c9b2f53-b67d-4bca-bb98-4a8b4e6a88bd",
+			"code": "E04"
+		},
+		{
+			"id": "a6dbd5b1-de2f-4793-b736-76a1f1a4f504",
+			"lib": "Mettre en place une surveillance renforcée des cas de diarrhée aqueuse aiguë, des décès communautaires et des alertes dans les zones à risque.",
+			"pilier_id": "e3a8f9e6-8da2-4e24-9d2e-13ebe3b643e3",
+			"code": "E01"
+		},
+		{
+			"id": "48e63764-7b33-49fb-b259-a7d81a04b905",
+			"lib": "Diffuser les définitions de cas, outils de notification, registres et procédures d’alerte à tous les niveaux du système de santé.",
+			"pilier_id": "e3a8f9e6-8da2-4e24-9d2e-13ebe3b643e3",
+			"code": "E02"
+		},
+		{
+			"id": "f767e40a-2446-4e42-a2ae-c174d63b02e7",
+			"lib": "Former les prestataires et les Equipes de surveillance à la détection précoce, à l’investigation des cas et à l’analyse des données choléra.",
+			"pilier_id": "e3a8f9e6-8da2-4e24-9d2e-13ebe3b643e3",
+			"code": "E03"
+		},
+		{
+			"id": "36664dd3-8847-464f-934e-1c0b78c8c07c",
+			"lib": "Mettre en place un système d’analyse et de diffusion régulière des données épidémiologiques pour orienter la riposte.",
+			"pilier_id": "e3a8f9e6-8da2-4e24-9d2e-13ebe3b643e3",
+			"code": "E04"
+		},
+		{
+			"id": "f0cd042e-5884-4136-a3bc-752554f4cd7c",
+			"lib": "Former et prépositionner des Equipes d’intervention rapide capables de conduire l’investigation, le quadrillage/CATI, la désinfection ciblée et la sensibilisation communautaire.",
+			"pilier_id": "8cb8f8c2-7b70-4caf-a513-033c30f7a158",
+			"code": "E01"
+		},
+		{
+			"id": "f3168010-bb8f-45e9-ab41-43aab283bbed",
+			"lib": "Définir des procédures claires pour l’activation, le déploiement et la coordination des Equipes d’intervention rapide en cas d’alerte.",
+			"pilier_id": "8cb8f8c2-7b70-4caf-a513-033c30f7a158",
+			"code": "E02"
+		},
+		{
+			"id": "35183dc1-df68-4152-8d7e-cd126e71eb55",
+			"lib": "Assurer la disponibilité des moyens de transport, de communication, des intrants de terrain et des outils de collecte des données pour les Equipes.",
+			"pilier_id": "8cb8f8c2-7b70-4caf-a513-033c30f7a158",
+			"code": "E03"
+		},
+		{
+			"id": "cb329bfb-b668-4720-a298-cbaf1ed76489",
+			"lib": "Identifier et rendre fonctionnels des points de réhydratation orale, UTC et CTC selon le niveau de risque et l’ampleur de la flambée.",
+			"pilier_id": "f4928cdf-7706-4ff2-ad51-f1925591e5dc",
+			"code": "E01"
+		},
+		{
+			"id": "259dc726-ecdc-4be1-b0a8-8e8b7dd0b7b8",
+			"lib": "Prépositionner les intrants essentiels de prise en charge, notamment SRO, fluides IV, antibiotiques selon protocole, consommables et matériels de triage.",
+			"pilier_id": "f4928cdf-7706-4ff2-ad51-f1925591e5dc",
+			"code": "E02"
+		},
+		{
+			"id": "727e1a53-999e-40e8-9349-61ab2745b0d8",
+			"lib": "Former le personnel soignant au triage, à l’évaluation de la déshydratation, à la prise en charge standardisée et à la prévention des décès liés au choléra.",
+			"pilier_id": "f4928cdf-7706-4ff2-ad51-f1925591e5dc",
+			"code": "E03"
+		},
+		{
+			"id": "9931d4ab-9aa8-4d14-a98c-f6adf9e8f9cb",
+			"lib": "Prévoir des circuits de référence et contre-référence pour les cas graves et les zones éloignées.",
+			"pilier_id": "f4928cdf-7706-4ff2-ad51-f1925591e5dc",
+			"code": "E04"
+		},
+		{
+			"id": "add75b80-ada8-4b09-9774-73d4bffd078d",
+			"lib": "Renforcer les capacités de laboratoire pour le prélèvement, le transport, l’analyse et la confirmation des échantillons de choléra conformément aux procédures nationales.",
+			"pilier_id": "6c7148c0-0e7d-46d1-a8a8-779292e48d33",
+			"code": "E01"
+		},
+		{
+			"id": "5e2a457b-05d3-41de-9756-aa752acd57b4",
+			"lib": "Assurer la disponibilité des milieux, consommables, écouvillons, boîtes de transport et Equipements de protection nécessaires.",
+			"pilier_id": "6c7148c0-0e7d-46d1-a8a8-779292e48d33",
+			"code": "E02"
+		},
+		{
+			"id": "0edf1aa3-f20e-4131-b065-f742851e39b4",
+			"lib": "Mettre en place des procédures fiables pour l’acheminement rapide des prélèvements et la transmission des résultats aux Equipes de surveillance et de riposte.",
+			"pilier_id": "6c7148c0-0e7d-46d1-a8a8-779292e48d33",
+			"code": "E03"
+		},
+		{
+			"id": "b71c3907-beea-433d-8ec4-eb24e3da413d",
+			"lib": "Mettre en place des interventions EAH/WASH ciblées autour des cas, des ménages affectés et des sites à haut risque.",
+			"pilier_id": "c4a8e704-3a7c-4898-a74b-0ae8488356cf",
+			"code": "E01"
+		},
+		{
+			"id": "6e13cdb6-8089-4bd3-a6f5-336b10c16ca9",
+			"lib": "Assurer la disponibilité du chlore, des dispositifs de traitement de l’eau, des kits d’hygiène, du matériel de désinfection et des intrants d’assainissement.",
+			"pilier_id": "c4a8e704-3a7c-4898-a74b-0ae8488356cf",
+			"code": "E02"
+		},
+		{
+			"id": "6eb686aa-ce17-4485-af19-13437747c51b",
+			"lib": "Organiser la chloration des points d’eau, la gestion sécurisée des excreta et la promotion des bonnes pratiques d’hygiène dans les zones exposées.",
+			"pilier_id": "c4a8e704-3a7c-4898-a74b-0ae8488356cf",
+			"code": "E03"
+		},
+		{
+			"id": "26496efe-e877-4d89-8cb0-09eba89b6600",
+			"lib": "Identifier les sites communautaires prioritaires nécessitant des actions préventives : marchés, écoles, ports, sites de pêche, camps et zones de rassemblement.",
+			"pilier_id": "c4a8e704-3a7c-4898-a74b-0ae8488356cf",
+			"code": "E04"
+		},
+		{
+			"id": "a25705a9-4688-4225-9689-a382f257ee4f",
+			"lib": "Déployer une stratégie de communication des risques et d’engagement communautaire pour promouvoir le recours précoce aux soins et les mesures de prévention.",
+			"pilier_id": "a68b0e6e-2d58-4f68-84cd-40fa80c0ae99",
+			"code": "E01"
+		},
+		{
+			"id": "967b2719-b3ed-4968-a654-e07888b0b617",
+			"lib": "Adapter, traduire et diffuser des messages sur l’eau sûre, l’hygiène des mains, l’assainissement, les signes d’alerte et la conduite à tenir en cas de diarrhée aqueuse aiguë.",
+			"pilier_id": "a68b0e6e-2d58-4f68-84cd-40fa80c0ae99",
+			"code": "E02"
+		},
+		{
+			"id": "b9e2afeb-1d49-4717-a628-a1a90d527e67",
+			"lib": "Impliquer les relais communautaires, leaders locaux, médias et structures communautaires dans la prévention, l’alerte et la réponse au choléra.",
+			"pilier_id": "a68b0e6e-2d58-4f68-84cd-40fa80c0ae99",
+			"code": "E03"
+		},
+		{
+			"id": "62f77b9e-edc7-4a8b-9d06-ec482b874e1f",
+			"lib": "Identifier les zones de santé, sites à haut risque, axes de propagation, sites de pêche, marchés, ports et points d’entrée prioritaires pour orienter la préparation.",
+			"pilier_id": "2c92ed34-40cf-43ef-ab85-aa91562aa129",
+			"code": "E01"
+		},
+		{
+			"id": "bea54607-77cd-4926-b99e-5855dac46b64",
+			"lib": "Mettre en place des mesures de prévention, de surveillance et de sensibilisation dans les points d’entrée et sites de forte mobilité de population.",
+			"pilier_id": "2c92ed34-40cf-43ef-ab85-aa91562aa129",
+			"code": "E02"
+		},
+		{
+			"id": "fcacd190-7158-430d-9cef-0e71ff3114b1",
+			"lib": "Prévoir des mécanismes d’alerte et de coordination transfrontalière ou interprovinciale dans les zones de circulation active du choléra.",
+			"pilier_id": "2c92ed34-40cf-43ef-ab85-aa91562aa129",
+			"code": "E03"
+		},
+		{
+			"id": "5719ba59-e7c8-4d71-ab1f-643b24cb4c71",
+			"lib": "Définir un budget opérationnel pour la préparation et la riposte choléra incluant surveillance, prise en charge, EAH/WASH, logistique et communication.",
+			"pilier_id": "3cfa02f7-1ea4-4e51-89ab-5da0749798ce",
+			"code": "E01"
+		},
+		{
+			"id": "d8b8c998-b98c-469d-b114-8a158e08bca5",
+			"lib": "Prévoir un mécanisme de mobilisation rapide des ressources financières pour déclencher la réponse sans délai.",
+			"pilier_id": "3cfa02f7-1ea4-4e51-89ab-5da0749798ce",
+			"code": "E02"
+		},
+		{
+			"id": "2cc805f5-84a9-4119-bbae-c43e66e936e0",
+			"lib": "Mettre en place des outils de suivi budgétaire et de redevabilité pour les dépenses liées à la préparation et à la riposte.",
+			"pilier_id": "3cfa02f7-1ea4-4e51-89ab-5da0749798ce",
+			"code": "E03"
+		},
+		{
+			"id": "155d4372-f894-4dd5-81d0-366720b544f5",
+			"lib": "Prévoir la logistique nécessaire pour le transport des Equipes, des patients, des échantillons, des intrants WASH et des médicaments vers les zones affectées ou enclavées.",
+			"pilier_id": "5cad61d5-86e2-40dd-a14f-88e49736f873",
+			"code": "E01"
+		},
+		{
+			"id": "de2ed61f-9e47-4b63-992a-32be5baf3b2e",
+			"lib": "Mettre en place un mécanisme de gestion des stocks, de réapprovisionnement rapide et de distribution des intrants essentiels.",
+			"pilier_id": "5cad61d5-86e2-40dd-a14f-88e49736f873",
+			"code": "E02"
+		},
+		{
+			"id": "f2a7f9bd-6346-414a-badd-dabf69d104cd",
+			"lib": "Identifier les entrepôts, fournisseurs, moyens de transport et capacités logistiques disponibles au niveau national, provincial et local.",
+			"pilier_id": "5cad61d5-86e2-40dd-a14f-88e49736f873",
+			"code": "E03"
+		},
+		{
+			"id": "e339c0f5-3142-4004-8af3-fbfbe56b9c93",
+			"lib": "Assurer la disponibilité des Equipements, du carburant, des moyens de communication et des ressources humaines nécessaires aux opérations logistiques.",
+			"pilier_id": "5cad61d5-86e2-40dd-a14f-88e49736f873",
+			"code": "E04"
+		}
+	]
+}

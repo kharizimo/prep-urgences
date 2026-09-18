@@ -1,0 +1,540 @@
+{
+	"menace": {
+		"id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+		"lib": "COVID-19",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"lib": "Coordination",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P01"
+		},
+		{
+			"id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"lib": "Equipe d'intervention rapide",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P02"
+		},
+		{
+			"id": "2e42fe40-e681-469a-9c36-e6cdcd8c05ee",
+			"lib": "Sensibilisation du public et mobilisation communautaire",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P03"
+		},
+		{
+			"id": "387df67b-98b6-46a0-8c61-cca5e17ce7a5",
+			"lib": "Prévention et lutte contre l'infection",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P04"
+		},
+		{
+			"id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"lib": "Prise en charge des cas",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P05"
+		},
+		{
+			"id": "73a631db-130c-41ce-8505-e58097035649",
+			"lib": "Continuité des services essentiels, ressources humaines, protection du personnel, vaccination et pharmacovigilance",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P06"
+		},
+		{
+			"id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"lib": "Surveillance épidémiologique",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P07"
+		},
+		{
+			"id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"lib": "Recherche de contacts",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P08"
+		},
+		{
+			"id": "64b5a1e7-3344-4ced-9f2f-85455ad32184",
+			"lib": "Laboratoire",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P09"
+		},
+		{
+			"id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"lib": "Voyage / Points d’entrée",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P10"
+		},
+		{
+			"id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"lib": "Budget",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P11"
+		},
+		{
+			"id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"lib": "Logistique",
+			"menace_id": "b322ca09-0438-4432-9ce6-d16f40cd3d42",
+			"code": "P12"
+		}
+	],
+	"exigences": [
+		{
+			"id": "134d8133-b581-492d-8d9b-84dce946dca7",
+			"lib": "Mettre en place des plans et des procédures cohérents pour la coordination et la gestion des incidents liés à la COVID-19, y compris les liens entre le centre des opérations sanitaires d’urgence (COUSP), les structures nationales de gestion des catastrophes, les services cliniques, les laboratoires et les points d’entrée. Au minimum, cela doit couvrir les mandats, les organigrammes, les voies de communication, la coordination multisectorielle et la gestion de l’appui des partenaires.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E01"
+		},
+		{
+			"id": "4ac09aec-1f7f-46da-b621-61bc513eefe4",
+			"lib": "Tester régulièrement la coordination, les circuits de triage, le référencement, l’alerte, le transport, la prise en charge clinique et les aspects opérationnels au moyen d’exercices de simulation et de tests de compétences relatifs à la COVID-19.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E02"
+		},
+		{
+			"id": "1c8659a6-aa0f-4474-8cb9-9bc840b4e342",
+			"lib": "Veiller à ce que des plans de préparation et de riposte à la COVID-19 existent, soient actualisés et pleinement budgétés aux niveaux national, provincial, de la zone de santé et des établissements de soins.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E03"
+		},
+		{
+			"id": "d8c549b8-ecfd-4f75-9519-0ee856eb9564",
+			"lib": "Examiner les politiques, directives et dispositions réglementaires en vigueur afin de s’assurer qu’elles autorisent les mesures de santé publique proposées pour la COVID-19, y compris le dépistage, l’isolement, la notification, la quarantaine et la protection du personnel.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E04"
+		},
+		{
+			"id": "142c477b-679b-4780-8cab-0503db19a670",
+			"lib": "Identifier les membres du comité ou groupe spécial COVID-19 aux niveaux national, provincial, des zones de santé et des établissements de soins, et les informer clairement de leurs rôles et responsabilités.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E05"
+		},
+		{
+			"id": "f688b2fb-9c15-42e7-8577-6150ea89576f",
+			"lib": "Identifier, former et désigner des responsables des incidents et responsables opérationnels habilités à prendre rapidement les décisions relatives à la surveillance, au triage, à la prise en charge clinique, à l’oxygénothérapie, à la PCI et à la logistique COVID-19.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E06"
+		},
+		{
+			"id": "5d02ffda-19b0-4dc4-b334-2422a64e159a",
+			"lib": "Mettre en place du personnel COUSP ou un mécanisme équivalent au niveau infranational et dans les zones de santé afin d’assurer une coordination localisée de la préparation et de la riposte à la COVID-19.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E07"
+		},
+		{
+			"id": "abb85d95-ac9c-4f55-bfb3-2065c2975d7c",
+			"lib": "Mettre en place un comité ou groupe spécial COVID-19 multisectoriel et opérationnel aux niveaux national et infranational ainsi que dans les zones de santé, avec des liens fonctionnels vers les établissements de soins et les points d’entrée.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E08"
+		},
+		{
+			"id": "542fcbdf-a7c2-477a-a356-119508c8c797",
+			"lib": "Identifier un espace physique fonctionnel pour le centre des opérations sanitaires d’urgence (COUSP) ou une cellule de coordination COVID-19, doté de moyens de communication, de suivi des données et de coordination des partenaires.",
+			"pilier_id": "044799f8-3b20-40e3-a920-041c5e03b544",
+			"code": "E09"
+		},
+		{
+			"id": "c5061505-4bb0-4a52-91bb-a761af81d6d9",
+			"lib": "Désigner et affecter une Equipe d’intervention rapide pluridisciplinaire pour la COVID-19, avec chef d’Equipe, clinicien, épidémiologiste, agent de laboratoire, spécialiste PCI, communicateur et logisticien, et prévoir un moyen de transport médicalisable mobilisable sous 24 heures.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E01"
+		},
+		{
+			"id": "b88bde04-dab2-480a-b03b-3c0941b296be",
+			"lib": "Définir clairement les responsabilités pour l’activation, le déploiement et la coordination de l’EIR face à tout signal, cas suspect, cluster ou flambée de COVID-19.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E02"
+		},
+		{
+			"id": "0774e808-ca7a-44bc-a5bb-cbd9066b0ccf",
+			"lib": "Former convenablement les EIR pour l’investigation des cas et des clusters de COVID-19, le prélèvement et le transport des échantillons, la recherche et le suivi des contacts, la supervision du triage, l’appui à l’oxygénothérapie, la PCI et la mobilisation sociale.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E03"
+		},
+		{
+			"id": "8a1c3e58-59c2-40b9-8fde-1feca7b38a7d",
+			"lib": "Former l’EIR infranationale à la surveillance des cas et décès, à l’investigation des flambées locales et au suivi des contacts liés à la COVID-19.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E04"
+		},
+		{
+			"id": "29f3ea52-6e6a-4ea8-bfbd-2765d7ab9605",
+			"lib": "Recenser les établissements de santé du district capables d’assurer le triage, l’isolement, la référence et la prise en charge initiale des cas suspects ou confirmés de COVID-19.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E05"
+		},
+		{
+			"id": "3c05ff97-16fc-4a22-8053-02882b8d90cc",
+			"lib": "Mener périodiquement des exercices de simulation afin de maintenir la capacité des EIR à répondre rapidement à des alertes, flambées ou résurgences de COVID-19.",
+			"pilier_id": "78182394-3fde-4ef3-a733-abf21219c912",
+			"code": "E06"
+		},
+		{
+			"id": "0f3110a6-68aa-4a77-a38d-9fb5e0c071b0",
+			"lib": "Élaborer une stratégie, un plan et un budget complets de communication sur les risques et d’engagement communautaire pour la COVID-19, recenser les principaux canaux de communication, surveiller les rumeurs, la désinformation et les perceptions communautaires, et y répondre rapidement.",
+			"pilier_id": "2e42fe40-e681-469a-9c36-e6cdcd8c05ee",
+			"code": "E01"
+		},
+		{
+			"id": "0c9a895e-7bbc-4400-9f98-86e857e95a5e",
+			"lib": "Mettre en place un mécanisme opérationnel de coordination de la communication pour mobiliser l’ensemble des parties prenantes, y compris la société civile, les ONG, les relais communautaires, les médias, les écoles, les leaders religieux et traditionnels, en milieu urbain comme rural, autour de la prévention et de la riposte à la COVID-19.",
+			"pilier_id": "2e42fe40-e681-469a-9c36-e6cdcd8c05ee",
+			"code": "E02"
+		},
+		{
+			"id": "eeb9f23e-75b8-489a-bc21-f130a830f380",
+			"lib": "Élaborer une stratégie et un plan de communication sur les risques liés à la COVID-19, incluant les mesures de prévention, la recherche de soins précoces, la vaccination selon le contexte national, la protection des personnes à risque et le maintien des services essentiels.",
+			"pilier_id": "2e42fe40-e681-469a-9c36-e6cdcd8c05ee",
+			"code": "E03"
+		},
+		{
+			"id": "2a5ac78b-c9c8-43a8-a42c-9ab3ed06f85f",
+			"lib": "Mettre au point ou adapter, traduire dans les langues locales et diffuser des messages ciblés sur la COVID-19 à l’intention des médias, du personnel soignant, des dirigeants locaux, des églises, des écoles, des tradipraticiens, des transporteurs, des voyageurs et des autres parties prenantes communautaires.",
+			"pilier_id": "2e42fe40-e681-469a-9c36-e6cdcd8c05ee",
+			"code": "E04"
+		},
+		{
+			"id": "5ad4cddc-b099-445f-b85f-b07cd06cb8cc",
+			"lib": "Renforcer la disponibilité et l’application des lignes directrices et modes opératoires normalisés de prévention et contrôle de l’infection pour la COVID-19 dans tous les établissements de santé.",
+			"pilier_id": "387df67b-98b6-46a0-8c61-cca5e17ce7a5",
+			"code": "E01"
+		},
+		{
+			"id": "3a0e3b2d-72de-44cd-8a6d-be41c09324e9",
+			"lib": "Fournir aux établissements de santé les moyens nécessaires en matière d’hygiène de base, d’assainissement, de ventilation, de désinfection, d’EPI, ainsi que des services essentiels comme l’eau courante, l’électricité et l’oxygène médical, en priorité dans les hôpitaux et centres de santé de référence.",
+			"pilier_id": "387df67b-98b6-46a0-8c61-cca5e17ce7a5",
+			"code": "E02"
+		},
+		{
+			"id": "9acd6f89-a6dd-4622-bfbc-c39bc98ab163",
+			"lib": "Equiper et former convenablement le personnel soignant, les hygiénistes, les agents de santé environnementale et le personnel de nettoyage aux mesures de PCI liées à la COVID-19, y compris le triage, l’hygiène des mains, le port approprié des EPI, le nettoyage-désinfection, la gestion des déchets et la prévention des infections respiratoires.",
+			"pilier_id": "387df67b-98b6-46a0-8c61-cca5e17ce7a5",
+			"code": "E03"
+		},
+		{
+			"id": "5cea16c5-cd25-4b5d-9157-7a32a0adf3d1",
+			"lib": "Identifier et Equiper des structures de soins pour mettre en place des espaces de triage, d’isolement et d’observation temporaires pour les cas suspects de COVID-19 dans les hôpitaux, centres de santé de référence et points d’entrée désignés.",
+			"pilier_id": "387df67b-98b6-46a0-8c61-cca5e17ce7a5",
+			"code": "E04"
+		},
+		{
+			"id": "f611fd0a-14c2-4b06-8d71-0712de51ea2a",
+			"lib": "Désigner au moins un établissement disposant de fournitures suffisantes, d’un circuit de triage et d’espaces d’isolement ou d’hospitalisation capables d’assurer la prise en charge des cas suspects ou confirmés de COVID-19.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E01"
+		},
+		{
+			"id": "6a80dd2b-0d50-456f-b529-2a75485f5174",
+			"lib": "Recenser et faire appliquer tous les modes opératoires normalisés relatifs à la logistique clinique COVID-19, notamment les achats, la mobilisation des stocks, l’approvisionnement en oxygène, le transport des échantillons, l’utilisation des télécommunications, l’appui aux structures et la sécurité.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E02"
+		},
+		{
+			"id": "1283d5c1-2735-49ec-bfa0-6ef101a11f29",
+			"lib": "Recenser le personnel clinique et le former à la prise en charge des cas de COVID-19, y compris l’évaluation clinique, l’oxygénothérapie, la surveillance des signes de gravité et l’application stricte des mesures de PCI.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E03"
+		},
+		{
+			"id": "096fd62a-9970-4f04-855c-35eb766d622d",
+			"lib": "Equiper et former convenablement les Equipes d’ambulanciers pour le transport sécurisé des cas suspects ou confirmés de COVID-19, avec application des mesures de PCI et de désinfection du véhicule.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E04"
+		},
+		{
+			"id": "2b2b2dc0-6463-4071-8c23-87202cb4d1f5",
+			"lib": "Recenser les établissements de soins au niveau du district pouvant être rapidement convertis en unités de prise en charge, d’hospitalisation ou de traitement de la COVID-19 en cas d’afflux de patients.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E05"
+		},
+		{
+			"id": "75a9e47d-e858-4389-9c7d-7799b68c7640",
+			"lib": "Recenser les établissements de soins au niveau local pouvant être temporairement convertis en espaces d’isolement, d’observation ou de prise en charge de la COVID-19 selon l’évolution de la situation épidémiologique.",
+			"pilier_id": "dfefd6cf-8050-42cf-b5d4-e643fc564ede",
+			"code": "E06"
+		},
+		{
+			"id": "f6bc3c79-1937-40f0-9eb4-db2f2de9aaf7",
+			"lib": "Définir, actualiser et diffuser un plan de continuité des services de santé essentiels précisant les services prioritaires à maintenir pendant les vagues de COVID-19, les circuits séparés pour patients respiratoires et non respiratoires, et les modalités d’adaptation en cas de surcharge.",
+			"pilier_id": "73a631db-130c-41ce-8505-e58097035649",
+			"code": "E01"
+		},
+		{
+			"id": "f0ac405a-4610-410d-84eb-ff224dd34f4b",
+			"lib": "Mettre en place un suivi régulier de la disponibilité et de l’utilisation des services essentiels, notamment vaccination de routine, santé maternelle et néonatale, urgences, maladies chroniques, VIH, tuberculose, paludisme et nutrition, afin de détecter rapidement les ruptures et d’organiser des actions de rattrapage.",
+			"pilier_id": "73a631db-130c-41ce-8505-e58097035649",
+			"code": "E02"
+		},
+		{
+			"id": "50bb31fe-c805-45cf-b248-0b0c8517c803",
+			"lib": "Élaborer un plan de gestion des ressources humaines pour la COVID-19 incluant redéploiement du personnel, remplacement des absents, renforcement des compétences, prévention de l’épuisement professionnel, soutien psychosocial, vaccination du personnel et mécanismes de protection pour les agents exposés.",
+			"pilier_id": "73a631db-130c-41ce-8505-e58097035649",
+			"code": "E03"
+		},
+		{
+			"id": "0312070e-c8c5-4962-9721-d0199f55830a",
+			"lib": "Garantir des mesures de protection du personnel de santé et de soutien, notamment disponibilité continue des EPI, triage sécurisé, ventilation adéquate, accès à l’hygiène des mains, surveillance des expositions professionnelles, conduite à tenir après exposition et accès à la prise en charge médicale en cas d’infection liée au travail.",
+			"pilier_id": "73a631db-130c-41ce-8505-e58097035649",
+			"code": "E04"
+		},
+		{
+			"id": "e8fa1551-0e2f-4e7f-ac59-469ba9c1ef33",
+			"lib": "Mettre en place ou renforcer l’organisation de la vaccination contre la COVID-19 et de la pharmacovigilance, en assurant la disponibilité des vaccins et consommables, la chaîne du froid, la formation des vaccinateurs, la surveillance des manifestations post-vaccinales indésirables, la notification rapide des événements et la communication avec les communautés.",
+			"pilier_id": "73a631db-130c-41ce-8505-e58097035649",
+			"code": "E05"
+		},
+		{
+			"id": "4045ae95-7066-4bd2-aadb-568ea90a381a",
+			"lib": "Mettre en place une ligne d’alerte fonctionnelle 24h/24, 7j/7 ou s’assurer que les numéros d’urgence existants prennent correctement en charge les alertes relatives à la COVID-19, et former le personnel à la réception, au triage et à l’orientation des signalements.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E01"
+		},
+		{
+			"id": "d9f33b02-7457-4893-89dd-5050942a175d",
+			"lib": "Fournir des orientations, définitions de cas et formulaires d’investigation pour la COVID-19 à tous les niveaux du système de santé, en les adaptant à l’évolution des directives nationales et de la situation épidémiologique.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E02"
+		},
+		{
+			"id": "7136d3ab-4a13-4e00-abae-dc58549f44c6",
+			"lib": "Dispenser une formation spécifique sur l’utilisation des définitions de cas COVID-19, des outils d’investigation, des fiches de notification et des systèmes de remontée des données.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E03"
+		},
+		{
+			"id": "fa6fa087-5bc4-4aee-a56e-b147790c8f5b",
+			"lib": "Veiller à ce qu’un système de surveillance fondé sur les événements soit en place pour détecter rapidement les signaux, rumeurs, flambées et décès inhabituels liés à la COVID-19 au niveau communautaire, médiatique et institutionnel.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E04"
+		},
+		{
+			"id": "827cdf83-130a-4416-866a-ae3f2070b23a",
+			"lib": "Mettre en place des lignes de notification immédiate pour les cas suspects, probables ou confirmés de COVID-19 et définir clairement les responsabilités de notification, validation, investigation et riposte.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E05"
+		},
+		{
+			"id": "f8fe8459-ffc1-4b44-85a3-f8ffb045e191",
+			"lib": "Tester régulièrement les systèmes de surveillance de la COVID-19, recenser les lacunes en matière d’alerte, d’investigation, de notification et d’analyse, puis mettre en œuvre les mesures correctives nécessaires.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E06"
+		},
+		{
+			"id": "56f7a1ff-f263-4b89-a9fa-dd4dd96bbb7e",
+			"lib": "Identifier les ressources humaines pour la surveillance communautaire de la COVID-19, y compris les agents de santé communautaires, bénévoles, ONG, leaders communautaires et autres relais de proximité.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E07"
+		},
+		{
+			"id": "222ead01-f4ce-47b4-b457-ee08fdb57968",
+			"lib": "Diffuser des définitions de cas simplifiées, des signes d’alerte et des consignes de notification communautaire pour la COVID-19.",
+			"pilier_id": "05cdfe15-09c9-4b9f-b3fd-2be1c93db20e",
+			"code": "E08"
+		},
+		{
+			"id": "0cad111a-3b01-4328-a866-bf8792ff48d3",
+			"lib": "Diffuser les lignes directrices et les modes opératoires normalisés sur la recherche et le suivi des contacts de COVID-19 aux niveaux national, provincial et local.",
+			"pilier_id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"code": "E01"
+		},
+		{
+			"id": "78ee9ba6-8a5b-4c9c-a91b-efffa13dbad2",
+			"lib": "Former au moins une Equipe nationale à la recherche, au suivi des contacts et à la gestion des données relatives à la COVID-19.",
+			"pilier_id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"code": "E02"
+		},
+		{
+			"id": "3aa15fc5-8509-4e58-9155-7e497434477b",
+			"lib": "Mettre en place ou renforcer le système de gestion des données pour la recherche et le suivi des contacts de COVID-19 aux niveaux national et infranational.",
+			"pilier_id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"code": "E03"
+		},
+		{
+			"id": "60ecb957-a49b-47b6-99fe-e308bcf9907f",
+			"lib": "Former le personnel de district à la recherche, au suivi quotidien et à l’orientation des contacts exposés à la COVID-19.",
+			"pilier_id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"code": "E04"
+		},
+		{
+			"id": "ab654174-e480-4a1f-b399-278b54c0bd99",
+			"lib": "Former le personnel des sous-districts et les relais communautaires au repérage, au suivi et à la notification des contacts de COVID-19, et constituer pour chaque aire de santé un vivier local de traceurs communautaires.",
+			"pilier_id": "471fc1ba-b67f-415c-9995-ffb667d318d8",
+			"code": "E05"
+		},
+		{
+			"id": "2f77566e-bb70-4ed6-87e9-b4003c948248",
+			"lib": "Mettre en place ou renforcer un laboratoire de référence national pour le diagnostic de la COVID-19 et s’assurer que les procédures de collecte, de conservation et de transfert des échantillons sont connues à tous les niveaux.",
+			"pilier_id": "64b5a1e7-3344-4ced-9f2f-85455ad32184",
+			"code": "E01"
+		},
+		{
+			"id": "44dda51e-190a-499e-b08d-1f763e0afcf1",
+			"lib": "Élaborer des protocoles pour la collecte, le conditionnement, le transport et l’acheminement des échantillons pour le diagnostic du SARS-CoV-2, et distribuer le matériel nécessaire de prélèvement, d’emballage et de biosécurité.",
+			"pilier_id": "64b5a1e7-3344-4ced-9f2f-85455ad32184",
+			"code": "E02"
+		},
+		{
+			"id": "f9b9d2d5-a3cc-49f3-8edd-24b9e2d71c22",
+			"lib": "Veiller à ce que le personnel de laboratoire soit formé aux procédures de biosécurité et de PCI relatives à la COVID-19, y compris le prélèvement, l’emballage, l’étiquetage, le transport, l’analyse et l’élimination sécurisée des déchets biologiques.",
+			"pilier_id": "64b5a1e7-3344-4ced-9f2f-85455ad32184",
+			"code": "E03"
+		},
+		{
+			"id": "50e8982f-27da-4850-911a-10a571e5ec9a",
+			"lib": "Mettre en place des arrangements prévisionnels pour l’approvisionnement en réactifs, consommables, Equipements et services de maintenance nécessaires au diagnostic de la COVID-19, y compris des mécanismes de confirmation et de référence si besoin.",
+			"pilier_id": "64b5a1e7-3344-4ced-9f2f-85455ad32184",
+			"code": "E04"
+		},
+		{
+			"id": "99574af7-60b9-41ff-89ea-8decc4a946b5",
+			"lib": "S’assurer qu’un plan d’urgence COVID-19 soit en place dans chaque point d’entrée désigné, notamment les aéroports, ports et postes-frontières prioritaires.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E01"
+		},
+		{
+			"id": "30548d4e-67c1-47d8-b52b-ba6076c6958f",
+			"lib": "Recenser des établissements de soins de référence pour chaque point d’entrée et élaborer un MON pour identifier, isoler, évaluer et aiguiller en toute sécurité les voyageurs présentant des signes évocateurs de COVID-19 vers un établissement désigné.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E02"
+		},
+		{
+			"id": "4d827879-e7d6-45fe-9268-34caeb3eff9c",
+			"lib": "Désigner des Equipes qualifiées, proportionnelles au volume des voyageurs, chargées de détecter, d’évaluer et de prendre correctement en charge les cas potentiels de COVID-19 dans le respect des procédures de PCI.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E03"
+		},
+		{
+			"id": "8ce3fbfe-847d-4779-8e9d-59c894d5f423",
+			"lib": "Élaborer un MON pour la gestion des voyageurs malades, des alertes sanitaires, du dépistage ciblé lorsque requis et de la notification des événements liés à la COVID-19 aux points d’entrée.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E04"
+		},
+		{
+			"id": "218ce445-8beb-4041-98dd-03b4f050fe68",
+			"lib": "Veiller à ce que chaque point d’entrée ait immédiatement accès au matériel et aux fournitures nécessaires pour la COVID-19, notamment EPI, thermomètres, dispositifs d’hygiène des mains, produits de nettoyage, espace d’isolement temporaire et moyen de référence sécurisé.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E05"
+		},
+		{
+			"id": "ec459ee3-60b5-4b01-9ebc-9accbb036baa",
+			"lib": "Examiner et tester les systèmes de communication entre les autorités sanitaires aux points d’entrée, les opérateurs de transport et les systèmes nationaux de surveillance pour la notification rapide des événements liés à la COVID-19.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E06"
+		},
+		{
+			"id": "65329e14-8c36-44c6-9f92-178c70d58e77",
+			"lib": "Sensibiliser les autorités de santé publique et les parties prenantes aux points d’entrée aux procédures de gestion des événements liés à la COVID-19 et rappeler aux opérateurs de transport leur obligation de notifier immédiatement tout voyageur malade ou événement sanitaire suspect.",
+			"pilier_id": "7b5bfdbe-19ac-4f9a-a8e3-a82c8cf1258d",
+			"code": "E07"
+		},
+		{
+			"id": "b319696c-2acf-42b7-b678-ccbeed18bfff",
+			"lib": "Définir un budget opérationnel pour les activités de préparation et de riposte à la COVID-19, y compris la surveillance renforcée, le laboratoire, la communication, la PCI, la prise en charge clinique, les points d’entrée et la continuité des services essentiels.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E01"
+		},
+		{
+			"id": "dbee2dc5-dd6a-49f9-b6c5-9f25b8aa4122",
+			"lib": "Mettre en place, ou rendre facilement accessible, un fonds de réserve pour la riposte immédiate à des flambées ou résurgences de COVID-19 au niveau national et infranational.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E02"
+		},
+		{
+			"id": "8886a4fc-1bed-40be-9e6a-7f698502c923",
+			"lib": "Déterminer le cadre juridique permettant de mobiliser, décaisser et transférer rapidement les fonds d’urgence liés à la COVID-19 vers tous les niveaux identifiés pour la riposte.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E03"
+		},
+		{
+			"id": "a5350d8c-7641-458f-8d1e-779c5f8fdda8",
+			"lib": "Faire bénéficier les travailleurs exposés à la COVID-19 de mécanismes appropriés de rémunération, d’assurance, de protection sociale, de prise en charge médicale et d’incitations pour les missions à haut risque.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E04"
+		},
+		{
+			"id": "8450e9a1-c4e2-4716-89a1-ad24948a7ecb",
+			"lib": "Trouver des sources de financement pour la préparation et la riposte à la COVID-19, y compris des ressources nationales et des mécanismes permettant de mobiliser rapidement des appuis supplémentaires si nécessaire.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E05"
+		},
+		{
+			"id": "5c96cd92-f00e-4da8-bd0a-59ef7d24107e",
+			"lib": "Élaborer des modèles pour la mobilisation des ressources et pour les rapports destinés aux autorités et partenaires concernant l’utilisation des fonds alloués à la COVID-19.",
+			"pilier_id": "74dcdffc-b9ff-4077-937c-a4f89999b1d9",
+			"code": "E06"
+		},
+		{
+			"id": "7aa8a18f-049f-4c2e-b68a-10e271aeaa1e",
+			"lib": "Mettre en œuvre la composante logistique de la coordination nationale et infranationale pour la COVID-19 afin de garantir la disponibilité et la distribution à temps des intrants, Equipements et moyens opérationnels requis.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E01"
+		},
+		{
+			"id": "05891063-d232-4c88-be15-25fa4aa32b96",
+			"lib": "Évaluer les capacités de stockage et le système de gestion des stocks, déterminer les besoins en intrants COVID-19 pour toutes les composantes et mettre en place un système efficient de gestion des approvisionnements au niveau national et décentralisé.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E02"
+		},
+		{
+			"id": "0c3d2914-3f57-41ae-be36-c83eab6c4512",
+			"lib": "Identifier tous les moyens de transport nécessaires pour les biens, les échantillons, les Equipes et les patients, et veiller à la disponibilité d’ambulances et de véhicules adaptés pour la référence sécurisée des cas de COVID-19.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E03"
+		},
+		{
+			"id": "ffe52f29-30fd-4735-b505-dba4ed4aa367",
+			"lib": "Évaluer si le mécanisme existant de transport des échantillons pour la COVID-19 est fiable et opérationnel et, sinon, mettre en place un système adapté depuis le site de prélèvement jusqu’au laboratoire de référence.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E04"
+		},
+		{
+			"id": "6c4e0724-dab4-4d5f-a348-5043428189f0",
+			"lib": "Recenser les structures potentielles d’isolement, d’observation ou de prise en charge de la COVID-19 et les évaluer au regard de la PCI, de la ventilation, de la gestion des déchets, de l’eau, de l’électricité et de l’oxygène.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E05"
+		},
+		{
+			"id": "f0e4f8cb-b735-4c22-8078-1d5e37091c80",
+			"lib": "Identifier et former les ressources humaines nécessaires à la mise en œuvre des activités logistiques liées à la COVID-19, notamment logisticiens, chauffeurs, magasiniers, techniciens biomédicaux, agents d’approvisionnement et Equipes d’appui.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E06"
+		},
+		{
+			"id": "047a7ba2-a7a0-404d-878d-706f53dd759b",
+			"lib": "Recenser toutes les ressources disponibles pouvant être mobilisées pour la riposte à la COVID-19, y compris les sites d’entreposage, les espaces temporaires, les plateformes logistiques et les infrastructures de soutien.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E07"
+		},
+		{
+			"id": "ce6c7569-4fd5-4e72-b273-04854c8071d2",
+			"lib": "Recenser les fournisseurs d’articles essentiels pour la COVID-19 au niveau local et international, évaluer leurs capacités et délais de livraison et étudier les possibilités d’accords préalables d’approvisionnement.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E08"
+		},
+		{
+			"id": "4d3ffc14-da95-460c-bb27-093685050eca",
+			"lib": "Déterminer les besoins d’approvisionnement (23 articles essentiels), optimiser les chaînes d’approvisionnement, définir et mettre en œuvre des MON sur l’approvisionnement, en vue de réduire les délais de livraison et d’améliorer la reconstitution des stocks.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E09"
+		},
+		{
+			"id": "44fd6159-f1bb-4a10-a6c0-4b2cb433084d",
+			"lib": "Évaluer les capacités du réseau de communication et, si nécessaire, mettre en place un système de télécommunications couvrant l’ensemble des opérations.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E10"
+		},
+		{
+			"id": "068a743e-9cbf-4548-84d2-5bfa1f885644",
+			"lib": "S’assurer que les structures médicales désignées appliquent les lignes directrices sur la lutte anti-infectieuse, sont correctement isolées, disposent d’un système de gestion des déchets, aient l’eau courante et l’électricité, reconstituent leurs stocks et bénéficient d’une maintenance.",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E11"
+		},
+		{
+			"id": "5e653285-5960-48f1-be40-33be785e16ef",
+			"lib": "Définir et mettre en œuvre tous les MON relatifs à la composante logistique (achats, mobilisation des stocks, transport des échantillons, usages des télécommunications, appui et maintenance pour les structures, mobilisation des ressources de transport, gestion de la sécurité).",
+			"pilier_id": "cc8db167-b10d-42e4-9b05-dd87c058da0a",
+			"code": "E12"
+		}
+	]
+}

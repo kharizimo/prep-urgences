@@ -1,0 +1,24 @@
+{
+	"menace": {
+		"id": "054c9cfa-d92c-4dde-ad99-5607aaf8a00c",
+		"lib": "Risque de naufrage",
+		"groupe": "Biologiques",
+		"axe": "Global"
+	},
+	"piliers": [
+		{
+			"id": "f61d0290-0e67-4e0e-8959-f6aa2c848116",
+			"lib": "Coordination et gouvernance",
+			"menace_id": "054c9cfa-d92c-4dde-ad99-5607aaf8a00c",
+			"code": "P01"
+		}
+	],
+	"exigences": [
+		{
+			"id": "1a992b70-66ab-42fd-94ca-1e614d06f1a2",
+			"lib": "Mettre en place un mécanisme de coordination multisectorielle pour la prévention et la riposte aux naufrages, associant transport fluvial/lacustre, santé, protection civile, autorités portuaires, sécurité, communication et autorités territoriales.",
+			"pilier_id": "f61d0290-0e67-4e0e-8959-f6aa2c848116",
+			"code": "E01"
+		}
+	]
+}
